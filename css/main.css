@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+.wrapper {
+    position: relative;
+}
+
+section {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-custom {
+    background-color: #000;
+}
+
+.absolute {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+h3 {
+    display: block;
+    width: 50%;
+    font-size: 2.8125rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators {
+    bottom: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.btn_details {
+    display: inline-block;
+    min-width: 250px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #000;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.bottom {
+    width: 100% !important;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.bottom>span {
+    font-family: 'Futura', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+/*Section 2*/
+
+.title-h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #201f1d;
+}
+
+.sub_title {
+    font-family: 'Helvetica';
+    font-size: 24px;
+    color: #626262;
+    line-height: 30px;
+}
+
+.buy_btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+
+/*  Section 3*/
+
+.product>.picture {
+    margin-bottom: 30px;
+}
+
+.product>.text {
+    width: 150px;
+    font-size: 22px;
+    color: #323232;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Section 4*/
+
+.pay-everywhere {
+    background-image: url(../img/pay-everywhere-bg.jpg);
+    height: auto;
+    min-height: 750px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+.pay-everywhere-title {
+    width: 90%;
+    margin: 0px 0 30px 5%;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 3.4rem;
+    text-align: center;
+    letter-spacing: 0.01429rem;
+    color: #FFFFFF;
+}
+
+.pay-everywhere-tab {
+    height: 20rem;
+}
+
+.pay-everywhere-body>.col-3 {
+    height: 20rem;
+}
+
+.pay-everywhere-body>.col-3:active {
+    border: 3px solid #d6d6cd;
+}
+
+.pay-everywhere-body>.sub_title {
+    height: 6.875rem;
+    color: #fff;
+}
+
+.collapse>p {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+
+/* section 5*/
+
+.paycell-application {
+    background-image: url(https://paycell.com.tr/wp-content/themes/paycell/assets/images/application-bg-new.jpg);
+}
+
+.paycell-application-title {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.9375rem;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.01071rem;
+    color: #FFFFFF;
+    line-height: 1.1;
+    margin-bottom: 1.5625rem;
+}
+
+.paycell-application-info {
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3.875rem;
+}
+
+.footer a {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 1.01539rem;
+    letter-spacing: 0.147692px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
