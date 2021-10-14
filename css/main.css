@@ -10,6 +10,13 @@ section {
     bottom: 0px;
 }
 
+
+/* Search*/
+
+.search_container {
+    display: none;
+}
+
 .nav.navbar-nav.navbar-right li a {
     color: #fff;
 }
@@ -341,6 +348,10 @@ ul.paycell li:before {
         content: '';
         background: #fff;
     }
+    /* picture subtitle */
+    .sub_title {
+        display: none !important;
+    }
 }
 
 
@@ -359,6 +370,10 @@ ul.paycell li:before {
     .how-to-use .questions:before {
         content: '';
         background: #fff;
+    }
+    /* picture subtitle */
+    .sub_title {
+        display: none !important;
     }
 }
 

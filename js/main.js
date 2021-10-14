@@ -1,3 +1,4 @@
+/*
 let money_btn = document.querySelector('#money_btn');
 let pay_btn = document.querySelector('#pay_btn');
 let wallet_btn = document.querySelector('#wallet_btn');
@@ -12,7 +13,7 @@ function hidden(idName) {
     document.getElementById(idName).style.display = 'none';
     console.log('1');
 }
-
+*/
 
 
 const swiper = new Swiper('.swiper', {
