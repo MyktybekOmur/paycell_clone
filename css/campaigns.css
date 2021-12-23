@@ -1,0 +1,37 @@
+ .campaign a {
+     font-family: "Futura", sans-serif;
+     text-decoration: none;
+ }
+ 
+ .form-control:valid {
+     background-color: #D9E4ED !important;
+ }
+ 
+ .form-select:valid {
+     background-color: #D9E4ED !important;
+ }
+ 
+ .btn-lg {
+     margin: 0px auto !important;
+     width: 100% !important;
+     border: none;
+ }
+ 
+ .btn-lg:hover {
+     background-color: #D9E4ED !important;
+     color: #919191;
+ }
+ 
+ .img-thumbnail {
+     border: none;
+ }
+ 
+ .campaign-name {
+     line-height: 1;
+     font-weight: 800;
+     display: block;
+     font-size: 1.875rem;
+     color: #31373D;
+     margin-top: 1.5625rem;
+     margin-bottom: 1.125rem;
+ }
