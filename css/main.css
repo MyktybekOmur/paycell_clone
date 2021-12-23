@@ -247,6 +247,8 @@ h3 {
     color: #1D1D1B;
     border-bottom: 3px solid rgba(29, 29, 29, 0.486498);
     padding-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 .breadcrumb_conteiner a {
