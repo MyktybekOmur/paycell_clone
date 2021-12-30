@@ -48,3 +48,33 @@ const swiper = new Swiper('.swiper', {
     }
 
 });
+
+//sss
+var btnContainer = document.getElementById("btnDiv");
+var contentContainer = document.getElementById("content");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+var con = contentContainer.getElementsByClassName("visible");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    console.log(current);
+    current[0].className = current[0].className.replace(" active", "");
+    
+    this.className += " active";
+
+       
+    
+  });
+}
+
+function changeVisible(newId) {
+    var current1 = document.getElementsByClassName("show");
+    current1[0].className = current1[0].className.replace(" show", "");
+    var elem = document.getElementById(newId);
+    console.log(elem);
+    elem.className += " show";
+  }
