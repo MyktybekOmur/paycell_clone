@@ -1,0 +1,153 @@
+.product-steps{
+    
+        background-image: url(https://paycell.com.tr/wp-content/uploads/2017/12/TL-yukleme.png);
+    
+}
+.product-step {
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product-step> b {
+    display: block;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #323232;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+}
+.product-step > span {
+    display: block;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #6D6D6D;
+}
+.product-step> img {
+    width: 59%;
+}
+.product-card-title {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 2.5rem;
+    letter-spacing: -0.109091px;
+    color: #2C2C2C;
+}
+.product-card-text {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.3125rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.00937rem;
+    color: #969695;
+    margin-top: 2.375rem;
+}
+.product-card-links {
+    margin-top: 4.0625rem;
+}
+.btn{
+    text-decoration: none;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: center;
+    letter-spacing: 0.01731rem;
+    position: relative;
+    line-height: 53px;
+}
+.fill-bg {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    background: #000;
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 50%);
+    
+    color: #FFFFFF;
+    line-height: 53px;
+    height: 50px;
+    border-radius: 6px;
+}
+.fill-bg:hover{
+    color: #fff;
+}
+.fill-border-small {
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 50%);
+    color: #000;
+    position: relative;
+    line-height: 53px;
+    width: 177px;
+    height: 50px;
+    padding: 0;
+    border-radius: 6px;
+}
+.product-payment-title {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.254545px;
+    color: #2C2C2C;
+    text-align: center;
+}
+.product-payment-text {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.1875rem;
+    font-size: 1.5625rem;
+    text-align: center;
+    letter-spacing: -0.04523rem;
+    color: #161615;
+    text-align: center;
+    margin-top: 2.1875rem;
+}
+.product-payment-links {
+    margin-top: 1.875rem;
+    text-align: center;
+}
+
+.fill-border-small {
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 50%);
+    text-decoration: none;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: center;
+    background: #fff;
+    letter-spacing: 0.01731rem;
+    color: #000;
+    position: relative;
+    line-height: 53px;
+    width: 177px;
+    height: 50px;
+    padding: 0;
+    border-radius: 6px;
+}
+.product-payment-media-link > a{
+    margin-right: 20px;
+    
+}
+.product-payment-media-link > a > img{
+    width: 100%;
+    
+}
+.product-payment-image{
+    width: 100%;
+}
+.product-payment-image>img{
+    width: 100%;
+}
