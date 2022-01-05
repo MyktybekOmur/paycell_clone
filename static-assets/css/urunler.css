@@ -1,3 +1,18 @@
+body {
+    color: #4d4d4d;
+    font: 16px/1.25 "Futura", sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: Futura, sans-serif;
+}
+
 .product-steps{
     
         background-image: url(https://paycell.com.tr/wp-content/uploads/2017/12/TL-yukleme.png);
@@ -91,7 +106,7 @@
     padding: 0;
     border-radius: 6px;
 }
-.product-payment-title {
+.product-payment-title  {
     font-family: "Futura", sans-serif;
     font-style: normal;
     font-weight: 700;

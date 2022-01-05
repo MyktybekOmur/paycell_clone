@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/sss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static-assets/css/main.css">
+    <link rel="stylesheet" href="static-assets/css/sss.css">
 </head>
+
 <body>
-      <!--Header-->
-      <section class="mb-5">
-           <!--Header-->
+    <!--Header-->
     <header class="mb-5">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="img/logo/paycell_logo.png" alt="" width="140" height="52"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png" alt=""
+                        width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" aria-expanded="true">Ürünler</a>
+                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="paycell-card.html">Paycell kart</a></li>
                                 <li><a class="dropdown-item" href="#">Paycell Ödeme</a></li>
                                 <li><a class="dropdown-item" href="#">Paycell Mobile Ödeme</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hizmetler
-                    </a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Paycell kart</a></li>
                                 <li><a class="dropdown-item" href="para-harclik-iste.html">Para/Harclik Iste</a></li>
@@ -60,7 +68,9 @@
                         </li>
                     </ul>
                     <div class="flex">
-                        <a href="#"><img src="img/hizli-giris-btn.jpg" width="176" height="53" alt=""></a>
+                        <a href="https://kfo.paycell.com.tr/kfowebsdk/" target="_blank"
+                            class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#"><img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53" alt=""></a>
                     </div>
                     <form class="d-flex">
 
@@ -71,8 +81,7 @@
             </div>
         </nav>
     </header>
-      </section>
-     
+
     <section class="mt-5  container">
         <div class="breadcrumb_conteiner mt-5">
             <nav class="mt-5" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
@@ -91,319 +100,544 @@
                 <div class="row btnDiv" id="btnDiv">
                     <div class="col-6">
                         <div class="faq-category btn" onclick="changeVisible('show1');">
-                            <div class="faq-category-content"> 
-                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-icon.svg" data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-icon.svg" class="lazyloaded" data-was-processed="true">
+                            <div class="faq-category-content">
+                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-icon.svg"
+                                    data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-icon.svg"
+                                    class="lazyloaded" data-was-processed="true">
                                 <noscript>
                                     <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-icon.svg">
-                                </noscript> 
+                                </noscript>
                                 <span>Paycell</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="faq-category btn" onclick="changeVisible('show2');">
-                            <div class="faq-category-content"> 
-                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-card-icon.svg" data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-card-icon.svg" class="lazyloaded" data-was-processed="true">
+                            <div class="faq-category-content">
+                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-card-icon.svg"
+                                    data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-card-icon.svg"
+                                    class="lazyloaded" data-was-processed="true">
                                 <noscript>
                                     <img src="https://paycell.com.tr/wp-content/uploads/2017/12/paycell-card-icon.svg">
                                 </noscript>
-                                 <span>Paycell Kart</span>
-                                </div>
+                                <span>Paycell Kart</span>
                             </div>
+                        </div>
                     </div>
                     <div class="col-6">
                         <div class="faq-category btn" onclick="changeVisible('show3');">
-                            <div class="faq-category-content"> 
-                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/digital-money.svg" data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/digital-money.svg" class="lazyloaded" data-was-processed="true">
+                            <div class="faq-category-content">
+                                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/digital-money.svg"
+                                    data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/digital-money.svg"
+                                    class="lazyloaded" data-was-processed="true">
                                 <noscript>
                                     <img src="https://paycell.com.tr/wp-content/uploads/2017/12/digital-money.svg">
                                 </noscript>
-                                 <span>Dijital Para</span>
-                                </div>
+                                <span>Dijital Para</span>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-8" id="content">
                 <div class="faq-collapsible visible show" id="show1">
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Paycell'i kimler kullanılabilir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse1"> 
-                            Paycell’i operatör bağımsız tüm müşteriler kullanabilir, Turkcell müşterisi olmak zorunlu değildir.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse1" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample1"> Paycell'i kimler kullanılabilir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse1">
+                            Paycell’i operatör bağımsız tüm müşteriler kullanabilir, Turkcell müşterisi olmak zorunlu
+                            değildir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Paycell'e nasıl kayıt olurum?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse2"> 
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse2" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Paycell'e nasıl kayıt olurum?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse2">
                             Paycell’e cep telefonu numarası ve güncel e-posta adresi girerek kayıt olursun.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Paycell Mobil Uygulamasını hangi platformlarda kullanabilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse3"> 
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse3" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> Paycell Mobil Uygulamasını hangi platformlarda
+                            kullanabilirim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse3">
                             iOS ve Android işletim sistemli akıllı telefonlarda kullanabilirsin.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapseE3" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> E-posta adresimi hatalı girdim, nasıl güncellerim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapseE3"> 
-                            Paycell’e kayıt esnasında e-posta adresini hatalı girmen durumunda, 0850 622 60 60 Paycell Çağrı Merkezi aracılığıyla güncelleyebilirsin.Paycell’e kayıt işlemini tamamlandıktan sonra e-posta adresini değiştirmek istersen Hesap Yönetimi, Kişisel Bilgiler menüsünden e-posta adresini istediğin zaman değiştirebilirsin ancak Paycell’i kullanmaya devam edebilmek için güncel e-posta adresini doğrulaman gerekmektedir.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapseE3" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> E-posta adresimi hatalı girdim, nasıl güncellerim?
+                        </h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapseE3">
+                            Paycell’e kayıt esnasında e-posta adresini hatalı girmen durumunda, 0850 622 60 60 Paycell
+                            Çağrı Merkezi aracılığıyla güncelleyebilirsin.Paycell’e kayıt işlemini tamamlandıktan sonra
+                            e-posta adresini değiştirmek istersen Hesap Yönetimi, Kişisel Bilgiler menüsünden e-posta
+                            adresini istediğin zaman değiştirebilirsin ancak Paycell’i kullanmaya devam edebilmek için
+                            güncel e-posta adresini doğrulaman gerekmektedir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell şifremi unuttum, yeni şifre nasıl belirlerim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse4"> 
-                            Şifre giriş ekranında yer alan “Şifremi Unuttum” linkine tıklaman yeterlidir. Paycell’de kayıtlı e-posta adresine şifre sıfırlama linki gönderilecektir. Bu linke tıklayarak yeni şifreni belirleyebilirsin.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse4" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell şifremi unuttum, yeni şifre nasıl belirlerim?
+                        </h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse4">
+                            Şifre giriş ekranında yer alan “Şifremi Unuttum” linkine tıklaman yeterlidir. Paycell’de
+                            kayıtlı e-posta adresine şifre sıfırlama linki gönderilecektir. Bu linke tıklayarak yeni
+                            şifreni belirleyebilirsin.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse5" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell ile ilgili sorularım için nereye başvurmayalım?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse5"> 
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse5" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell ile ilgili sorularım için nereye
+                            başvurmayalım?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse5">
                             Paycell Müşteri Hizmetlerinden bilgi alabilirsiniz. 0850 622 60 60
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse6" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell hesabımı nasıl kapatabilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse6"> 
-                            Paycell’in sunduğu ödeme kolaylığı ve diğer birçok hizmetten artık faydalanmak istemiyorsan 0850 622 60 60 Paycell Çağrı Merkezi aracılığıyla Paycell hesabını kapatabilirsin.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse6" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell hesabımı nasıl kapatabilirim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse6">
+                            Paycell’in sunduğu ödeme kolaylığı ve diğer birçok hizmetten artık faydalanmak istemiyorsan
+                            0850 622 60 60 Paycell Çağrı Merkezi aracılığıyla Paycell hesabını kapatabilirsin.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse7" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">TÖDEB Bireysel Müşteri Hakem Heyeti’ne nasıl başvurabilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse7"> 
-                            Değerli bireysel müşterimiz, sunduğumuz hizmetlerden kaynaklı olarak yaşadığınız (bireysel nitelik taşıyan, dolayısıyla ticari faaliyet kapsamına girmeyen) ihtilaf konusunda kuruluşumuza, uyuşmazlığa konu işlem veya eylemin gerçekleştiği tarihten itibaren en geç <strong>2 yıl</strong> içerisinde yazılı başvuru gerçekleştirmiş ve bu başvurunuz, başvuru tarihinizden itibaren <strong>20 gün</strong> içerisinde; yanıtlanmamışsa yanıt verilmesi gereken 20 günlük sürenin bitiminden itibaren, başvurunuz olumsuz yanıtlanmış veya verilen yanıtı yeterli bulmamanız halinde ise yanıt tarihinden itibaren <strong>60 gün</strong> içerisinde<a href="https://paycell.com.tr/wp-content/uploads/2021/11/Türkiye-Ödeme-ve-Elektronik-Para-Kuruluşları-Birliği-Bireysel-Müşteri-Hakem-Heyetine-İlişkin-Esas-ve-Usulleri-Hakkında-Yönetmelik.pdf" target="_blank" rel="noopener"> <strong>Türkiye Ödeme ve Elektronik Para Kuruluşları Birliği (“TÖDEB”) Bireysel Müşteri Hakem Heyetine İlişkin Esas ve Usulleri Hakkında Yönetmelik</strong></a>&nbsp;uyarınca konuyla ilgili TÖDEB Bireysel Müşteri Hakem Heyeti’ne başvurma hakkınız bulunmaktadır.<a href="https://todeb.org.tr/hakemheyetibasvuruformu/" target="_blank" rel="noopener"><strong>TÖDEB Bireysel Müşteri Hakem Heyeti’ne başvuru formu</strong>na</a> aşağıdaki linkten veya <a href="http://www.todeb.org.tr" target="_blank" rel="noopener">www.todeb.org.tr</a> sitesinden ulaşabilirsiniz. Form ilgili bilgilerin doldurulması ve gerekli belgelerin yüklenmesi sonucu <a href="http://www.todeb.org.tr" target="_blank" rel="noopener">www.todeb.org.tr</a> adresi üzerinden elektronik olarak iletilebilir,&nbsp;TÖDEB Bireysel Müşteri Hakem Heyeti’ne başvuru ile ilgili tüm detaylı bilgilere <a href="https://todeb.org.tr/sayfa/bireysel-musteri-hakem-heyeti/56/" target="_blank" rel="noopener">buraya tıklayarak</a> ulaşabilirsiniz. Ayrıca, <strong><a href="https://paycell.com.tr/wp-content/uploads/2021/11/Bilgilendirme-Broşürü.pdf" target="_blank" rel="noopener">Bilgilendirme Broşürünü</a></strong> de inceleyebilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse7" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">TÖDEB Bireysel Müşteri Hakem Heyeti’ne nasıl
+                            başvurabilirim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse7">
+                            Değerli bireysel müşterimiz, sunduğumuz hizmetlerden kaynaklı olarak yaşadığınız (bireysel
+                            nitelik taşıyan, dolayısıyla ticari faaliyet kapsamına girmeyen) ihtilaf konusunda
+                            kuruluşumuza, uyuşmazlığa konu işlem veya eylemin gerçekleştiği tarihten itibaren en geç
+                            <strong>2 yıl</strong> içerisinde yazılı başvuru gerçekleştirmiş ve bu başvurunuz, başvuru
+                            tarihinizden itibaren <strong>20 gün</strong> içerisinde; yanıtlanmamışsa yanıt verilmesi
+                            gereken 20 günlük sürenin bitiminden itibaren, başvurunuz olumsuz yanıtlanmış veya verilen
+                            yanıtı yeterli bulmamanız halinde ise yanıt tarihinden itibaren <strong>60 gün</strong>
+                            içerisinde<a
+                                href="https://paycell.com.tr/wp-content/uploads/2021/11/Türkiye-Ödeme-ve-Elektronik-Para-Kuruluşları-Birliği-Bireysel-Müşteri-Hakem-Heyetine-İlişkin-Esas-ve-Usulleri-Hakkında-Yönetmelik.pdf"
+                                target="_blank" rel="noopener"> <strong>Türkiye Ödeme ve Elektronik Para Kuruluşları
+                                    Birliği (“TÖDEB”) Bireysel Müşteri Hakem Heyetine İlişkin Esas ve Usulleri Hakkında
+                                    Yönetmelik</strong></a>&nbsp;uyarınca konuyla ilgili TÖDEB Bireysel Müşteri Hakem
+                            Heyeti’ne başvurma hakkınız bulunmaktadır.<a
+                                href="https://todeb.org.tr/hakemheyetibasvuruformu/" target="_blank"
+                                rel="noopener"><strong>TÖDEB Bireysel Müşteri Hakem Heyeti’ne başvuru
+                                    formu</strong>na</a> aşağıdaki linkten veya <a href="http://www.todeb.org.tr"
+                                target="_blank" rel="noopener">www.todeb.org.tr</a> sitesinden ulaşabilirsiniz. Form
+                            ilgili bilgilerin doldurulması ve gerekli belgelerin yüklenmesi sonucu <a
+                                href="http://www.todeb.org.tr" target="_blank" rel="noopener">www.todeb.org.tr</a>
+                            adresi üzerinden elektronik olarak iletilebilir,&nbsp;TÖDEB Bireysel Müşteri Hakem Heyeti’ne
+                            başvuru ile ilgili tüm detaylı bilgilere <a
+                                href="https://todeb.org.tr/sayfa/bireysel-musteri-hakem-heyeti/56/" target="_blank"
+                                rel="noopener">buraya tıklayarak</a> ulaşabilirsiniz. Ayrıca, <strong><a
+                                    href="https://paycell.com.tr/wp-content/uploads/2021/11/Bilgilendirme-Broşürü.pdf"
+                                    target="_blank" rel="noopener">Bilgilendirme Broşürünü</a></strong> de
+                            inceleyebilirsiniz.
                         </div>
                     </div>
-                  
-                    
+
+
                 </div>
                 <div class="faq-collapsible visible" id="show2">
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse8" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Paycell Kart'ın banka kartından ya da kredi kartından farkı nedir? Neden Paycell Kart kullanmalıyım?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse8"> 
-                            Paycell Kart kullanım olarak banka hesap kartlarından ya da kredi kartlarından farklı değildir. Mağazalarda ve internette diğer kartların kullanıldığı her yerde kullanılabilir. Farkı ise Paycell Kart kullanmak için başvuru yapmaya gerek yoktur, sözleşme imzalama, kefil gösterme derdi yoktur. Paycell Kart kullanmak için sadece bir cep telefonu numarasına sahip olmanız ve TC vatandaşı olmanız gerekmektedir. Yaş sınırı olmadığı gibi, hesap işletim ücreti ya da yıllık kredi kartı aidatı gibi yüksek masrafları da yoktur. Üstelik Paycell Kart sahipleri her 1 TL harcamasından 2 Paycell Puan kazanır. Paycell Kart sadece Turkcell müşterilerine değil tüm operatörlere açıktır, yani Vodafone ve Türk Telekom hat sahipleri de Paycell Kart kullanabilir; kampanya ve fırsatlarından yararlanır.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse8" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample1">Paycell Kart'ın banka kartından ya da kredi kartından
+                            farkı nedir? Neden Paycell Kart kullanmalıyım?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse8">
+                            Paycell Kart kullanım olarak banka hesap kartlarından ya da kredi kartlarından farklı
+                            değildir. Mağazalarda ve internette diğer kartların kullanıldığı her yerde kullanılabilir.
+                            Farkı ise Paycell Kart kullanmak için başvuru yapmaya gerek yoktur, sözleşme imzalama, kefil
+                            gösterme derdi yoktur. Paycell Kart kullanmak için sadece bir cep telefonu numarasına sahip
+                            olmanız ve TC vatandaşı olmanız gerekmektedir. Yaş sınırı olmadığı gibi, hesap işletim
+                            ücreti ya da yıllık kredi kartı aidatı gibi yüksek masrafları da yoktur. Üstelik Paycell
+                            Kart sahipleri her 1 TL harcamasından 2 Paycell Puan kazanır. Paycell Kart sadece Turkcell
+                            müşterilerine değil tüm operatörlere açıktır, yani Vodafone ve Türk Telekom hat sahipleri de
+                            Paycell Kart kullanabilir; kampanya ve fırsatlarından yararlanır.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse9" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"> Aktivasyon Neden Önemlidir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse9"> 
-                            Aktivasyon öncesi şifrenin hiçbir mali değeri olmayıp, güvenliği tamamen kullanıcıya aittir. Aktivasyon yapılmayan şifrelerin takibi mümkün olmadığı için kayıp, çalıntı veya izinsiz kullanılan şifrelerden kaynaklanan kayıp ve zarardan Paycell sorumlu değildir. Ayrıca Dijital Para, aktivasyon yapılmaksızın paraya çevrilemez, iade edilemez ve değiştirilemez
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse9" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample2"> Aktivasyon Neden Önemlidir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse9">
+                            Aktivasyon öncesi şifrenin hiçbir mali değeri olmayıp, güvenliği tamamen kullanıcıya aittir.
+                            Aktivasyon yapılmayan şifrelerin takibi mümkün olmadığı için kayıp, çalıntı veya izinsiz
+                            kullanılan şifrelerden kaynaklanan kayıp ve zarardan Paycell sorumlu değildir. Ayrıca
+                            Dijital Para, aktivasyon yapılmaksızın paraya çevrilemez, iade edilemez ve değiştirilemez
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse10" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Paycell Kart'ı nereden satın alabilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse10"> 
-                            Turkcell Mağazaları, turkcell.com.tr, D&R Mağazaları, d&r.com.tr ve PTT şubelerinden satın alabilir ya da Paycell uygulamasından sanal kart oluşturabilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse10" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> Paycell Kart'ı nereden satın alabilirim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse10">
+                            Turkcell Mağazaları, turkcell.com.tr, D&R Mağazaları, d&r.com.tr ve PTT şubelerinden satın
+                            alabilir ya da Paycell uygulamasından sanal kart oluşturabilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse20" role="button" aria-expanded="false" aria-controls="multiCollapse10"> Paycell Kart'ı nerelerde kullanabilirim? Her yerde geçerli midir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse20"> 
-                            Paycell Kart'ı yurt içinde ve yurt dışında tüm mağaza ve internet alışverişlerinizde banka kartlarının geçtiği her yerde VISA/MASTERCARD güvencesiyle kullanabilir; harcamalarınızı kartınızla gerçekleştirebilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse20" role="button" aria-expanded="false" aria-controls="multiCollapse10">
+                            Paycell Kart'ı nerelerde kullanabilirim? Her yerde geçerli midir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse20">
+                            Paycell Kart'ı yurt içinde ve yurt dışında tüm mağaza ve internet alışverişlerinizde banka
+                            kartlarının geçtiği her yerde VISA/MASTERCARD güvencesiyle kullanabilir; harcamalarınızı
+                            kartınızla gerçekleştirebilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse21" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Kaç adet Paycell Kart sahibi olabilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse21"> 
-                            Telefon numaranıza ve TC kimlik numaranıza ilişkili maksimum 3 adet Paycell Kart sahibi olabilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse21" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> Kaç adet Paycell Kart sahibi olabilirim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse21">
+                            Telefon numaranıza ve TC kimlik numaranıza ilişkili maksimum 3 adet Paycell Kart sahibi
+                            olabilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Paycell Kart'ı kullanmaya başlamak için ne yapmam gerekir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse22"> 
-                            Paycell Kart’ı kullanıma açmak için ad/soyad, telefon numarası ve TC kimlik numarası bilgilerini bildirmeniz gerekmektedir. Turkcell hat sahipleri sadece GSM bilgileri ile kart aktivasyonunu gerçekleştirebilir. Paycell Kart’ınızı kullanıma açmak için Turkcell Mağazaları’ndan destek alabilirsiniz ya da Paycell uygulaması üzerinden aşağıdaki adımları takip edebilirsiniz:
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse2" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> Paycell Kart'ı kullanmaya başlamak için ne yapmam
+                            gerekir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse22">
+                            Paycell Kart’ı kullanıma açmak için ad/soyad, telefon numarası ve TC kimlik numarası
+                            bilgilerini bildirmeniz gerekmektedir. Turkcell hat sahipleri sadece GSM bilgileri ile kart
+                            aktivasyonunu gerçekleştirebilir. Paycell Kart’ınızı kullanıma açmak için Turkcell
+                            Mağazaları’ndan destek alabilirsiniz ya da Paycell uygulaması üzerinden aşağıdaki adımları
+                            takip edebilirsiniz:
                             1) Paycell uygulamasına giriş yapılır.
                             2) “Hesabım” ekranındaki “Paycell Kart” alanına girerek “Kart Ekle” butonuna tıklanır.
                             3) Kart aktivasyon adımından kart bilgileri eklenir ve Paycell Kart aktive edilir.
                             Sanal Kart oluşturmak için aşağıdaki adımları takip etmelisiniz:
                             1) Paycell uygulamasına giriş yapılır.
                             2) “Hesabım” ekranındaki “Paycell Kart” alanında “Sanal Kart Oluştur” butonuna tıklanır.
-                            3)“Kart Kayıt Adı” girilir ve “Kart Saklama Sözleşmesi’ni okudum kabul ediyorum” bölümü işaretlenir.
+                            3)“Kart Kayıt Adı” girilir ve “Kart Saklama Sözleşmesi’ni okudum kabul ediyorum” bölümü
+                            işaretlenir.
                             4)Sanal Paycell Kart’ınız kullanıma hazır hale gelir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse23" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart şifrem nedir? Nasıl değiştirebilirim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse23"> 
-                            İlk şifreniz 16 haneli Paycell Kart numarasının son 4 hanesidir. Paycell uygulamasından, tüm banka ATM’lerinden ya da Paycell çağrı merkezinde IVR üzerinden şifrenizi değiştirebilirsiniz. Paycell uygulamasından kart şifrenizi değiştirmek için “Hesabım” ekranında yer alan “Paycell Kart”a tıklar, şifresini değiştirmek istediğiniz kartı seçersiniz. Ardından gelen ekranda sağ üst köşede yer alan Ayarlar sembolüne tıklayıp şifre işlemlerini seçtikten sonra sonra yeni şifrenizi belirleyebilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse23" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart şifrem nedir? Nasıl değiştirebilirim?
+                        </h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse23">
+                            İlk şifreniz 16 haneli Paycell Kart numarasının son 4 hanesidir. Paycell uygulamasından, tüm
+                            banka ATM’lerinden ya da Paycell çağrı merkezinde IVR üzerinden şifrenizi
+                            değiştirebilirsiniz. Paycell uygulamasından kart şifrenizi değiştirmek için “Hesabım”
+                            ekranında yer alan “Paycell Kart”a tıklar, şifresini değiştirmek istediğiniz kartı
+                            seçersiniz. Ardından gelen ekranda sağ üst köşede yer alan Ayarlar sembolüne tıklayıp şifre
+                            işlemlerini seçtikten sonra sonra yeni şifrenizi belirleyebilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse24" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart'a nasıl bakiye yüklerim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse24"> 
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse24" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart'a nasıl bakiye yüklerim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse24">
                             Paycell Kart’a para yüklemenin birçok kolay yöntemi var.
-Turkcell Mağazaları’ndan yüklersiniz.
-Paycell uygulaması üzerinden kredi/banka kartı tanımlayarak yüklersiniz.
-Bankaların internet şubelerinden EFT yaparsınız.
-Tüm banka ATM’lerinden ve PTTmatiklerden yüklersiniz.
+                            Turkcell Mağazaları’ndan yüklersiniz.
+                            Paycell uygulaması üzerinden kredi/banka kartı tanımlayarak yüklersiniz.
+                            Bankaların internet şubelerinden EFT yaparsınız.
+                            Tüm banka ATM’lerinden ve PTTmatiklerden yüklersiniz.
 
-- Paycell Kart'a Turkcell Mağazaları’ndan nasıl para yüklenir?
-Paycell Kart’a Turkcell Mağazaları’ndan para yüklemek için:
-En yakın Turkcell Mağazası’na gidersiniz.
-Görevliye Paycell Kart’ınıza para yüklemek istediğinizi söylersiniz.
-Yatırmak istediğiniz tutarı nakit olarak verir ve yüklemenizi ücretsiz olarak gerçekleştirirsiniz. Banka kartları ile Paycell Kart’a yapılan bakiye yüklemelerinde işlem ücreti ödenir.
+                            - Paycell Kart'a Turkcell Mağazaları’ndan nasıl para yüklenir?
+                            Paycell Kart’a Turkcell Mağazaları’ndan para yüklemek için:
+                            En yakın Turkcell Mağazası’na gidersiniz.
+                            Görevliye Paycell Kart’ınıza para yüklemek istediğinizi söylersiniz.
+                            Yatırmak istediğiniz tutarı nakit olarak verir ve yüklemenizi ücretsiz olarak
+                            gerçekleştirirsiniz. Banka kartları ile Paycell Kart’a yapılan bakiye yüklemelerinde işlem
+                            ücreti ödenir.
 
-- Paycell Kart'a Paycell uygulamasından nasıl para yüklenir?
-Paycell Kart’a Paycell uygulamasından para yüklemek için:
-Uygulama marketlerden Paycell uygulaması indirilir ve açılır.
-Paycell Cüzdan’a “Hesabım” ve “Kredi/Banka Kartları” adımları takip edilerek geçerli bir banka kartı kaydedilir.
-“Hesabım” sekmesinden Paycell Kart’a tıklanır.
-Yükleme yapılacak Paycell Kart seçilir.
-“Bakiye Yükle” butonu tıklanarak istenen tutar girilir.
-“Devam” butonu ile gelen ekranda yüklemenin alınacağı kart seçilir.
-Bakiye yükleme işlemi sonuçlanır.
+                            - Paycell Kart'a Paycell uygulamasından nasıl para yüklenir?
+                            Paycell Kart’a Paycell uygulamasından para yüklemek için:
+                            Uygulama marketlerden Paycell uygulaması indirilir ve açılır.
+                            Paycell Cüzdan’a “Hesabım” ve “Kredi/Banka Kartları” adımları takip edilerek geçerli bir
+                            banka kartı kaydedilir.
+                            “Hesabım” sekmesinden Paycell Kart’a tıklanır.
+                            Yükleme yapılacak Paycell Kart seçilir.
+                            “Bakiye Yükle” butonu tıklanarak istenen tutar girilir.
+                            “Devam” butonu ile gelen ekranda yüklemenin alınacağı kart seçilir.
+                            Bakiye yükleme işlemi sonuçlanır.
 
-- Paycell Kart'a bankaların internet şubelerinden nasıl para yüklenir?
-Paycell Kart’a bankaların internet şubelerinden para yüklemek için:
-Bankanın internet ya da cep şubesine gir.
-EFT ile Paycell Kart’ına aşağıdaki adımları takip ederek bakiye yükleyebilirsin:
-Para gönderilecek bankanın internet ya da cep şubesine girilir.
-İşlem menüsündeki “Para Transferleri” sekmesinden “EFT İşlemleri” adımı seçilir.
-Gönderim tipi “Hesap Numarası ile Gönderim” olarak seçilir.
-Banka olarak “Denizbank A.Ş (134)” seçilir.
-Şehir olarak “İstanbul” seçilir.
-Şube olarak “PAYCELL (3276)” seçilir.
-Alıcı adı kısmına yükleme yapılan Paycell Kart sahibinin ad ve soyadı girilir.
-Alıcı hesap numarası kısmına 16 haneli Paycell Kart numarası yazılır.
-Bakiye yükleme işlemi sonuçlanır.
+                            - Paycell Kart'a bankaların internet şubelerinden nasıl para yüklenir?
+                            Paycell Kart’a bankaların internet şubelerinden para yüklemek için:
+                            Bankanın internet ya da cep şubesine gir.
+                            EFT ile Paycell Kart’ına aşağıdaki adımları takip ederek bakiye yükleyebilirsin:
+                            Para gönderilecek bankanın internet ya da cep şubesine girilir.
+                            İşlem menüsündeki “Para Transferleri” sekmesinden “EFT İşlemleri” adımı seçilir.
+                            Gönderim tipi “Hesap Numarası ile Gönderim” olarak seçilir.
+                            Banka olarak “Denizbank A.Ş (134)” seçilir.
+                            Şehir olarak “İstanbul” seçilir.
+                            Şube olarak “PAYCELL (3276)” seçilir.
+                            Alıcı adı kısmına yükleme yapılan Paycell Kart sahibinin ad ve soyadı girilir.
+                            Alıcı hesap numarası kısmına 16 haneli Paycell Kart numarası yazılır.
+                            Bakiye yükleme işlemi sonuçlanır.
 
-- Paycell Kart'a ATM'lerden ve PTTmatiklerden nasıl para yüklenir?
-Paycell Kart’a ATM'lerden ve PTTmatiklerden para yüklemek için:
-Paycell Kart ATM’ye takılır ve şifreni girilir.
-Çıkan ekrandan “Karta Bakiye Yükleme” seçeneği seçilir.
-Para alım kısmına yatırılmak istenen miktar koyulur.
-Ekranda beliren onay alanından tutar kontrol edilir.
-Onay verilmesinin ardından bakiye yükleme işlemi sonuçlanır.
+                            - Paycell Kart'a ATM'lerden ve PTTmatiklerden nasıl para yüklenir?
+                            Paycell Kart’a ATM'lerden ve PTTmatiklerden para yüklemek için:
+                            Paycell Kart ATM’ye takılır ve şifreni girilir.
+                            Çıkan ekrandan “Karta Bakiye Yükleme” seçeneği seçilir.
+                            Para alım kısmına yatırılmak istenen miktar koyulur.
+                            Ekranda beliren onay alanından tutar kontrol edilir.
+                            Onay verilmesinin ardından bakiye yükleme işlemi sonuçlanır.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse25" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Yakınlarıma Paycell Kart hediye edebilir miyim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse25"> 
-                            Evet, hediye edebilirsiniz. Paycell Kart’a aktivasyon yapmadan bakiye yükleyip yakınlarınıza hediye etmek için Turkcell Mağazaları’ndaki görevlilerden destek alabilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse25" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Yakınlarıma Paycell Kart hediye edebilir miyim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse25">
+                            Evet, hediye edebilirsiniz. Paycell Kart’a aktivasyon yapmadan bakiye yükleyip yakınlarınıza
+                            hediye etmek için Turkcell Mağazaları’ndaki görevlilerden destek alabilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse26" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart içinde bulunan bakiyeyi nakit olarak çekebilir miyim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse26"> 
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse26" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart içinde bulunan bakiyeyi nakit olarak
+                            çekebilir miyim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse26">
                             Paycell Kart ile banka ATM’lerinden ve PTTmatiklerden nakit çekim işlemi yapılabilir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse27" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart’a tanımlı olan telefon numarasını değiştirmek için ne yapmalıyım?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse27"> 
-                            Güvenliğiniz için karta tanımlı olan telefon numarasını değiştiremiyoruz. Yeni bir kart alarak hattınıza tanımlayabilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse27" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart’a tanımlı olan telefon numarasını
+                            değiştirmek için ne yapmalıyım?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse27">
+                            Güvenliğiniz için karta tanımlı olan telefon numarasını değiştiremiyoruz. Yeni bir kart
+                            alarak hattınıza tanımlayabilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse28" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Bakiye iade süreci nasıl işliyor?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse28"> 
-                            Mevzuat kriter limitleri doğrultusunda bakiye iadesi talep edebilir. Talebinizi 0850 622 60 60 numaralı Paycell Müşteri Hizmetleri kanalı aracılığıyla iletebilirsiniz. Bakiye iade talebi yıllık 500 TL ile sınırlandırılmıştır. Turkcell Mağazaları'na gelerek KYC (kimlik teyidi) yapmış müşterilerimiz bu limite takılmadan iade talebinde bulunabilirler.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse28" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Bakiye iade süreci nasıl işliyor?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse28">
+                            Mevzuat kriter limitleri doğrultusunda bakiye iadesi talep edebilir. Talebinizi 0850 622 60
+                            60 numaralı Paycell Müşteri Hizmetleri kanalı aracılığıyla iletebilirsiniz. Bakiye iade
+                            talebi yıllık 500 TL ile sınırlandırılmıştır. Turkcell Mağazaları'na gelerek KYC (kimlik
+                            teyidi) yapmış müşterilerimiz bu limite takılmadan iade talebinde bulunabilirler.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse29" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart ile yaptığım harcama işlemlerimi nereden görüntüleyebilirim? Paycell Kart ekstresi var mıdır?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse29"> 
-                            Paycell Kart’ın ekstresi yoktur. Kart ile yapılan harcamalar Paycell uygulamasından takip edilebilir. “Hesabım” ekranında yer alan “Paycell Kart”a tıklanır, kontrol etmek istediğiniz kart içerisine girilip “Kart Hareketleri” butonuna tıklayarak işlem tarihçesini görüntülenir.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse29" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart ile yaptığım harcama işlemlerimi nereden
+                            görüntüleyebilirim? Paycell Kart ekstresi var mıdır?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse29">
+                            Paycell Kart’ın ekstresi yoktur. Kart ile yapılan harcamalar Paycell uygulamasından takip
+                            edilebilir. “Hesabım” ekranında yer alan “Paycell Kart”a tıklanır, kontrol etmek istediğiniz
+                            kart içerisine girilip “Kart Hareketleri” butonuna tıklayarak işlem tarihçesini
+                            görüntülenir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse30" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart ile yapacağım işlemlerde herhangi bir limit söz konusu mudur?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse30"> 
-                            MASAK çerçevesinde ön ödemeli kartınız ile yapacağınız işlemler güvenlik gerekçesiyle belirli limitlerle sınırlandırılmıştır. Basitleştirilmiş Tedbirler kapsamında kalan işlemleri kimlik teyidi gerekmeden yapabilirsiniz. (MASAK Genel Tebliği Sıra no:5)
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse30" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart ile yapacağım işlemlerde herhangi bir
+                            limit söz konusu mudur?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse30">
+                            MASAK çerçevesinde ön ödemeli kartınız ile yapacağınız işlemler güvenlik gerekçesiyle
+                            belirli limitlerle sınırlandırılmıştır. Basitleştirilmiş Tedbirler kapsamında kalan
+                            işlemleri kimlik teyidi gerekmeden yapabilirsiniz. (MASAK Genel Tebliği Sıra no:5)
                             -Toplamda aylık yükleme tutarının 1250 TL’yi,
                             -Toplamda anlık bakiye tutarının 1250 TL’yi,
-                            -Toplamda yıllık iade tutarının 500 TL’yi aşması durumunda kimlik teyit ve tespit sürecine geçilir.
-                            KYC (kimlik teyidi) yapmış müşterilerimiz için aylık yükleme ve harcama limiti toplam 75.000 TL’dir. Bakiye iade taleplerini herhangi bir limit olmadan iletebilirler. Kimlik teyidi için kimliğiniz ve adınıza kayıtlı son 3 aya ait bir faturanız ile Turkcell Mağazaları'nı ziyaret etmeniz gerekmektedir.
+                            -Toplamda yıllık iade tutarının 500 TL’yi aşması durumunda kimlik teyit ve tespit sürecine
+                            geçilir.
+                            KYC (kimlik teyidi) yapmış müşterilerimiz için aylık yükleme ve harcama limiti toplam 75.000
+                            TL’dir. Bakiye iade taleplerini herhangi bir limit olmadan iletebilirler. Kimlik teyidi için
+                            kimliğiniz ve adınıza kayıtlı son 3 aya ait bir faturanız ile Turkcell Mağazaları'nı ziyaret
+                            etmeniz gerekmektedir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse31" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Diğer Paycell Kart'lara transfer yapabilir miyim? Transfer limiti var mıdır?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse32"> 
-                            Paycell ve BiP uygulaması üzerinden farklı GSM numaralarına sahip diğer Paycell Kartlara para transferi yapabilirsiniz. Aylık kart bakiyesi toplam 750 TL'yi geçmeyecek şekilde gerçekleştirilen transferler onaylanır. Bir kullanıcının yapabileceği para transferi işlem sayısı alıcının da Paycell Kart’ı olması durumunda günlük 20 ve aylık 50; olmaması durumunda günlük 10 ve aylık 20’dir. KYC (kimlik teyidi) yapmış müşterilerimiz için transfer limiti günlük 10.000 TL ve aylık 20.000 TL; para transferi işlem sayısı ise alıcının Paycell Kart’ı olması durumunda aylık 100, olmaması durumunda ise aylık 50’dir.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse31" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Diğer Paycell Kart'lara transfer yapabilir miyim?
+                            Transfer limiti var mıdır?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse32">
+                            Paycell ve BiP uygulaması üzerinden farklı GSM numaralarına sahip diğer Paycell Kartlara
+                            para transferi yapabilirsiniz. Aylık kart bakiyesi toplam 750 TL'yi geçmeyecek şekilde
+                            gerçekleştirilen transferler onaylanır. Bir kullanıcının yapabileceği para transferi işlem
+                            sayısı alıcının da Paycell Kart’ı olması durumunda günlük 20 ve aylık 50; olmaması durumunda
+                            günlük 10 ve aylık 20’dir. KYC (kimlik teyidi) yapmış müşterilerimiz için transfer limiti
+                            günlük 10.000 TL ve aylık 20.000 TL; para transferi işlem sayısı ise alıcının Paycell Kart’ı
+                            olması durumunda aylık 100, olmaması durumunda ise aylık 50’dir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse33" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart'ımın bağlı olduğu hattı farklı bir operatöre taşırsam kartımı kullanmaya nasıl devam ederim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse33"> 
-                            Paycell Kartlı hattınızı farklı bir operatöre taşıdığınızda da kullanmaya devam edebilirsiniz. Ancak hattınızı taşımanızdan kaynaklı Paycell uygulama içerisinden kartını görüntüleme, bakiye yükleme ve kartınızla ilgili SMS alma durumlarında sıkıntı yaşayabilirsiniz. Güvenliğiniz için dilerseniz kartın içerisindeki bakiyenin iadesini talep edip, kartınızı iptal ettirebilir ve yeni bir Paycell Kart alabilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse33" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart'ımın bağlı olduğu hattı farklı bir
+                            operatöre taşırsam kartımı kullanmaya nasıl devam ederim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse33">
+                            Paycell Kartlı hattınızı farklı bir operatöre taşıdığınızda da kullanmaya devam
+                            edebilirsiniz. Ancak hattınızı taşımanızdan kaynaklı Paycell uygulama içerisinden kartını
+                            görüntüleme, bakiye yükleme ve kartınızla ilgili SMS alma durumlarında sıkıntı
+                            yaşayabilirsiniz. Güvenliğiniz için dilerseniz kartın içerisindeki bakiyenin iadesini talep
+                            edip, kartınızı iptal ettirebilir ve yeni bir Paycell Kart alabilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse34" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Paycell Kart ile ilgili dilek ve şikayetlerimi nereye iletmeliyim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse34"> 
-                            Paycell Kart ile ilgili tüm dilek ve şikayetlerinizi 0850 622 60 60 numaralı müşteri hizmetleri hattından veya Paycell uygulaması içinde Bize Ulaşın bölümünden iletebilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse34" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Paycell Kart ile ilgili dilek ve şikayetlerimi nereye
+                            iletmeliyim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse34">
+                            Paycell Kart ile ilgili tüm dilek ve şikayetlerinizi 0850 622 60 60 numaralı müşteri
+                            hizmetleri hattından veya Paycell uygulaması içinde Bize Ulaşın bölümünden iletebilirsiniz.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse35" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Harçlık Kart nedir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse36"> 
-                            Paycell Kart ile ilgili tüm dilek ve şikayetlerinizi 0850 622 60 60 numaralı müşteri hizmetleri hattından veya Paycell uygulaması içinde Bize Ulaşın bölümünden iletebilirsiniz.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse35" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Harçlık Kart nedir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse36">
+                            Paycell Kart ile ilgili tüm dilek ve şikayetlerinizi 0850 622 60 60 numaralı müşteri
+                            hizmetleri hattından veya Paycell uygulaması içinde Bize Ulaşın bölümünden iletebilirsiniz.
                         </div>
                     </div>
                 </div>
                 <div class="faq-collapsible visible" id="show3">
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse11" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Dijital Parayı Kimler Kullanabilir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse11"> 
-                            Kendi adına cep telefonu hattına sahip, Türkiye Cumhuriyeti vatandaşı olan herkes Dijital Para kullanabilir.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse11" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample1"> Dijital Parayı Kimler Kullanabilir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse11">
+                            Kendi adına cep telefonu hattına sahip, Türkiye Cumhuriyeti vatandaşı olan herkes Dijital
+                            Para kullanabilir.
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse12" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"> Aktivasyon Neden Önemlidir?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse12"> 
-                            Aktivasyon öncesi şifrenin hiçbir mali değeri olmayıp, güvenliği tamamen kullanıcıya aittir. Aktivasyon yapılmayan şifrelerin takibi mümkün olmadığı için kayıp, çalıntı veya izinsiz kullanılan şifrelerden kaynaklanan kayıp ve zarardan Paycell sorumlu değildir. Ayrıca Dijital Para, aktivasyon yapılmaksızın paraya çevrilemez, iade edilemez ve değiştirilemez
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse12" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample2"> Aktivasyon Neden Önemlidir?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse12">
+                            Aktivasyon öncesi şifrenin hiçbir mali değeri olmayıp, güvenliği tamamen kullanıcıya aittir.
+                            Aktivasyon yapılmayan şifrelerin takibi mümkün olmadığı için kayıp, çalıntı veya izinsiz
+                            kullanılan şifrelerden kaynaklanan kayıp ve zarardan Paycell sorumlu değildir. Ayrıca
+                            Dijital Para, aktivasyon yapılmaksızın paraya çevrilemez, iade edilemez ve değiştirilemez
                         </div>
                     </div>
                     <div class="collapsible">
-                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse" href="#multiCollapse13" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Dijital Para bakiyem biterse harcamalarıma devam edebilir miyim?</h3>
-                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse" id="multiCollapse13"> 
-                            1)Harçlık Kart nedir? Paycell Kart’ın bakiye ve kart hareket bilgilerinin iki farklı kullanıcıda görüntülenmesine imkan veren bir özelliktir. Kullanıcılar Paycell uygulamasında bu bilgileri görüntüleyebilir ve işlem yapabilir. Kartın asıl sahibi kartı aktive eden kişidir. Örneğin; bir ebeveyn bir Paycell Kart alıp kendi numarasına aktive edip fiziksel kartı çocuğuna verebilir. Kart hem çocuğun hem ebeveynin uygulamasında görüntülenir. Ebeveyn, çocuğunun tüm harcamalarını takip eder.
+                        <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                            href="#multiCollapse13" role="button" aria-expanded="false"
+                            aria-controls="multiCollapseExample4"> Dijital Para bakiyem biterse harcamalarıma devam
+                            edebilir miyim?</h3>
+                        <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                            id="multiCollapse13">
+                            1)Harçlık Kart nedir? Paycell Kart’ın bakiye ve kart hareket bilgilerinin iki farklı
+                            kullanıcıda görüntülenmesine imkan veren bir özelliktir. Kullanıcılar Paycell uygulamasında
+                            bu bilgileri görüntüleyebilir ve işlem yapabilir. Kartın asıl sahibi kartı aktive eden
+                            kişidir. Örneğin; bir ebeveyn bir Paycell Kart alıp kendi numarasına aktive edip fiziksel
+                            kartı çocuğuna verebilir. Kart hem çocuğun hem ebeveynin uygulamasında görüntülenir.
+                            Ebeveyn, çocuğunun tüm harcamalarını takip eder.
 
-2) Nasıl tanımlanır? Harçlık Kart Paycell uygulaması üzerinden kolaylıkla tanımlanabilir. Harçlık Kart tanımlamak için aşağıdaki adımlar izlenmelidir:
-Ana sayfa’da bulunan “Paycell Harçlık Kart Tanımla” butonuna tıklanır.
-Çıkan sayfadaki Paycell Kart listesinden Harçlık Kart olarak tanımlanmak istenen kart seçilir.
-Harçlık Kart’ın tanımlanacağı kişi çıkan listeden seçilerek ya da kişinin telefon numarasının manuel olarak girilmesiyle belirlenir.
-Harçlık Kart kullanıcısının ad-soyad bilgisi girilir.
-Onayla butonuna basılmasıyla işlem onaylanır.
-
-
-3) Tanımlandığında ne olur? Harçlık Kart tanımlama işlemlerinin ardından tanımlanan Paycell Kart’ın bakiye ve kart hareket bilgileri tanımlayan (ebeveyn kullanıcı) ve tanımlanan (çocuk kullanıcı) kişi tarafından Paycell uygulaması üzerinden görüntülenebilecektir. Aynı zamanda Harçlık Kart tanımlanan kişinin (çocuk kullanıcı) yaptığı harcamalara ait bilgilendirme mesajları tanımlayan kişiye (ebeveyn kullanıcı) gönderilir. Harçlık Kart olarak tanımlanan Paycell Kart ebeveyn kullanıcı ve çocuk kullanıcının Paycell uygulamasında Paycell Kart listesinde görüntülenebilir.
-
-4) Ebeveyn kullanıcının hangi özellikleri yapma yetkisi bulunuyor?
-Ebeveyn kullanıcı Harçlık Kart’ın bakiye ve kart hareket bilgileri Paycell uygulaması üzerinden görüntüleyebilir.
-KYC (Kimlik Teyidi) yaparak limit artırabilme: Kimlik teyidi için kimliği ve adına kayıtlı son 3 aya ait bir faturası ile Turkcell Mağazaları'ndan gerekli işlemleri yapan kullanıcılar hem ebeveyn kullanıcı hem de çocuk kullanıcı için Harçlık Kart’ın limitini kolaylıkla artırabilir.
-Ebeveyn kullanıcı Paycell Kart’a bakiye yükleyebilir, harcayabilir ve uygulamadan geçen finansal işlemler yapabilir.
-Ebeveyn kullanıcı Harçlık Kart’ın şifresini belirleyebilir ve değiştirebilir.
-Ebeveyn kullanıcı Harçlık Kart’a işlem kısıtı koyabilir. İnternet ve telefon/posta üzerinden alışveriş işlemleri uygulama üzerinden kapatılabilir.
-Ebeveyn kullanıcı Harçlık Kart’ın işlem hareketlerini ve anlık bakiyesini görüntüleyebilir.
-Ebeveyn kullanıcı Harçlık Kart’ı kapatabilir, karttan talebi doğrultusunda iade alabilir.
-Ebeveyn kullanıcı dilediği zaman Harçlık Kart tanımını kaldırabilir.
-
-
-5) Çocuk kullanıcının hangi özellikleri yapma yetkisi bulunuyor?
-Çocuk kullanıcı kendisine tanımlanan Harçlık Kart’ın bakiye ve kart hareket bilgileri Paycell uygulaması üzerinden görüntüleyebilir.
-Çocuk kullanıcı Harçlık Kart’tan mağaza içi ya da online dilediği şekilde harcama ve yapabilir ve uygulama dışındaki bütün kanallardan karta bakiye yükleyebilir.
+                            2) Nasıl tanımlanır? Harçlık Kart Paycell uygulaması üzerinden kolaylıkla tanımlanabilir.
+                            Harçlık Kart tanımlamak için aşağıdaki adımlar izlenmelidir:
+                            Ana sayfa’da bulunan “Paycell Harçlık Kart Tanımla” butonuna tıklanır.
+                            Çıkan sayfadaki Paycell Kart listesinden Harçlık Kart olarak tanımlanmak istenen kart
+                            seçilir.
+                            Harçlık Kart’ın tanımlanacağı kişi çıkan listeden seçilerek ya da kişinin telefon
+                            numarasının manuel olarak girilmesiyle belirlenir.
+                            Harçlık Kart kullanıcısının ad-soyad bilgisi girilir.
+                            Onayla butonuna basılmasıyla işlem onaylanır.
 
 
-6) Harcama SMS’leri ve 3D doğrulama SMS’leri hangi kullanıcıya gider? Harcama SMS’leri ve 3D doğrulama SMS’leri ebeveyn kullanıcıya gitmektedir ve SMS gönderilen kullanıcı değiştirilemez.
+                            3) Tanımlandığında ne olur? Harçlık Kart tanımlama işlemlerinin ardından tanımlanan Paycell
+                            Kart’ın bakiye ve kart hareket bilgileri tanımlayan (ebeveyn kullanıcı) ve tanımlanan (çocuk
+                            kullanıcı) kişi tarafından Paycell uygulaması üzerinden görüntülenebilecektir. Aynı zamanda
+                            Harçlık Kart tanımlanan kişinin (çocuk kullanıcı) yaptığı harcamalara ait bilgilendirme
+                            mesajları tanımlayan kişiye (ebeveyn kullanıcı) gönderilir. Harçlık Kart olarak tanımlanan
+                            Paycell Kart ebeveyn kullanıcı ve çocuk kullanıcının Paycell uygulamasında Paycell Kart
+                            listesinde görüntülenebilir.
+
+                            4) Ebeveyn kullanıcının hangi özellikleri yapma yetkisi bulunuyor?
+                            Ebeveyn kullanıcı Harçlık Kart’ın bakiye ve kart hareket bilgileri Paycell uygulaması
+                            üzerinden görüntüleyebilir.
+                            KYC (Kimlik Teyidi) yaparak limit artırabilme: Kimlik teyidi için kimliği ve adına kayıtlı
+                            son 3 aya ait bir faturası ile Turkcell Mağazaları'ndan gerekli işlemleri yapan kullanıcılar
+                            hem ebeveyn kullanıcı hem de çocuk kullanıcı için Harçlık Kart’ın limitini kolaylıkla
+                            artırabilir.
+                            Ebeveyn kullanıcı Paycell Kart’a bakiye yükleyebilir, harcayabilir ve uygulamadan geçen
+                            finansal işlemler yapabilir.
+                            Ebeveyn kullanıcı Harçlık Kart’ın şifresini belirleyebilir ve değiştirebilir.
+                            Ebeveyn kullanıcı Harçlık Kart’a işlem kısıtı koyabilir. İnternet ve telefon/posta üzerinden
+                            alışveriş işlemleri uygulama üzerinden kapatılabilir.
+                            Ebeveyn kullanıcı Harçlık Kart’ın işlem hareketlerini ve anlık bakiyesini görüntüleyebilir.
+                            Ebeveyn kullanıcı Harçlık Kart’ı kapatabilir, karttan talebi doğrultusunda iade alabilir.
+                            Ebeveyn kullanıcı dilediği zaman Harçlık Kart tanımını kaldırabilir.
+
+
+                            5) Çocuk kullanıcının hangi özellikleri yapma yetkisi bulunuyor?
+                            Çocuk kullanıcı kendisine tanımlanan Harçlık Kart’ın bakiye ve kart hareket bilgileri
+                            Paycell uygulaması üzerinden görüntüleyebilir.
+                            Çocuk kullanıcı Harçlık Kart’tan mağaza içi ya da online dilediği şekilde harcama ve
+                            yapabilir ve uygulama dışındaki bütün kanallardan karta bakiye yükleyebilir.
+
+
+                            6) Harcama SMS’leri ve 3D doğrulama SMS’leri hangi kullanıcıya gider? Harcama SMS’leri ve 3D
+                            doğrulama SMS’leri ebeveyn kullanıcıya gitmektedir ve SMS gönderilen kullanıcı
+                            değiştirilemez.
                         </div>
                     </div>
                 </div>
             </div>
 
-       
+
         </div>
-     
+
     </section>
 
-      <!--Footerr-->
-      <section class="footer bg-dark pt-5 pb-5">
+    <!--Footerr-->
+    <section class="footer bg-dark pt-5 pb-5">
         <div class="container-md pt-5 pb-5">
             <div class="row">
                 <div class="col-md-3 col-sm-12">
                     <div class="row">
                         <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
-                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
                         <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
                     </div>
 
@@ -423,9 +657,14 @@ Ebeveyn kullanıcı dilediği zaman Harçlık Kart tanımını kaldırabilir.
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="static-assets/js/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,269 @@
+body{
+    font-family: "Futura", sans-serif;
+}
+
+.how-to-use-card {
+    padding-top: 8.75rem;
+    padding-bottom: 6.6875rem;
+    background-color: #F6F6F6;
+
+}
+.how-to-use-container{
+    margin: 0px auto;
+}
+.how-to-use-card .how-to-use-text h3 {
+   
+    font-size: 1.875rem;
+    margin: 50px auto;
+    margin-top: 0px;
+    letter-spacing: -0.00511rem;
+    color: #323232;
+    display: block;
+    font-weight: 700;
+}
+
+
+.how-to-use-card .how-to-use-text p {
+
+    line-height: 2.3125rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -0.00937rem;
+    color: #7F7F7F;
+}
+.how-to-use-card  .question p {
+
+    font-weight: 400;
+    line-height: 1.1875rem;
+    font-size: 0.9375rem;
+    text-align: center;
+    color: #616161;
+    margin-top: 2rem;
+}
+
+.rounded-box {
+    width: 142.91px;
+    height: 142.91px;
+    background: #E7EBEF;
+    border: 0.35727rem solid #FFFFFF;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0px auto;
+  
+   
+}
+.rounded-box img{
+    width: 50%;
+}
+.how-to-use-card .question b {
+
+    font-size: 1.375rem;
+    text-align: center;
+    color: #323232;
+    display: block;
+    font-weight: 700;
+}
+.how-to-use-card .questions:before {
+    position: absolute;
+    content: '';
+    background: url(https://paycell.com.tr/wp-content/themes/paycell/assets/images/border-bg.png) repeat-x repeat-x;
+    top: 81px;
+    
+    height: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100;
+}
+/**/
+#kyc {
+    background-color: #fff;
+}
+
+.kyc-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+.kyc-div p {
+ 
+    line-height: 2rem;
+    font-size: 1.25rem;
+    letter-spacing: -.00781rem;
+    color: #262626;
+    padding-top: 20px;
+}
+.kyc-div img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+/**/
+.how-do-install{
+    background: url('https://paycell.com.tr/wp-content/uploads/2017/12/tahta-sema.png') center center no-repeat;
+    background-size: cover;
+}
+
+.how-do-install .picture img {
+   
+    width: 100px;
+}
+.how-do-install .info h3 {
+    width: 100%;
+    font-size: 1.875rem;
+    color: #323232;
+    margin: 75px 0;
+  
+    font-weight: 700;
+}
+
+.how-do-install .info ul {
+    list-style: none;
+    padding: 0px;
+}
+.how-do-install .info ul li {
+   
+    line-height: 2rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.00781rem;
+    color: #262626;
+    padding-bottom: 20px;
+}
+
+ul.paycell li:before {
+    content: "\EA29";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #000;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+.collapsible {
+    
+    border-bottom: 1px solid #b7becd;
+}
+.margin0{
+  margin: 20px 0px !important;
+  width: 100%;
+}
+.faq-collapsible .collapsible-header {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.15873px;
+    color: #000000;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.collapsible-header:before{
+    
+}
+
+ .collapsible-header:before {
+    content: "+";
+    font-family: "paycell";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.collapsible .collapsible-header:before {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 40px;
+}
+.collapsible-content{
+    margin: 10px 20px;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    letter-spacing: 0.15873px;
+    color: #7E86A1;
+}
+.visible{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+
+.collapsible-content p {
+  
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #262626;
+}
+
+ .table {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    color: #7F7F7F;
+   
+}
+p small{
+    margin: 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #7F7F7F;
+}
+
+#multiCollapse12,.paycell > p {
+
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #262626;
+}
+.paycell>li {
+
+    font-size: 1.25rem;
+    color: #262626;
+    margin-bottom: 1.5625rem;
+    line-height: 1.7;
+}

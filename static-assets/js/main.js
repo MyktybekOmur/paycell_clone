@@ -77,4 +77,4 @@ function changeVisible(newId) {
     var elem = document.getElementById(newId);
     console.log(elem);
     elem.className += " show";
-  }
+}

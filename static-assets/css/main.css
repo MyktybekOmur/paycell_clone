@@ -11,7 +11,14 @@ section {
     bottom: 0px;
 }
 
-
+.flex>.pay_btn {
+    width: 100px;
+    height: 40px;
+    padding: 0 0;
+    font-size: 14px;
+    line-height: 2.5;
+    
+}
 /* Search*/
 
 .search_container {
