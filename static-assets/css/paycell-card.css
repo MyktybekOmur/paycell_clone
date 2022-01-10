@@ -1,6 +1,8 @@
 body{
-    font-family: "Futura", sans-serif;
+    font-family: 16px/1.25  "Futura", sans-serif;
+    color: #4d4d4d;
 }
+
 
 .how-to-use-card {
     padding-top: 8.75rem;
@@ -65,6 +67,7 @@ body{
 }
 .rounded-box img{
     width: 50%;
+    height: 50%;
 }
 .how-to-use-card .question b {
 
@@ -164,6 +167,7 @@ ul.paycell li:before {
   margin: 20px 0px !important;
   width: 100%;
 }
+
 .faq-collapsible .collapsible-header {
     font-family: "Futura", sans-serif;
     font-style: normal;

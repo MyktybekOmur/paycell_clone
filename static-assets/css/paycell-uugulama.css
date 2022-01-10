@@ -1,0 +1,51 @@
+body {
+    color: #4d4d4d !important;
+    font: 16px/1.25 "Futura", sans-serif;
+}
+.uxr-collapsible-contentv{
+    color: #4d4d4d !important;
+    font: 16px/1.25 "Futura", sans-serif;
+}
+
+
+
+.product-tab h3 {
+    font-family: "Futura", sans-serif;
+    font-size: 1.875rem;
+    letter-spacing: -0.01172rem;
+    color: #262626;
+    margin: 0px;
+    font-weight: 700;
+}
+
+
+ul.paycell li:before {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #000;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+.details{
+    margin-bottom: 150px !important;
+}
+
+.paycell li {
+    font-family: "Futura", sans-serif;
+    font-size: 1.25rem;
+    color: #262626;
+    margin-bottom: 1.5625rem;
+    line-height: 1.7;
+}
+.paycell p {
+    font-family: "Futura", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #4d4d4d !important;
+}
+
