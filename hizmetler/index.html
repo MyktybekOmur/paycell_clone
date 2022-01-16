@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static-assets/css/main.css">
+    <link rel="stylesheet" href="../static-assets/css/paycell-card.css">
+    <link rel="stylesheet" href="../static-assets/css/hismetler.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../static-assets/img/logo/paycell_logo.png"
+                        alt="" width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="../paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="../paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="harclik-isteme.html">Para/Harclik Iste</a></li>
+                                <li><a class="dropdown-item" href="harclik-gonderme.html">Para/Harçlık Gönde</a></li>
+                                <li><a class="dropdown-item" href="fatura-odeme-hizmetleri.html">Fatura Ödeme Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="turkcell-tl-ve-paket-yukleme.html">Turkcell TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="#">Paycell Ödeme</a></li>
+                                <li><a class="dropdown-item" href="#">Paycell Mobile Ödeme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="https://kfo.paycell.com.tr/kfowebsdk/" target="_blank"
+                            class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#"><img src="../static-assets/img/hizli-giris-btn.jpg" width="176" height="53"
+                                alt=""></a>
+                    </div>
+                    <form class="d-flex">
+
+                        <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--What will we do-->
+    <section class="bg-black mt-5">
+        <div class="container mt-5 pt-4">
+            <div class=" breadcrumb_conteiner  ml-5 mt-5">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item last_b active" aria-current="page">Hizmetler</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-black mw-100 pt-5 pb-5">
+
+        <div class="container  pb-5">
+
+
+            <div class="service">
+                <div class="row align-items-end text-center ">
+                    <div class="col-6 col-md-3 border-bottom pb-5 border-2 service-step" role="button">
+                        <div class="picture w-50  m-auto"> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/04/01-02Beyaz.svg"
+                                class="lazyloaded img-fluid" style="max-width: 90px;"></div>
+                        <span class="service_title">Ödeme Hizmetleri</span>
+                    </div>
+                    <div class="col-6 col-md-3 border-bottom pb-5 border-2 service-step" role="button"
+                        aria-controls="collapseExample">
+                        <div class="picture  w-50 m-auto"> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/wallet_beyaz-1.svg"
+                                class="lazyloaded img-fluid" style="max-width: 90px;"></div>
+                        <span class="service_title">Cüzdan</span>
+                    </div>
+                    <div class="col-6 col-md-3  border-bottom pb-5 border-2 service-step" role="button"
+                        aria-controls="collapseExample">
+                        <div class="picture  w-50 m-auto mb-4"> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/kolay_ode_beyaz.svg"
+                                class="lazyloaded img-fluid" style="max-width: 90px;"></div>
+                        <span class="service_title">Kolay Ödeme</span>
+                    </div>
+                    <div class="col-6 col-md-3 border-bottom pb-5 border-2 service-step" role="button"
+                        aria-controls="collapseExample">
+                        <div class="picture  w-25 m-auto "> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/turkcell-phone-paket-beyaz.svg"
+                                class="lazyloaded img-fluid"></div>
+                        <span class="service_title mt-4">Turkcell TL ve
+                            Paket Yükleme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-to-use-card">
+        <div class="how-to-use-card text-center">
+            <div class="container row how-to-use-container">
+                <div class="col-12 text-center how-to-use-text d-flex flex-column justify-content-center">
+                    <div>
+                        <img style="max-height: 60px;"
+                            src="https://paycell.com.tr/wp-content/uploads/2019/04/01-02.svg">
+
+                    </div>
+                    <h3> Ödeme Hizmetleri</h3>
+                    <p></p>
+                    <p>Paycell müşterilerinin elektrik, su, doğalgaz, telefon faturaları, devlet ödemeleri gecikmez her
+                        zaman kolayca hallolur. Ödemelerinizi Paycell Uygulaması ve Temsilcimiz olan Turkcell
+                        Mağazaları/Satış Noktalarından hemen yaparak zaman kazanıp, fatura kuyruklarında beklemeden
+                        işleminizi gerçekleştirebilirsiniz.
+                        <br>
+                    </p>
+                    <p></p>
+                    <a href="https://www.turkcell.com.tr/pasaj/ev-yasam/turkcell-urunleri/paycell-kart"
+                        class="btn fill-bg m-auto m-4" style="max-width: 300px;"> Ödeme Hizmetleri </a>
+                </div>
+                <div class="col-12 questions pt-5">
+                    <ul class="d-flex flex-wrap">
+                        <li class="odeme-list">
+                            <img class="odeme-img" src="https://paycell.com.tr/wp-content/uploads/2017/12/phone.svg">
+                            <span>Telefon</span>
+                        </li>
+                        <li class="odeme-list">
+                            <img class="odeme-img" src="https://paycell.com.tr/wp-content/uploads/2017/12/water.svg">
+                            <span>Su</span>
+                        </li>
+                        <li class="odeme-list"> <img class="odeme-img"
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/elektrik.svg">
+                            <span>Elektrik</span>
+                        </li>
+                        <li class="odeme-list"> <img class="odeme-img"
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/dogalgaz.svg">
+                            <span>Doğalgaz</span>
+                        </li>
+                        <li class="odeme-list"> <img class="odeme-img"
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/tv.svg">
+                            <span>Televizyon</span>
+                        </li>
+                        <li class="odeme-list"> <img class="odeme-img"
+                                src="https://paycell.com.tr/wp-content/uploads/2017/12/belediye-odemesi.svg">
+                            <span>Devlet<br>Ödemesi</span>
+                        </li>
+                        <li class="odeme-list"> <img class="odeme-img"
+                                src="https://paycell.com.tr/wp-content/uploads/2019/04/01-01-1.svg">
+                            <span>Ulaşım Kartı<br>Yüklemesi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Paycell cwallet-->
+    <section class="mt-5">
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12 p-5 mw-400 ">
+                    <div class="product-text text-center text-md-start">
+                        <img src="https://paycell.com.tr/wp-content/uploads/2017/12/cuzdan.svg" style="height: 90px;"
+                            class="img-fluid ml-auto">
+                        <h1 class="cuzdan-title mt-3">Cüzdan</h1>
+                        <br>
+                        <p class="cuzdan-sub-title"> Paycell ile kredi kartların güvenle saklanır, online ve mağaza içi
+                            alışverişlerinde sana cüzdanınızı çıkartmadan ödeme yapabilme imkanı sağlar.</p>
+                        <br> <br>
+
+                        <a href="https://www.turkcell.com.tr/pasaj/ev-yasam/turkcell-urunleri/paycell-kart"
+                            class="btn fill-bg"> DETAYLI BİLGİ </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="mt-5 kolay-odeme">
+        <div class="container mt-5 text-end">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12 p-5 mw-400">
+                    <div class="product-text text-center text-md-end">
+                        <img src="https://paycell.com.tr/wp-content/uploads/2017/12/kolay_ode_siyah.svg"
+                            style="height: 90px;" class="img-fluid ml-auto">
+                        <h1 class="cuzdan-title mt-3">Kolay Ödeme</h1>
+                        <br>
+                        <p class="cuzdan-sub-title">Artık alışverişlerinde yanında nakit veya kredi kartı bulundurmana
+                            gerek yok. Anlaşmalı üye işyerlerinde ödemelerini telefonundan onay vererek yapabilirsin.
+                        </p>
+                        <br> <br>
+                        <div class="logos mb-3"> 
+                            <img class="zubizu-logo" src="https://paycell.com.tr/wp-content/uploads/2017/11/shell-1.png">
+                            <img class="zubizu-logo lazyloaded" src="https://paycell.com.tr/wp-content/uploads/2017/11/zubizu-1.png">
+                        </div>
+                        <a href="https://www.turkcell.com.tr/pasaj/ev-yasam/turkcell-urunleri/paycell-kart"
+                            class="btn fill-bg"> DETAYLI BİLGİ </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="mt-5">
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-md-12 p-5 mw-400 ">
+                    <div class="product-text text-center">
+                        <img src="https://paycell.com.tr/wp-content/uploads/2017/12/turkcell-phone-paket.svg" style="height: 90px;"
+                            class="img-fluid ml-auto">
+                        <h1 class="cuzdan-title mt-3">Turkcell TL ve Paket Yükleme</h1>
+                        <br>
+                        <p class="cuzdan-sub-title">Paycell üzerinden, istediğin ödeme aracınla anında tüm Turkcell hatlara TL veya paket yükleyebilirsin.</p>
+                        <br> <br>
+
+                        <a href="https://www.turkcell.com.tr/pasaj/ev-yasam/turkcell-urunleri/paycell-kart"
+                            class="btn fill-bg"> DETAYLI BİLGİ </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+ 
+
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+   
+   
+
+</body>
+
+</html>

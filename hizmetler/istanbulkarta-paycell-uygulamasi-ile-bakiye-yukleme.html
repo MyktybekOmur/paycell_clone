@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static-assets/css/main.css">
+    <link rel="stylesheet" href="../static-assets/css/paycell-card.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../static-assets/img/logo/paycell_logo.png"
+                        alt="" width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="../paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="../paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="harclik-isteme.html">Para/Harclik Iste</a></li>
+                                <li><a class="dropdown-item" href="harclik-gonderme.html">Para/Harçlık Gönde</a></li>
+                                <li><a class="dropdown-item" href="fatura-odeme-hizmetleri.html">Fatura Ödeme Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="turkcell-tl-ve-paket-yukleme.html">Turkcell TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="#">Paycell Ödeme</a></li>
+                                <li><a class="dropdown-item" href="#">Paycell Mobile Ödeme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="https://kfo.paycell.com.tr/kfowebsdk/" target="_blank"
+                            class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#"><img src="../static-assets/img/hizli-giris-btn.jpg" width="176" height="53"
+                                alt=""></a>
+                    </div>
+                    <form class="d-flex">
+
+                        <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container ">
+        <div class="breadcrumb_conteiner ml-5 mt-5">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                    <li class="breadcrumb-item"><a href="#">Hizmetler</a></li>
+                    <li class="breadcrumb-item last_b active" aria-current="page">İstanbulkart’a Bakiye Yükleme</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="mt-5 mb-5 pt-5 pb-5">
+        <div class="container w-75-lg w-100-sm">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12  p-5 ">
+                    <img src="https://paycell.com.tr/wp-content/uploads/2019/07/istanbul_kart-1.png" class="img-fluid"
+                        alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 p-5 mw-400 text-left">
+                    <div class="product-text text-center text-md-start">
+                    <h1>İstanbulkart’a Paycell Uygulaması ile Bakiye Yükleme</h1>
+                    <br><br>
+                    Paycell artık İstanbulkart yüklemelerinde de yanınızda! Paycell uygulamasından
+                        kayıtlı kredi kartınızla, Paycell Kart’ınla ya da Turkcell’liysen Paycell Mobil ödeme ile
+                        Turkcell hattınıza yansıtarak İstanbul Kart’ına kolayca yükleme yapabilirsiniz.
+                        <br>
+                    <button type="button" class="btn btn-dark w-50 mt-4 buy_btn">Uygulama İndir</button>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="mt-5 mb-5 text-center pt-5 pb-5">
+        <div class="how-to-use mt-5 mb-5">
+            <div class="container text-center">
+                <div class="how-to-use-text text-center mt-5 mb-5">
+                    <h2> Nasıl Yükleme Talimatı Verilir?</h2>
+                    <p></p>
+                </div>
+                <div class="questions row mt-5">
+                    <div class="question col-md-3 col-sm-12">
+                        <div class="rounded-box d-flex justify-content-center align-items-center"> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2018/01/paycell_app_download.svg"
+                                class="icon_size"></div>
+                        <b></b>
+                        <p>Hemen telefonunuzdan Paycell Uygulamasını İndirin. Ana sayfadan “İstanbulkart Yükleme”yi
+                            seçin.</p>
+                    </div>
+                    <div class="question col-md-3 col-sm-12">
+                        <div class="rounded-box d-flex align-items-center justify-content-center "> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/07/turkcell-paket-sec-03.png"
+                                class="icon_size"></div>
+                        <b></b>
+                        <p>İstanbulkart’ınızın ön yüzünde yer alan kart numarasını ya da arka yüzünde yer alan seri
+                            numarasını girin.</p>
+                    </div>
+                    <div class="question col-md-3 col-sm-12">
+                        <div class="rounded-box d-flex align-items-center justify-content-center "> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/07/turkcell-paket-sec-01.png"
+                                class="icon_size"></noscript>
+                        </div>
+                        <b></b>
+                        <p>Yüklemek istediğiniz tutarı ve ödeme yönteminizi seçin.</p>
+                    </div>
+                    <div class="question col-md-3 col-sm-12">
+                        <div class="rounded-box d-flex align-items-center justify-content-center "> <img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/07/turkcell-paket-sec-02.png"
+                                class="icon_size"></div>
+                        <b></b>
+                        <p>"Ödemeyi tamamla" diyerek işleminizi bitirin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-install mt-5 mb-5 pt-5 pb-5">
+
+        <div class="container mt-5 mb-5 pt-5 pb-5">
+
+
+            <div class="info d-flex  justify-content-md-end justify-content-sm-center">
+
+                <ul class="paycell w-75 ">
+                    <h2 class="mb-5">İstanbulkart</h2>
+                    <li>Paycell uygulamasını hemen indirerek kaydettiğiniz kredi kartınızla, Paycell Kart’ınızla ya da
+                        Turkcell’liyseniz Paycell Mobil ödeme ile Turkcell hattınıza yansıtarak ödeme yapabilirsiniz.
+                    </li>
+                    <li>Ödeme işlemi sırasında yüklemek istediğiniz tutara ve nasıl ödeyeceğinize siz karar verirsiniz.
+                        İstediğiniz tutar seçtiğiniz ödeme yöntemi ile İstanbulkart’ınıza yüklenecektir.</li>
+                    <li>İşlemi tamamladıktan sonra Otomatik Dolum makineleri, Akıllı duraklardaki online talimat yükleme
+                        noktaları, itaksi tabletlerinden kartınızı okutarak ya da NFC destekli Android telefonlarda
+                        mobil uygulamadan bakiye görüntüleyerek talimatınızı İstanbulkart’ınıza aktarabilirsiniz.
+                        Belirtilen yöntemlerle yükleme işlemi tamamlanabilecektir.</li>
+                    <li>Otomatik Dolum makineleri, Akıllı duraklardaki online talimat yükleme noktaları, iTaksi
+                        tabletlerinden kartınızı okutarak ya da NFC destekli Android telefonlarda mobil uygulamadan
+                        bakiye görüntüleyerek talimatınızı İstanbulkart’ınıza aktarın.
+                        <br>*Metro turnikelerinde kart dokundurulduğunda yükleme sağlanmamaktadır.
+                    </li>
+
+                    <h4><strong>İstanbulkart’a Turkcell Mağazalarından Bakiye Yükleme:</strong></h4>
+
+                    <li>Turkcell Mağazaları ya da Satış Noktalarına giderek nakit ödeme ile İstanbulkart’ınıza kolayca
+                        yükleme yapabilirsiniz.</li>
+                    <li>Yükleme talimatınızı kart numaranızı ya da kartın arka yüzündeki kart seri numaranızı belirterek
+                        yapabilirsiniz.</li>
+                    <li>Yükleme talimatının verilebilmesi için karta eklemek istediğiniz tutarı bayi çalışanına
+                        belirtiniz.</li>
+                    <li>KOtomatik dolum makinesi (biletmatik) veya akıllı duraklarda yer alan İstanbulkart talimat
+                        yükleme noktalarına İstanbulkart okutularak yükleme işlemi tamamlanabilecektir.
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="container mt-5 mb-5">
+        <div class="" id="content">
+            <div class="faq-collapsible">
+                <div class="collapsible">
+                    <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
+                        href="#multiCollapse2" role="button" aria-expanded="false"
+                        aria-controls="multiCollapseExample2">Ücretlendirme</h3>
+                    <div class="collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                        id="multiCollapse2">
+                        <br><br>
+                        <p> <b>Ücretlendirme</b></p>
+
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><b>İstanbulkart Yükleme -</b>Temsilcimiz olan Turkcell Mağazaları/Satış
+                                        Noktaları'ndan nakit olarak yapılması</td>
+                                    <td class="text-end">Ücretsiz</td>
+                                </tr>
+                                <tr>
+                                    <td><b>İstanbulkart Yükleme - </b>Paycell Uygulaması üzerinden Paycell Kart ile
+                                        yapılması</td>
+                                    <td class="text-end">Ücretsiz</td>
+                                </tr>
+                                <tr>
+                                    <td><b>İstanbulkart Yükleme - </b>Paycell Uygulaması üzerinden kayıtlı kredi kartı
+                                        veya banka kartı ile yapılması</td>
+                                    <td>0,99 TL + tutarın %2,5'i</td>
+                                </tr>
+                                <tr>
+                                    <td><b>İstanbulkart Yükleme - </b>Paycell Uygulaması üzerinden Paycell Mobil ödeme
+                                        Turkcell hatta yansıtarak yapılması</td>
+                                    <td>tutarın %6,5'i</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="static-assets/js/main.js"></script>
+
+</body>
+
+</html>

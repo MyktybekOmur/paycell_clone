@@ -1,10 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    color: #4d4d4d;
+    font: 16px/1.25 "Futura", sans-serif;
+}
+
+.bg-black{
+    background:#000;
+    color: #fff;
+}
+.nav-link {
+    color: #fff !important;
+}
 .wrapper {
     position: relative;
     top: 30px;
 }
-
-
+.paycell li {
+    font-family: "Futura", sans-serif;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.00781rem;
+    color: #262626;
+    padding-bottom: 20px;
+}
+.title-h4 {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 2.5rem;
+    color: #323232;
+    margin-bottom: 2.6875rem;
+  
+}
 
 section {
     margin: 0px 0px;
@@ -82,11 +111,7 @@ h3 {
 
 /*Section 2*/
 
-.title-h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    color: #201f1d;
-}
+
 
 .sub_title {
     font-family: 'Helvetica';
@@ -361,6 +386,17 @@ ul.paycell li:before {
     .sub_title {
         display: none !important;
     }
+    .service-step{
+        border-bottom: none !important;
+
+    }
+    .service-step:after {
+        content: '';
+        position: absolute;
+    
+        background: none !important;
+       
+    }
 }
 
 
@@ -393,4 +429,43 @@ ul.paycell li:before {
     h3 {
         font-size: 2.8125rem;
     }
+}
+
+
+/*Hizmetler*/
+.fill-bg {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    background: #000;
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 50%);
+    
+    color: #FFFFFF;
+    line-height: 53px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.how-to-use{
+    padding-top: 8.75rem;
+    padding-bottom: 6.6875rem;
+    background-color: #F6F6F6;
+}
+
+.paycell_marker li::marker {
+    unicode-bidi: isolate !important;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.paycell_marker li::before {
+    content: '●' !important;
+}
+.collapsible-content p {
+    font-family: "Futura", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #262626;
 }

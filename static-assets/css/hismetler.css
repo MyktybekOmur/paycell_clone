@@ -1,0 +1,78 @@
+.service{
+    width: 80%;
+    margin: 0 auto;
+}
+.service_title{
+    color: #fff;
+
+    text-align: center;
+    font-size: 1.75rem;
+    height: 85px;
+}
+.breadcrumb_conteiner a {
+    text-decoration: none;
+    color: #fff !important;
+}
+.service-step{
+    position: relative;
+}
+.service-step:after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 25px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    bottom: -12.5px;
+    background: radial-gradient(15.63px at 49.9% 53.04%, #C6F0FF 0%, #49D5FF 100%);
+    z-index: 100;
+}
+.how-to-use-card{
+    margin: 0px 0px !important;
+    padding: 10px 0px !important ;
+  
+}
+
+.question_title{
+    
+        font-family: "Futura", sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #1D1D1B;
+        display: block;
+        margin-top: 0.75rem;
+    
+}
+.odeme-list{
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    min-width: 100px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.odeme-img{
+    max-width: 50px;
+}
+.cuzdan-title{
+    font-family: "Futura", sans-serif;
+    font-size: 2.5rem;
+    color: #1D1D1B;
+    font-weight: 700;
+}
+.cuzdan-sub-title{
+ 
+    font-size: 1.5rem;
+    line-height: 1.35;
+    color: #000000;
+}
+.kolay-odeme{
+    background-image: url(https://paycell.com.tr/wp-content/uploads/2018/05/kolayode.jpg);
+}
+.zubizu-logo {
+    width: 9rem;
+}
