@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysell'le | Ürünler</title>
+    <link rel="icon" href="https://paycell.com.tr/wp-content/themes/paycell/assets/images/favicon.png"
+        type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static-assets/css/main.css">
+    <link rel="stylesheet" href="../static-assets/css/uye-is-yerleri.css">
+
+</head>
+
+<body>
+     <!--Header-->
+     <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../static-assets/img/logo/paycell_logo.png"
+                        alt="" width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-ds-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="../paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="../paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../hizmetler/" id="navbarDropdown" role="button"
+                                data-ds-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="../hizmetler/istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a
+                                        Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="../hizmetler/harclik-isteme.html">Para/Harclik
+                                        Iste</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../izmetler/harclik-gonderme.html">Para/Harçlık
+                                        Gönde</a></li>
+                                <li><a class="dropdown-item" href="../hizmetler/fatura-odeme-hizmetleri.html">Fatura
+                                        Ödeme
+                                        Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="../hizmetler/cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="../hizmetler/kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item"
+                                        href="../hizmetler/turkcell-tl-ve-paket-yukleme.html">Turkcell
+                                        TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="qr-ile-odeme-alma.html">Qr ile Ödeme Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-isyerleri.html">Paycell Android Pos ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="paycell-sdk.html">Paycell SDK</a></li>
+                                <li><a class="dropdown-item" href="paycell-api.html">Paycell API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../sss.html" class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="https://kfo.paycell.com.tr/kfowebsdk/" target="_blank"
+                            class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#"><img src="../static-assets/img/hizli-giris-btn.jpg" width="176" height="53"
+                                alt=""></a>
+                    </div>
+                    <form class="d-flex">
+
+                        <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Basvur-->
+    <section class="paycell-application-banner mt-5 pt-5 pb-5">
+        <div class="container text-center mt-5 pt-5">
+            <div class="paycell-application-banner-title"> Paycell ile ödeme almak için hemen başvurun!</div>
+            <div class="paycell-application-banner-info"> Paycell'in yepyeni ödeme alternatifleriyle sunduğu <br>
+                kolaylıklar dünyasına giriş yapın.</div>
+            <div class="paycell-application-banner-buttons">
+                <a href="#" class="btn btn-dark btn-lg mb-4 bg-black" data-popup-target="#register-popup"
+                    data-popup-hide="true"> Başvur </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="whatis-paycell pt-5 pb-5">
+        <div class="container mt-5 mb-5">
+            <div class="whatis-paycell-title"> Nedir?</div>
+            <div class="whatis-paycell-info mb-5">
+                Dijitalleşen alışveriş deneyiminde iş yerlerinin kolay ve hızlı ödeme almalarına olanak sağlayan,
+                Paycell’in tüm ödeme yöntemlerini tek bir entegrasyonda sunan kapsayıcı bir ödeme platformudur.
+            </div>
+        </div>
+    </section>
+
+    <section class="whatis-paycell-prop">
+        <div class="container">
+            <div class="">
+                <h2 class="block-title">Türkiye’nin herkesin kulanımına açık en kapsayıcı ödeme platformu!</h2>
+                <p>&nbsp;</p>
+                <ul class="paycell2">
+                    <li><b>Kredi Kartı Desteği:</b> Türkiye Pazarı’ndaki 58 Milyon kartın 1.6 Milyonu Paycell alt
+                        yapısında kayıtlı.</li>
+                    <li><b>Mobil Ödeme:</b> 35 Milyon müşteri ödemelerini Turkcell faturasına yansıtarak yapmakta.</li>
+                    <li><b>Paycell Kart:</b>&nbsp;Paycell’in ön ödemeli alışveriş kartı ile kredi kartına ve nakde
+                        ihtiyaç duymadan ödeme imkanı.</li>
+                    <li><b>Paycell Dijital Para:</b> Parayı dijitale çeviren Paycell Dijital Para ile kredi kartına veya
+                        yeterli limite gerek kalmadan ödeme imkanı.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="integration-methods pt-5 pb-5">
+        <div class="container">
+            <div class="integration-methods-title"> Entegrasyon Yöntemleri</div>
+            <a type="button" class="video-btn integration-methods-video modal uxr-modal-ready" data-toggle="modal"
+                data-src="https://paycell.com.tr/wp-content/uploads/2017/12/Paycell-SDK-Video.mp4.mp4"
+                data-target="#myModal">
+                <img src="https://paycell.com.tr/wp-content/uploads/2017/12/UIY_prev_2.jpg"
+                    data-lazy-src="https://paycell.com.tr/wp-content/uploads/2017/12/UIY_prev_2.jpg" class="lazyloaded"
+                    data-was-processed="true">
+                <noscript>
+                    <img src="https://paycell.com.tr/wp-content/uploads/2017/12/UIY_prev_2.jpg"></noscript>
+            </a>
+            <div class="integration-methods-info"> <b>Paycell ile Öde (SDK):</b>Müşterileriniz ödeme adımına geldiğinde
+                Paycell'in sayfasına yönlendirilerek Paycell deneyimi ile ödemelerini yaparlar. Ödeme sonrasında
+                müşteriler, yine sizin sayfanıza yönlendirilirler.<br><br><b>Paycell Cüzdan (API):</b>Paycell
+                entegrasyonu arka planda yapılır ve siz müşteriye kendi cüzdanınızı sunuyormuş gibi kendi müşteri
+                deneyiminizle ödeme alabilirsiniz.</div>
+        </div>
+    </section>
+
+    <section class="container  mb-5 mt-5">
+        <div class="mt-5 " id="content">
+            <div class="faq-collapsible  visible show mt-5" id="show1">
+                <div class="collapsible">
+                    <h3 class="collapsible-header uxr-collapsible-header margin0 mb-5" data-bs-toggle="collapse"
+                        href="#multiCollapse1" role="button" aria-expanded="false"
+                        aria-controls="multiCollapseExample1">Sıkça Sorulan Sorular</h3>
+                    <ul class="paycell collapsible-content uxr-collapsible-contentv collapse multi-collapse"
+                        id="multiCollapse1">
+                        <div class="collapsible-content uxr-collapsible-content">
+                            <ul class="paycell">
+                                <li>Paycell’i iş yerime entegre etmek için ne yapmalıyım?</li>
+                            </ul>
+                            <p>Paycell.com.tr üzerinde Üye İş Yeri sekmesine tıklayarak üye iş yeri formunu doldurarak
+                                başvuruda bulunabilirsiniz.</p>
+                            <ul class="paycell">
+
+                                <li>Paycell ile müşterilerime hangi ödeme yöntemlerini sunabilirim?</li>
+
+                            </ul>
+                            <p>Kredi kartı, Paycell Card, Turkcell Faturasına Yansıtarak Ödeme (Turkcell Mobil Ödeme) ve
+                                Paycell Dijital Para seçeneklerinden biri ile müşterileriniz ödemesini yapabilir.</p>
+                            <ul class="paycell">
+
+                                <li>Mobil Ödemede müşterim faturasını ödemez ise ne olur?</li>
+
+                            </ul>
+                            <p>Müşteri faturasını ödedikçe ödemeler gerçekleştiği için fatura ödenene kadar ödeme size
+                                tahsil edilemeyecektir.</p>
+                            <ul class="paycell">
+
+                                <li>Faturasız hatlı müşterilerim de Mobil Ödeme kullanabilir mi?</li>
+
+                            </ul>
+                            <p>Faturasız hatlar da mobil ödemeyi kullanabilir. Ödemeleri TL bakiyelerinden düşer.</p>
+                            <ul class="paycell">
+
+                                <li>Paycell ile ödeme almak için sanal POS gerekli midir?</li>
+
+                            </ul>
+                            <p>Kartla ödemeler için iş yerinin sanal POS’unun bulunması gerekmektedir. Mobil Ödeme ve
+                                Dijital Para ile alacağınız ödemeler için sanal POS’a gerek yoktur.</p>
+                            <ul class="paycell">
+
+                                <li>Entegrasyon yöntemleriniz nelerdir?</li>
+
+                            </ul>
+                            <p><b>Paycell ile Öde( SDK):</b> Müşterileriniz ödeme adımına geldiğinde Paycell’in
+                                sayfasına yönlendirilerek Paycell deneyimi ile ödemelerini yaparlar. Ödeme sonrasında
+                                müşteriler, yine sizin sayfanıza yönlendirilirler.</p>
+                            <p><b>Paycell Cüzdan (API):</b> Paycell entegrasyonu arka planda yapılır ve siz müşteriye
+                                kendi cüzdanınızı sunuyormuş gibi kendi müşteri deneyiminizle ödeme alabilirsiniz.</p>
+                            <ul class="paycell">
+
+                                <li>Sadece kartla ödeme almak istiyorum. Diğer ödeme yöntemlerini almasam olur
+                                    mu?</li>
+
+                            </ul>
+                            <p>Evet isteğinize bağlı olarak sadece kartla ödeme açılabilir.</p>
+                            <ul class="paycell">
+
+                                <li>Sadece Mobil Ödeme yaptırmak istiyorum. Kartla ödemeyi kapatabilir miyim?
+                                </li>
+
+                            </ul>
+                            <p>Evet isteğinize bağlı olarak sadece mobil ödemeyi açılabilir.</p>
+                            <ul class="paycell">
+
+                                <li>İşlemler 3D Secure mu geçerler?</li>
+
+                            </ul>
+                            <p>Paycell kartlı ödemelerde 3D Doğrulama ile ödemeyi desteklemektedir. İşyerinin tercihine
+                                göre ödemeler 3D Doğrulama ile gerçekleştirilebilir.</p>
+                            <ul class="paycell">
+
+                                <li>Paycell nasıl çalışır?</li>
+
+                            </ul>
+                            <p>Paycell’e müşteriler sadece cep telefonu numaralarıyla girerler. Paycell ara yüzüne
+                                geldiklerinde de tüm kayıtlı ödeme araçları listelenir ve bunlardan birini seçerek
+                                işlemlerini gerçekleştirebilirler. Cüzdan çözümünü kullanan müşteriler için sadece cep
+                                telefonu numaralarını doğrulamanız ve kendi müşteri deneyiminizde kayıtlı kartla ödeme
+                                almanız mümkündür.</p>
+                            <ul class="paycell">
+
+                                <li>Paycell ile gerçekleştirilen işlemler iptal/iade edilebilir mi?</li>
+
+                            </ul>
+                            <p>Evet edilebilir.</p>
+                            <ul class="paycell">
+
+                                <li>Paycell’de saklanan kartları işbirliği sonunda alabilir miyim?</li>
+
+                            </ul>
+                            <p>Hayır. Kartlar Paycell alt yapısında saklandığı için iş birliği sonunda alamazsınız.</p>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Brand-->
+    <section class="brand pt-5 pb-5 text-center">
+        <div class="container-xxl mt-5 mb-5">
+            <div class="container mt-5 mb-5">
+                <div class="brands-title h1 mb-5"> Anlaşmalı Üye İş Yerleri</div>
+                <div class="brands-title-sub h3"></div>
+            </div>
+            <div class="swiper swiper_  mt-5 mb-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper swiper__wrapper">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="https://www.n11.com/ "><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/03/n11-logo.jpg"
+                                class="lazyloaded brand_logo"></a>
+                    </div>
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="https://www.turkcell.com.tr/"><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/01/turkcell.jpg"
+                                class="lazyloaded"></a>
+                    </div>
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="http://www.turkcellakademi.com/"><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/01/akademi.png"
+                                class="lazyloaded"></noscript>
+                        </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="http://www.shell.com.tr/"><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/01/shell.png"
+                                class="lazyloaded"></noscript>
+                        </a>
+                    </div>
+
+
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="http://www.itaksi.com/"><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/01/itaksi.png"
+                                class="lazyloaded"></noscript>
+                        </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 170px;">
+                        <a target="_blank" href="https://www.fulltrip.com/"><img
+                                src="https://paycell.com.tr/wp-content/uploads/2019/01/fulltrip.png"
+                                class="lazyloaded"></noscript>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+    <!--Video play-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="video" controls>
+                            <source src="https://paycell.com.tr/wp-content/uploads/2017/12/Paycell-SDK-Video.mp4.mp4"
+                                id="video" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Form-->
+    <div class="popup-form opened" id="register-popup">
+        <div class="popup-form-title"> <span class="icon-paper-plane"></span> ÜYE İŞ YERİ OLUN <span
+                class="icon-minus">-</span></div>
+        <div class="popup-form-content">
+            <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_2_container">
+                <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_js_validate "
+                    id="form_paycell-ile-odeme-alma">
+                    <div class="">
+                        <fieldset>
+
+                            <div class="frm_fields_container">
+
+                                <div class="mr-3 ml-3">
+                                    <label for="recipient-name" class="col-form-label">Ad Soyad:<span
+                                            class="frm_required">*</span></label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mr-3 ml-3">
+                                    <label for="recipient-name" class="col-form-label">Telefon:<span
+                                            class="frm_required">*</span></label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mr-3 ml-3">
+                                    <label for="recipient-name" class="col-form-label">Vergi Kimlik
+                                        Numarası:<span class="frm_required">*</span></label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mr-3 ml-3">
+                                    <label for="recipient-name" class="col-form-label">Şirket
+                                        Adı:<span class="frm_required">*</span></label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mr-3 ml-3">
+                                    <label for="recipient-name" class="col-form-label">İşyeri Adresi:<span
+                                            class="frm_required">*</span></label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                                <div id="frm_field_11_container"
+                                    class="frm_form_field mt-3 mb-3">
+
+                                    <div class="frm_opt_container" aria-labelledby="field_legal-conditions_label"
+                                        role="group">
+                                        <div class="frm_checkbox" id="frm_checkbox_11-0"><label
+                                                for="field_legal-conditions-0">
+                                                <input type="checkbox" name="item_meta[11][]"
+                                                    id="field_legal-conditions-0">
+                                                <span style="vertical-align: text-top"><a
+                                                        href="#legal-conditions">Yasal koşulları</a> okudum, kabul
+                                                    ediyorum.</span></label></div>
+                                    </div>
+                                </div>
+                                <div id="frm_field_12_container"
+                                    class="frm_form_field ">
+
+                                    <div class="frm_opt_container" aria-labelledby="field_kvk_label" role="group">
+                                        <div class="frm_checkbox" id="frm_checkbox_12-0"><label for="field_kvk-0"><input
+                                                    type="checkbox" name="item_meta[12][]" id="field_kvk-0">
+                                                <span style="vertical-align: text-top"><a 
+                                                        href="#kvk">Kişisel Verilerimin İşlenmesini</a> kabul
+                                                    ediyorum.</span></label></div>
+                                    </div>
+                                
+                                <div class="frm_submit"><button class="frm_button_submit" type="submit">BAŞVUR</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="pop-widget" data-popup-target="#register-popup" data-popup-hide="true"> ÜYE İŞ YERİ OLUN
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="../static-assets/js/main.js"></script>
+    <script src="../static-assets/js/uye-is-yerler.js"></script>
+
+</body>
+
+</html>

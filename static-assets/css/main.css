@@ -397,6 +397,20 @@ ul.paycell li:before {
         background: none !important;
        
     }
+    .modal-dialog {
+        width: 80% !important;
+        height: auto;
+        max-width: 400px;
+        margin: 25% auto;
+    }
+
+    .popup-form {
+        width: 90% !important;
+        height: 90%;   
+        right: 5% !important;
+        top: 2%;
+        
+    }
 }
 
 

@@ -80,3 +80,4 @@ function changeVisible(newId) {
     console.log(elem);
     elem.className += " show";
 }
+
