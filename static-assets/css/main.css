@@ -411,6 +411,13 @@ ul.paycell li:before {
         top: 2%;
         
     }
+    .col-header_label__34w_K{
+        display: none;
+    }
+    .footer-title{
+        width: 100%;
+        margin: 0px auto;
+    }
 }
 
 
