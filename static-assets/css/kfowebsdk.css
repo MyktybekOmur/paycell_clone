@@ -13,6 +13,9 @@ body{
     border-bottom: 1px solid rgba(34,36,38,.15);;
     box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
 }
+.mw-100{
+    
+}
 .col-header_label__34w_K {
     padding-left: 20px;
     font-size: 30px;
@@ -21,6 +24,7 @@ body{
 
 .col-main_drop__3yuYB {
     height: 50px!important;
+   
     max-width: 500px;
     margin: 25px auto;
     position: relative;
@@ -98,6 +102,5 @@ body{
 
 }
 .footer-title{
-    width: 70%;
-    margin: 0px auto;
+    margin: 0px auto !important;
 }

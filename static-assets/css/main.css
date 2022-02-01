@@ -418,6 +418,15 @@ ul.paycell li:before {
         width: 100%;
         margin: 0px auto;
     }
+    .nav_btn{
+        width: 35% !important;
+    }
+    .col-main_drop__3yuYB
+    {
+        width: 90% !important;
+        left: 0px !important;
+    }
+    
 }
 
 
