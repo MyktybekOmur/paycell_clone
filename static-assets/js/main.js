@@ -14,7 +14,23 @@ function hidden(idName) {
     console.log('1');
 }
 */
+//search place open close
+$('.search-btn').on('click',function() {
+   
+    
+    $(".flex").addClass(' hidden');
+    $(".navbar-nav").addClass(' hidden');
+    $(".search-wrapper").removeClass('hidden');
 
+});
+$('.search-close').on('click',function() {
+   
+    
+    $(".search-wrapper").addClass(' hidden');
+    $(".navbar-nav").removeClass(' hidden');
+    $(".flex").removeClass(' hidden');
+
+});
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
@@ -80,4 +96,6 @@ function changeVisible(newId) {
     console.log(elem);
     elem.className += " show";
 }
+
+
 

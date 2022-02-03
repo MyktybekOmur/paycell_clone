@@ -7,7 +7,7 @@ $('.removeSelect').on('click',function() {
     $(".visible").addClass('hidden');
 });
 
-  $('.empid').change(function (e) {
+$('.empid').change(function (e) {
     
     console.log($(e.target).val());
     if($(e.target).val()!="default")
@@ -24,6 +24,4 @@ $('.removeSelect').on('click',function() {
         $(".nav_btn").removeClass('selected');
         $(".removeSelect").addClass(' hidden');
     }
-        
-    
 });

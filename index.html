@@ -26,8 +26,8 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
@@ -85,13 +85,16 @@
                 <div class="flex">
                     <a href="kfowebsdk.html" target="_blank"
                         class="btn bg-white pay_btn mr-5">Fatura Öde</a>
-                    <a href="#"><img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53"
-                            alt=""></a>
+                    <a href="#" class="register-btn" >
+                        <img  src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53"
+                            alt="">
+                    </a>
+                    <a href="#" class="search-btn"><img class="icon-search" src="static-assets/img/icons/search.svg"></img></a>
                 </div>
-                <form class="d-flex">
+                <form class="d-flex search-wrapper hidden">
 
-                    <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>-->
+                    <input class="form-control me-2 search-place" type="search" placeholder="paycell.com.tr'de ara" aria-label="Search">
+                    <img class="search-close" src="static-assets/img/icons/x.png" alt="">
                 </form>
             </div>
         </div>
@@ -403,6 +406,15 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="static-assets/js/main.js"></script>
 </body>
 
