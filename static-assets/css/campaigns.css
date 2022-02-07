@@ -35,3 +35,77 @@
      margin-top: 1.5625rem;
      margin-bottom: 1.125rem;
  }
+
+ /*deatails*/
+ .campaign-info-title {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+.campaign-info p {
+
+    line-height: 1.4;
+    font-size: 1.125rem;
+    color: #1D1D1B;
+    margin-bottom: 1.9rem;
+}
+.campaign-info .where-available a {
+
+    font-size: 1.25rem;
+    margin-right: 10px;
+    color: #7F879F;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+.campaign-info .where-available a span {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 83px;
+    height: 83px;
+    padding: 20px;
+    border-radius: 200px;
+    margin-right: 0.625rem;
+    background: linear-gradient(
+136.47deg
+, #00CDFF 0%, #38C3FF 39.35%, #F9D247 84.76%);
+}
+
+.campaign-detail h2 {
+
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #1D1D1B;
+    margin-bottom: 2.1875rem;
+}
+.campaign-detail-list{
+    display: block;
+    list-style-type: circle;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left: 15px;
+    list-style-position: outside;
+
+}
