@@ -555,3 +555,54 @@ ul.paycell li:before {
     font-size: 1.25rem;
     color: #262626;
 }
+
+
+
+/*Search result*/
+.search-result-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.search-result-item-title{
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.search-result-item-link {
+    color: #19496f;
+}
+.search-result-item-img{
+   max-width: 100px;
+}
+.search-result-item-readmore {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: #18476c;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+[class*="icon-"] {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+[class^="icon-"]:before{
+font-family: "paycell";
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 1;
+text-transform: none;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
