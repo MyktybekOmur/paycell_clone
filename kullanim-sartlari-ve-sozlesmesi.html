@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static-assets/css/main.css">
+    <link rel="stylesheet" href="static-assets/css/footer-pages.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysell'le |</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png" alt=""
+                        width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-ds-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="hizmetler/" id="navbarDropdown" role="button"
+                                data-ds-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="hizmetler/istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a
+                                        Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-isteme.html">Para/Harclik
+                                        Iste</a>
+                                </li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-gonderme.html">Para/Harçlık
+                                        Gönde</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/fatura-odeme-hizmetleri.html">Fatura
+                                        Ödeme
+                                        Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/turkcell-tl-ve-paket-yukleme.html">Turkcell
+                                        TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="uye-is-yerleri/qr-ile-odeme-alma.html">Qr ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/uye-isyerleri.html">Paycell Android
+                                        Pos ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-sdk.html">Paycell SDK</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-api.html">Paycell API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sss.html" class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="kfowebsdk.html" target="_blank" class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#" class="register-btn">
+                            <img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53" alt="">
+                        </a>
+                        <a href="#" class="search-btn"><img class="icon-search"
+                                src="static-assets/img/icons/search.svg"></img></a>
+                    </div>
+                    <form class="d-flex search-wrapper hidden">
+
+                        <input class="form-control me-2 search-place" type="search" placeholder="paycell.com.tr'de ara"
+                            aria-label="Search">
+                        <img class="search-close" src="static-assets/img/icons/x.png" alt="">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-5">
+        <div class="container mt-5">
+
+
+            <div class="breadcrumb_conteiner mt-5">
+                <nav class="mt-3" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item last_b active" aria-current="page">Kullanım Şartları ve Sözleşmesi
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <section class="container pt-5 pb-3">
+        <div class="text"> <strong>ÇERÇEVE ÖDEME HİZMETLERİ ve ELEKTRONİK PARA SÖZLEŞMESİ</strong><strong>Madde 1.
+                Taraflar: </strong>İşbu Çerçeve Ödeme Hizmetleri ve Elektronik Para Sözleşmesi
+            (“<strong>Sözleşme</strong>”); TURKCELL ÖDEME ve ELEKTRONİK PARA HİZM. A.Ş.(“PAYCELL”) (Ticaret Sicil
+            Numarası: 439857 Mersis: 0212013362700018) Adres: MEŞRUTİYET CAD. NO:71 BEYOĞLU TEPEBAŞI İSTANBUL,
+            info-iletisim@turkcell.com.tr/turkcellodemeveeparahizmetleri.tebligat@hs03.kep.tr0850 622 60 60) ile
+            PAYCELL’den işbu Sözleşme kapsamında belirtilen ödeme hizmetlerini temin etmek üzere işbu Sözleşme’yi
+            akdetmiş ödeme hizmeti kullanıcısı (“Müşteri/Kullanıcı”) (PAYCELL ve Müşteri, ayrı ayrı “Taraf” ve birlikte
+            “Taraflar” olarak anılacaklardır.) arasında akdedilmiştir<strong>Madde 2. Tanımlar:&nbsp;</strong> Sözleşme
+            ve eklerinde aksi açıkça belirtilmedikçe aşağıdaki anlamlara gelmektedir.
+            “<strong>Alıcı</strong>” Ödeme ve/veya Elektronik Para işlemine konu fonun ulaşması istenen ve/veya
+            Müşteri’nin mal veya hizmet temin etmek üzere PAYCELL hizmetlerini kullanarak ödeme yaptığı gerçek veya
+            tüzel kişidir. “<strong>Çağrı</strong> <strong>Merkezi</strong>” Sözleşme’de aksi kararlaştırılmadıkça
+            Müşterinin her türlü destek/şikayet talebini karşılayan 08506226060 numaralı çağrı merkezidir.
+            “<strong>Elektronik Para</strong>” PAYCELL ve Temsilcilerinin kabul ettiği fon karşılığı ihraç edilerek
+            elektronik olarak saklanan ve Kanun kapsamında tanımlı ödeme işlemlerinin gerçekleştirilmesinde kullanılan
+            parasal değerdir. “<strong>Hassas Ödeme Verisi</strong>” Ödeme Emri’nin verilmesinde veya kimlik
+            doğrulamasında kullanılan, ele geçirilmesi veya değiştirilmesi halinde dolandırıcılık ya da sahte işlem
+            yapılmasına imkan verebilecek şifre, güvenlik sorusu, sertifika, şifreleme anahtarı ile PIN, kart numarası,
+            son kullanma tarihi, CVV, CVV2, CVC2 kodu gibi Ödeme Aracı’na ilişkin kişisel güvenlik bilgileridir.
+            “<strong>İş Günü”</strong> Resmi tatil günleri dışında Pazartesi-Cuma günleri arasıdır. <strong>“İşlem
+                Limiti”</strong> Tek seferde ve/veya aylık olarak (toplamda) Müşteri tarafından gerçekleştirilebilen
+            azami işlem tutarıdır.
+            “<strong>Kanun</strong>” 28690 sayılı ve 27 Haziran 2013 tarihli Resmi Gazete’de yayımlanan 6493 sayılı
+            Ödeme ve Menkul Kıymet Mutabakat Sistemleri, Ödeme Hizmetleri ve Elektronik Para Kuruluşları Hakkında
+            Kanunudur.
+            “<strong>Kurum</strong>” Türkiye Cumhuriyeti Merkez Bankası’dır. “<strong>Mevzuat</strong>” Kanun,
+            Yönetmelik ve ilgili sair düzenlemeleridir. <strong>“PAYCELL Hizmetleri</strong>” PAYCELL’in Kanun ve
+            ikincil düzenlemeleri uyarınca Kurum’dan aldığı yetkilendirme/izin ve kurum düzenlemelerinin sunumuna imkan
+            verdiği faaliyetler kapsamında Müşteri’ye sunduğu hizmetleri ifade eder. Bu kapsamda işbu Sözleşmede
+            Müşteri’nin Alıcı’dan/ürün/hizmet/servisler satıcısından aldığı ürün ve hizmet bedelleri, gecikme faizi, geç
+            tahsilat bedeli gibi ürün ve hizmet ile ilgili bedellerin; Müşteri’nin, PAYCELL’in temsilcisi olan bilişim
+            veya elektronik haberleşme işletmecisinin hizmet faturalarına yansıtarak veya ön ödemeli hat aboneleri için
+            hattında tanımlı olan mevcut TL’leri üzerinden yansıtarak tahsil etmesi ve Alıcı’ya/ Alıcının Ödeme Hizmet
+            Sağlayıcısı’na iletmesine imkan sağlayan ödeme hizmetini (“<strong>Mobil Ödeme</strong>”)veya Müşteri’nin
+            talimatı ile Kanun uyarınca Elektronik Para ihracını; ihraç edilen Elektronik Para vasıtası ile
+            ürün/hizmet/servis bedeli, gecikme faizi ve/veya geç tahsilat bedeli hizmet bedelinin tahsil edilerek
+            Alıcı’ya ve/veya Alıcı’ya aktarılmak üzere Ödeme Hizmeti Sağlayıcısı’na iletilmesine imkân sağlayan
+            hizmetler ile sadece ödeme hizmetinin sunulmasıyla ilgili olmak kaydıyla döviz alım satım işlemleri, ödeme
+            hizmetlerinin sunulması ile ilgili olan ve ödeme hizmeti sağlayıcılarının faaliyetlerini güvenli kılan ve
+            kolaylaştıran kart saklama, kart verilerinin işlenmesi, suiistimal ve dolandırıcılık önleme gibi ödeme
+            hizmetlerini tamamlayıcı nitelikte olan yan hizmetler ile ödeme hizmetleri ile ilgili eğitim ve danışmanlık
+            hizmetleri ile Kanunun 2 nci bölümünde yer alan hükümlere uyulması koşuluyla ödeme sistemlerinin işletilmesi
+            hizmetlerini Müşteri’ye sunabilir. PAYCELL Hizmetleri, ödeme talimatı anında/hizmet bazında Turkcell Mobil
+            Ödeme, Turkcell Faturalama, Turkcell Hattım ile Öde, Ön Ödemeli Kart/Paycell Kart ve benzeri adlarla da
+            adlandırılabilir. <strong>“Ödeme Aracı</strong>” Ödeme Emri’ni vermek için kullanılan, SMS alabilen,
+            Müşteri’ye ait cep telefonu, şifre ve benzeri kişiye özel aracıdır.
+            “Ödeme Emri” Müşteri tarafından ödeme işleminin gerçekleşmesi amacıyla verilen talimatıdır.
+            “<strong>Ödeme Hizmetleri</strong>” İşbu Sözleşme kapsamında Kanun’daki yetkilere dayanılarak PAYCELL
+            tarafından sağlanan ödeme ve Elektronik Para hizmetlerinin tamamıdır. <strong>“Ödeme Hizmeti
+                Sağlayıcısı”</strong> Mevzuat uyarınca gerekli izinlere sahip olup bu izinler çerçevesinde ödeme
+            hizmetleri sunan kuruluşlarıdır.
+            “<strong>Paycell Uygulaması/ Kart Saklama Hizmeti</strong>” kullanıcılara güvenli ve kolay çözümleri
+            sağlayan <span
+                style="display: inline !important; float: none; background-color: #ffffff; color: #191e23; cursor: text; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">platformdur.</span>
+            “<strong>Temsilci</strong>” Sözleşmede PAYCELL tarafından taahhüt edilen hizmetler kapsamındaki işlemlerin
+            gerçekleştirilebilmesi adına PAYCELL adına ve hesabına hareket eden ve <a
+                href="https://paycell.com.tr/bize-ulasin/"><u>https://paycell.com.tr/bize-ulasin/ </u></a> linkinde
+            bilgileri bulunan kişi/kişileri ifade eder.“<strong>Yönetmelik</strong>” 29043 sayılı ve 27 Haziran 2014
+            tarihli Resmi Gazete’de yayımlanan Ödeme Hizmetleri ve Elektronik Para İhracı ile Ödeme Kuruluşları ve
+            Elektronik Para Kuruluşları Hakkında Yönetmelik’i ifade eder.<strong>Madde 3. Sözleşme’nin Konusu:</strong>
+            PAYCELL tarafından Müşteri’ye Mevzuat uyarınca sunulacak PAYCELL Hizmetleri’nin kapsamının ve bu hizmetlere
+            ilişkin Taraflar’ın hak ve yükümlülüklerinin belirlenmesidir.<a name="_Toc415680021"></a><strong>Madde 4.
+                Hizmete ilişkin Düzenlemeler</strong>4.1 PAYCELL, Müşteri’ye, Sözleşme’nin onay imza tarihi itibariyle
+            Müşteri tarafından hizmete ilişkin gerekliliklerin yerine getirilmesi ile PAYCELL Hizmetleri aracılığı ile
+            Kanun’un 12. ve 18. maddeleri ve Kanun’a ilişkin ikincil düzenlemeler uyarınca gereken hizmet sunmayı
+            taahhüt etmektedir. PAYCELL, işbu Sözleşme kapsamında düzenlenen PAYCELL Hizmetleri’ni bizzat veya Temsilci
+            aracılığı ile vermeye yetkili olup, Mevzuat’ın izin verdiği ölçüde Sözleşme’de yer alan hak ve yetkiler ile
+            PAYCELL’in edimleri Temsilci tarafından yerine getirilebilecektir.4.2 Müşteri, PAYCELL tarafından belirlenen
+            İşlem Limiti üzerinde işlem gerçekleştiremeyeceğini kabul eder.4.3 Sözleşme kapsamında PAYCELL, Müşteri
+            tarafından kendisine doğru bir şekilde ve Yönetmelik’in 52(1) maddesi uyarınca iletilen bedellerin Alıcı
+            veya Alıcı’nın Ödeme Hizmeti Sağlayıcısı’na, ilgili taraf ile akdetmiş bulunduğu sözleşme kapsamında
+            belirtilen süreler içerisinde aktarılmasından sorumludur. PAYCELL bu sorumluluğunu yerine getirmediği
+            takdirde ödeme işleminin gerçekleşmemiş veya hatalı gerçekleşmiş kısmını gecikmeden Müşteri’ye iade
+            edecektir. Bu kapsamda Müşteri’nin herhangi bir faiz veya ücret ödemesinin söz konusu olması halinde, ilgili
+            tutarlardan PAYCELL sorumlu olacaktır. Tüketiciler Hakkında: işbu Sözleşme kapsamındaki hizmetlerin ayıplı
+            sunulması halinde Müşteri hizmetin yeniden görülmesi, hizmet sonucu ortaya çıkan ayıbın giderilmesi, ayıp
+            oranında indirim veya Sözleşme’den dönme haklarından birini kullanmakta serbesttir.4.4 Müşteri, PAYCELL
+            nezdinde oluşturulacak kullanıcı hesabına gerekse hesabın ilintili olduğu Ödeme Aracı’na ve Hassas Ödeme
+            Verileri’ne 3. kişilerin erişmesine hiçbir şekilde izin vermeyecek, bunların güvenliğini sağlamaktan bizzat
+            sorumlu olacaktır. Müşteri ayrıca, kullanıcı hesabına ilişkin kullanıcı adı ve şifresi gibi bilgiler dahil
+            ve bu sayılanlarla sınırlı olmaksızın Ödeme Aracına ve Hassas Ödeme Verilerine ilişkin bilgileri hiçbir
+            şekilde 3. kişilere açıklamayacağını, kullandırmayacağını ve bu bilgileri kendisine verilme amacı dışında
+            kullanmayacağını kabul eder. Kullanıcı, PAYCELL’ın herhangi bir kusuru olmaksızın yetkisi olmayan kişiler
+            tarafından gerek Ödeme Aracı’nın gerek Hassas Ödeme Verileri’nin gerekse kullanıcı adı ve şifrenin
+            kullanılması ve/veya verilen amaç dışında kullanımı nedeniyle ortaya çıkabilecek zararlara ilişkin olarak
+            4.5.2 maddesinde belirtilen şekilde sorumluluğunun söz konusu olacağını kabul, beyan ve taahhüt eder. Ödeme
+            Aracı’nın kaybolması, çalınması veya Müşteri’nin iradesi dışında gerçekleşmiş bir işlemin öğrenilmesi
+            halinde, Müşteri durumu Çağrı Merkezi aracılığı ile derhal PAYCELL’a bildirmekle yükümlüdür.4.5
+            Hatalı/Yetkisiz İşlemler:4.5.1 Herhangi bir işleme ilişkin olarak PAYCELL’a yetkisiz veya hatalı işlem
+            bildiriminde bulunulduğu takdirde, derhal ve her halükarda ödeme işleminin gerçekleştirilmesini takip eden
+            13 (onüç) ay içerisinde düzeltme talebinde bulunabilecektir. Bu durumda ilgili işlem bedeli Alıcı veya
+            Alıcı’nın Ödeme Hizmeti Sağlayıcısı’na aktarılmayarak PAYCELL tarafından doğrudan Müşteri’ye iade
+            edilecektir. Bahsi geçen bildirimin yapıldığı tarih itibariyle ilgili işlem bedeli Alıcı veya Alıcı’nın
+            Ödeme Hizmeti Sağlayıcısı’na aktarılmış ise, PAYCELL ilgili tutarları Alıcı veya Alıcı’nın Ödeme Hizmeti
+            Sağlayıcısı’ndan iade talep ederek Müşteri’ye aktarır. Paycell Kart harcama itirazlarında geri ödeme
+            taleplerinin değerlendirilmesi 45 (kırkbeş) ile 180 (yüzseksen) gün arası sürebilir. Uluslararası VISA /
+            MasterCard kuralları ve yurtiçinde Bankalar arası Kart Merkezi prosedürleri ile işlemine ilişkin ürün türü,
+            işlemin yapılma yeri, işlemin yapılma şekli, kartın işlemde fiziksel olarak kullanılıp/kullanılmadığı göre
+            süre değişkenlik gösterebilir.4.5.2 Kayıp veya çalıntı bir Ödeme Aracı’nın kullanılması ya da kişisel
+            güvenlik bilgilerinin gereği gibi muhafaza edilmemesi nedeniyle Ödeme Aracı’nın başkaları tarafından
+            kullanılması durumunda, Müşteri yetkilendirmediği ödeme işlemlerinden doğan zararın 150 Türk Lirası’na kadar
+            olan bölümünden sorumludur. Müşteri, 4.4 maddesi uyarınca yaptığı bildirimden sonra gerçekleşen
+            yetkilendirmediği ödeme işlemlerinden sorumlu olmayacaktır. Bununla birlikte, Müşteri, Ödeme Aracı’nı hileli
+            kullanması ve 4.4 maddesindeki yükümlülüklerini kasten veya ağır ihmalle yerine getirmemesi durumunda
+            yetkilendirilmemiş işlemden doğan zararın tamamından sorumlu olacaktır.4.5.3 Gerek Alıcı ve/veya Alıcı’nın
+            Ödeme Hizmeti Sağlayıcısı, gerekse PAYCELL, yetkisiz işlemin varlığına (herhangi bir Ödeme Aracı’nı kullanan
+            kişinin o yetkili kişi olmadığı veya işlemi gerçekleştirmek için bilgileri bulunan kişi olmadığına) ilişkin
+            haklı bir kanaati oluşursa Müşteri’nin yetkilendirmelerini inceleyerek hileli işlem şüphesi halinde ödemeyi
+            kabul etmeyebilecektir. Müşteri bu durumda herhangi bir talep hakkının söz konusu olmayacağını kabul
+            eder.4.5.4 Hatalı ve yetkisiz işlem sebebiyle Alıcı ve/veya Alıcı’nın Ödeme Hizmeti Sağlayıcısı’ndan bedelin
+            geri alınması halinde PAYCELL’ın işlemden doğan zararına ilişkin tutar, ilgili bedelden mahsup
+            edilebilecektir. Müşteri, hatalı ve yetkisiz işlemleri derhal Çağrı Merkezi üzerinden PAYCELL’a veya mobil
+            haberleşme sağlayıcısı konumundaki Temsilcisi’ne bildirmekle yükümlüdür.4.5.5 Alıcı tarafından başlatılan
+            işlemlerde geri ödeme:Müşteri, ilgili ödeme işleminin gerçekleştirildiği tarihten itibaren 2 (iki) ay
+            içinde, Alıcı tarafından yetkilendirilmiş veya Alıcı aracılığıyla başlatılan ödeme işleminde yetkilendirme
+            sırasında ödeme işlemine ilişkin tutarın tam olarak belirtilmemesi ve gerçekleşen ödeme işlemi tutarının,
+            harcama geçmişi, sözleşme şartları ve ilgili diğer hususlar dikkate alınarak öngörülen tutarı aşması
+            halinde, ilgili mal veya hizmetin tüketilmemiş olması kaydı ile ödeme işlemi tutarı kadar geri ödeme
+            yapılmasını talep edebilir. PAYCELL, Müşteri’den talebine ilişkin gerçeğe dayalı kanıtlar sunmasını talep
+            hakkına sahiptir. Ancak ödeme işlemine ilişkin onayın doğrudan PAYCELL’a verilmesi veya ödemenin
+            gerçekleştirilmesi gereken tarihten en az 1 (bir) ay önce Müşteri’ye bildirimde bulunulması hallerinde,
+            Müşteri ilgili ödeme işlemi için herhangi bir geri ödeme talep edemez. Bu madde uyarınca geri ödeme
+            talebinde bulunulabilen hallerde PAYCELL, 10 (on) İş Günü içerisinde ödemeyi yapacak veya ret kararını
+            nedenleri ile birlikte, Müşteri’nin başvurabileceği hukuki yolları da göstererek bildirecektir.4.6 Sözleşme
+            kapsamında gerçekleştirilen ödeme işlemlerine ilişkin aşağıda belirtilen bilgiler, her bir işlem sonrasında
+            yasal süre içinde işlem türüne göre SMS yolu ile ya da kullanıcı hesabı üzerinden veya Müşteri bilişim veya
+            elektronik haberleşme işletmecisi faturasında veya kullanıcısında ya da ÖKC ve POS cihazlarından çıkacak
+            slipler veya SMS veya <strong>Paycell</strong> <strong>Uygulaması</strong> aracılığı ile işlem tarihinden
+            itibaren en geç 1 ay sonra Müşteri ile paylaşılacaktır:4.6.1 Ödeme işlemine özgü referans bilgisi ve
+            Alıcı’ya ilişkin bilgi,4.6.2 Müşteri’nin ödeme hesabının borçlandırıldığı para birimi veya ödeme emrinde
+            belirtilen para birimi cinsinden ödeme işlemi tutarı,4.6.3 Ödeme işlemi için Müşteri tarafından ödenecek
+            toplam ücret ve ücretlerin dökümü4.6.4 Varsa ödeme işleminde uygulanan döviz kuru bilgisi ve bu döviz kuru
+            kullanılarak hesaplanan ödeme işleminin tutarı4.6.5 Ödeme Emri’nin alındığı veya Müşteri’nin hesabının
+            borçlandırıldığı tarihe ilişkin bilgi4.7 PAYCELL, Alıcı veya Alıcı’nın Ödeme Hizmeti Sağlayıcısı’na sadece
+            Müşteri’den tahsil edilebilen ve işbu Sözleşme, ilgili mevzuat hükümleri ile kural ve uygulamalar
+            doğrultusunda Müşteri’ye iade edilmeyen tutarların aktarımından sorumludur. Müşteri, Alıcı ve/veya Alıcı’nın
+            Ödeme Hizmeti Sağlayıcısı’nın herhangi bir nedenle Müşteri’den tahsil edilemeyen tutarlara ilişkin doğrudan
+            kendisinden talepte bulunabileceğini ve bu kapsamda PAYCELL’ın herhangi bir sorumluluğunun söz konusu
+            olmayacağını kabul eder.4.8 Müşteri’nin PAYCELL Hizmetleri’ni kullanarak Alıcı’dan temin ettiği mal veya
+            hizmet yahut bunların temin veya teslimi ile ilgili PAYCELL’ın herhangi bir sorumluluğu bulunmamaktadır. Mal
+            veya hizmetin yasalara ve ahlaka uygun olmasını ve eksiksiz olarak temin veya teslim edilmesini sağlamak
+            ilgili mal veya hizmetin sağlayıcısının yükümlülüğündedir. Müşteri, mal veya hizmetin sağlayıcısı ile
+            arasında çıkabilecek her türlü ihtilafta PAYCELL’ın taraf olmadığını; burada sayılanlarla sınırlı
+            olmaksızın, işleme itiraz etmesi, mal veya hizmeti iade talep etmesi, ayıplı mal veya hizmet iddiasında
+            bulunması dahil Tüketicinin Korunması Hakkında Kanun, Borçlar Kanunu ve ilgili mevzuata dayanan taleplerini
+            doğrudan ilgili mal veya hizmetin sağlayıcısına ileteceğini, bu kapsamda doğacak talep, itiraz, soru, sorun,
+            şikayet ve benzeri hallerde PAYCELL’ın herhangi bir sorumluluğu bulunmadığını kabul, beyan ve taahhüt eder.
+            Müşteri tarafından satın alımı gerçekleştirilen mal ve/veya hizmetlere ilişkin faturayı/fişi doğrudan mal
+            ve/veya hizmeti temin eden Alıcı kesecek olup, Müşteri bu kapsamda PAYCELL’ın herhangi bir sorumluluğunun
+            söz konusu olmadığını kabul eder.4.9 PAYCELL, Sözleşme kapsamında tahsil edilen tutarlara faiz işletmeyecek
+            yahut mal veya hizmet alımından kaynaklanan ödeme işleminin gerçekleştirilmesi amacıyla herhangi bir ödeme
+            hesabına bağlı Ödeme Aracı ihracında bulunmayacak, kredi verme, taksitlendirme, tahsil edilemeyen tutarlara
+            ilişkin ödeme veya ödeme garantisi verme yahut bu anlama gelecek faaliyetler gerçekleştirmeyecektir.
+            Müşteri, Mobil Ödeme’ye konu tutarları mobil iletişim faturasını son ödeme tarihinde ödememesi halinde söz
+            konusu tutarın Dgbuys Bilişim ve Müşteri Hizmetleri Anonim Şirketi (“Halef”) tarafından Alıcı’ya
+            ödenebileceğini, bu hususta Alıcı, PAYCELL’e itirazda/hak alacak talebinde bulunmayacağını kabul eder.
+            Halef’in bu şekilde ödeme yapması durumunda Alıcı’nın alacak haklarına 6098 sayılı Türk Borçlar Kanunu’nun
+            127. maddesi uyarınca halef olacağını, bu kapsamda alacak hakkından kaynaklanan her tülü talep ve takip
+            haklarının halef tarafından kullanılacağını bildiğini ve bu hususta herhangi bir itirazı olmadığını beyan ve
+            kabul eder. İşbu madde Halef’in mobil iletişim faturasında yer alan ve son ödeme tarihinde ödemeyen mobil
+            ödemeye konu tutarı Alıcı’ya ödeyeceğine ilişkin Müşteri’ye bir taahhütte bulunduğu şeklinde
+            yorumlanamaz.4.10 PAYCELL Hizmetleri’nin kullanılabileceği mecralar ile PAYCELL Hizmeti kullanılarak temin
+            edilebilecek mal ve hizmetler, Mevzuat uyarınca münhasıran PAYCELL tarafından belirlenmektedir. PAYCELL bu
+            mecraları, mal ve/veya hizmetleri dilediği zamanda herhangi bir bildirim yükümlülüğü söz konusu olmaksızın
+            değiştirebilecektir.4.11 Müşteri, işbu Sözleşme kapsamında sunulan hizmetleri yasalara ve ahlaka aykırı
+            amaçlarla, yasalara veya ahlaka aykırı ürün veya hizmetlerin temini amacıyla kullanmamayı kabul, beyan ve
+            taahhüt eder. Müşteri’nin işbu madde başta olmak üzere işbu Sözleşme’ye aykırılığı halinde PAYCELL aykırılık
+            giderilene kadar Sözleşme ve Sözleşme kapsamında sağladığı hizmetleri askıya alabilecektir.4.12 Müşteri’den
+            PAYCELL Hizmetlerini yararlanması karşılığında tahsil edilecek tutarlar işbu Sözleşme’nin dijital ortamda,
+            tablet üzerinden akdedilmesi halinde <a
+                href="https://paycell.com.tr/ticari-kurallar/">https://paycell.com.tr/ticari-kurallar/</a> ’da,
+            düzenlenmektedir.<strong>Madde 5. Hizmet Süreçleri</strong>5.1 Müşteri tarafından işbu Sözleşme kapsamında
+            <a href="https://paycell.com.tr/ticari-kurallar/">/https://paycell.com.tr/ticari-kurallar/</a>‘da belirtilen
+            yöntemler ile PAYCELL Hizmetlerini sunmaktadır. Bahsi geçen yöntemlerin kapsam ve içeriği, bu yöntemlerle
+            hizmet sunulmasına devam edilmesi, yeni yöntemler eklenmesi veya bazı yöntemlerin kullanılmamasına karar
+            verilmesi münhasıran PAYCELL takdirinde olacaktır.5.2 Müşteri, PAYCELL Hizmetlerinden PAYCELL nezdinde
+            oluşturacağı kullanıcı hesabı aracılığı ile veya PAYCELL’tan ilgili süreçleri tamamlayarak edineceği bir
+            ödeme aracı ile faydalanabilecektir. Müşteri, Turkcell İletişim Hizmetleri A.Ş. nezdindeki hattının mobil
+            ödeme işlemlerine açılabilmesi için ayrıca onay vermesi gerektiğini, var ise Paycell Kart’ın kullanıma ve
+            internet alışverişine açık bir şekilde açılacağını kabul eder. Müşteri, hattının Mobil Ödemeye açılması ile
+            ilgili kendisinden talep edilen adımları tamamlamakla ve Sözleşme’nin yürürlükte kaldığı süre boyunca
+            hattının açık olmasını teminle yükümlü olup, bunu yapmadığı takdirde bazı PAYCELL Hizmetlerinden
+            faydalanamayacağını bilmekte ve kabul etmektedir. Hatta bağlı olmayan Ödeme Aracı ile yapılan işlemler bu
+            hükümden müstesnadır.5.3 Müşteri, Elektronik Para ihracı talebinde bulunması halinde PAYCELL, SMS, uygulama
+            aktivasyon ve varsa ön ödemeli karta para yapılacak bakiye yükleme işlemi dahil öngördüğü yöntemlerle talep
+            edilen fon tutarı kadar Elektronik Para ihraç edecek ve bu tutarı Müşteri’nin kullanımına sunacak akabinde
+            ihraç etmiş olduğu Elektronik Para karşılığında almış olduğu fon tutarını gösterir
+            dekontu/slip/bilgilendirme SMS’i Müşteri’ye iletecektir.Sözleşmenin 13.6 maddesi uyarınca aksi Müşteri
+            tarafından yazılı olarak belirtilmedikçe ve hatta bağlı olmayan Ödeme Aracı’nın söz konusu olmadığı haller
+            için Elektronik Para’nın hak sahibi, hattın yasal sahibi olarak kabul edilir. Aksi durumlarda kullanıcının
+            PAYCELL’a bilgi vermesi ve Müşteri Tanıma prosedürünü kapsamında gerekli kimlik tespiti ve/veya bilgi
+            temininin tamamlaması PAYCELL tarafından talep edilebilecektir. Aktivasyon işlemi yapılmayan Elektronik Para
+            ürünlerinin kayıp, çalıntı veya 3. Kişilerce ele geçirilmesi sorumluluğu tamamen mülkiyeti elinde bulunduran
+            kişiye aittir, PAYCELL’in bu durumdaki kayıp ve zarardan herhangi bir sorumluluğu bulunmamaktadır.
+            Aktivasyon işlemi esnasında PAYCELL, Müşteriden TCKN, Ad, Soyad kimlik tespitine ilişkin bilgileri talep
+            edebilir ve bu bilgilerin verilmemesi halinde aktivasyon işlemini tamamlamayabilir. Elektronik para,
+            aktivasyon yapılmaksızın paraya çevrilemez, iade edilemez, değiştirilemez.Müşteri, PAYCELL Çağrı Merkezi
+            üzerinden herhangi bir zamanda Elektronik Para’nın kısmen veya tamamen fona çevrilmesi talebinde
+            bulunabilecektir. PAYCELL, mevzuatta aksi yönde bir hak veya yükümlülüğü bulunmadığı sürece, Müşteri’nin bu
+            talebi üzerine PAYCELL tarafından talep edilecek IBAN numarası dahil tüm bilgilerin PAYCELL’a eksiksiz
+            olarak iletilmesini ve gerekli olması durumda yasal yükümlülüklerin yerine getirilmesini takiben 7(yedi)
+            işgünü içerisinde Elektronik Para karşılığı kadar fonun Müşteri tarafından iletilen IBAN numaralı hesaba
+            aktarımına ilişkin işlemleri gerçekleştirecektir. Bu iadelerde, iade yapılacak IBAN bilgisinin hat sahibine
+            ait olması şartı aranacaktır.Müşteri tarafından iadesi talep edilen tutarın ve/veya aylık bakiye ve/veya
+            kullanım tutarının yürürlükteki mevzuat ile öngörülen rakamsal sınırların üzerinde olması halinde, iade için
+            PAYCELL tarafından gösterilecek lokasyonlara giderek veya PAYCELL’ın önerdiği başka bir yöntem ile kimlik
+            tespiti yaptırması gerekeceğini, aksi halde kendisine bir iade yapılmasının söz konusu olmayacağını kabul
+            eder. PAYCELL, kimlik tespiti işlemi tamamlanana kadar Elektronik Para kullandırılma hizmetini kısa süreli
+            kesintiye uğratma hakkına sahiptir. Fona çevirme durumunda Müşteri’nin PAYCELL’e veya Turkcell İletişim
+            Hizmetleri A.Ş.’ye bir borcu olması halinde PAYCELL’a talimat verilmesi halinde, söz konusu bedel
+            Müşteri’nin Elektronik Para’sından mahsup edilecek ve kalan tutar (varsa) Müşteri’ye iade edilecektir.
+            Müşterinin GSM hattını devretmesi, iade etmesi vb. durumlarda işlem öncesi Elektronik Para bakiyesini tahsil
+            etmesi ve değişikliği PAYCELL’e bildirmesi zorunludur. PAYCELL, ürün/servis ve hizmetlere ilişkin
+            mevzuattaki bildirim süresine uyarak tüm ücretleri güncelleme hakkını saklı tutar.5.4 PAYCELL Hizmetleri
+            üzerinden üye işyerlerinde yapılacak tüm ödemeler öncelikli olarak mevcut olması halinde Elektronik Para’dan
+            tahsil edilecek olup Elektronik Para tutarı bulunmadığı takdirde ücretlendirme Mobil Ödeme ile Turkcell
+            Mobil İletişim Hizmet faturaları veya ön ödemeli hat aboneleri için hattında tanımlı olan mevcut TL’leri
+            üzerinden gerçekleştirilecektir.5.5 Ödeme işlemi, Müşteri tarafından ödeme işleminin gerçekleştirilmesi için
+            PAYCELL’ın ileteceği doğrulama kodunun ilgili alana girilmesi vb. yöntemlerle onay verilmesi ile
+            yetkilendirilmiş kabul edilecektir. Müşteri, ancak aşağıda 5.6 maddesinde belirtilen sürelerde onayını geri
+            alabilecektir.5.6 Müşteri, Ödeme Emri’nin PAYCELL’a ulaştığı anda Ödeme Emri’nin kabul edilmiş
+            addedileceğini ve bu an itibariyle Ödeme Emri’ni geri alma imkanı bulunmayacağını kabul eder. Ödeme Emri’nin
+            İş Günü dışında PAYCELL’e ulaşması halinde, takip eden ilk İş Günü ulaşmış sayılır. Müşteri,5.6.1 Ödeme
+            işleminin Alıcı tarafından veya Alıcı aracılığıyla başlatıldığı durumlarda, Ödeme Emri’ni PAYCELL’a
+            ilettikten veya ödeme işleminin gerçekleştirilmesi için onay verdikten sonra Alıcı’nın aksi yönde mutabakatı
+            olmadığı sürece Ödeme Emri’ni geri alamayacağını,5.6.2 Ödemenin belirli bir günde, belirli bir dönemin
+            sonunda veya Müşteri’nin ödemeye ilişkin fonları PAYCELL’ın tasarrufuna bıraktığı günde
+            gerçekleştirilmesinin kararlaştırıldığı hallerde Ödeme Emri’ni en geç ödeme işleminin gerçekleştirilmesi
+            için kararlaştırılan günden önceki iş gününün sonuna kadar geri alabileceğini kabul eder.5.6.3 Müşteri’nin
+            yukarıda belirtilen şekilde Ödeme Emri’ni geri alması halinde TÖHAŞ işlemi EK-1 / <a
+                href="https://paycell.com.tr/ticari-kurallar/">https://paycell.com.tr/ticari-kurallar/</a>’de belirtilen
+            şekilde ücretlendirecektir.5.6.4 Müşterilerin, Paycell Hizmetleri’nden faydalanması dolayısıyla her türlü
+            kazanım ve bilgilendirmeleri Paycell Uygulaması veya paycell.com.tr’den yapılır.5.7 PAYCELL’ın, Sözleşme ve
+            eklerini tek taraflı olarak değiştirme, güncelleme hakkı saklıdır. Ancak PAYCELL, söz konusu değişiklikler
+            yahut mevzuat ile belirlenen/belirlenecek yükümlülükler kapsamında uygulamada yapılacak değişiklikler işbu
+            Sözleşme koşullarında bir değişikliğe sebep olacak ise, Müşteri’ye ilgili değişikliğin yürürlüğe girmesinden
+            30 (otuz) gün öncesinde bildirimde bulunur. Müşteri’nin bu bildirimle birlikte Sözleşme’yi fesih hakkı
+            saklıdır. Müşteri, Sözleşme’ye ilişkin 30 (otuz) günlük süre içinde Paycell kanallarından fesih bildiriminde
+            bulunmaması halinde, ilgili değişikliği kabul edilmiş sayılacaktır. Herhangi bir değişiklik için ilgili
+            mevzuatta 30 (otuz) günden daha kısa süre verilmesi halinde bu husus da Müşteri’ye iletilecek bildirimde
+            belirtilecek ve işbu maddede belirtilen süre yerine mevzuatın öngördüğü süre uygulanacaktır.5.8 Müşteri,
+            işbu Sözleşme kapsamında gerçekleştirdiği her türlü işleme ilişkin bilgi ve dokümantasyonun Sözleşme
+            kapsamındaki hizmetlerin gerçekleştirilmesi amacı ile PAYCELL tarafından Temsilci ile paylaşılabileceğini
+            kabul ve beyan eder. Müşteri’ye ait bilgiler ayrıca PAYCELL tarafından yasal yükümlülüklerinin yerine
+            getirilmesi amacıyla ilgili kurum ve kuruluşlarla paylaşılabilecek ve/veya anonim hale getirilerek
+            kullanılabilecektir. Müşteri, Kurum veya sair kurum ve kuruluşlar tarafından yürürlükte bulunan düzenlemeler
+            kapsamında talep edilebilecek bilgi ve belgeleri derhal PAYCELL ve/veya ilgili kuruma teslim ve ibraz etmeyi
+            kabul ve taahhüt eder.5.9 Müşteri, operatör nezdindeki GSM hattını devretmesi veya kapatılması öncesinde
+            Dijital/Elektronik Para bakiye iade talebini PAYCELL’a yazılı olarak iletmelidir.5.10 Müşteri, Turkcell
+            tarifeleri ile birlikte veya tekil olarak sunulan 3. Kişilere ait mal ve hizmetlerde, hattı mobil ödemeye
+            kapalı olsa dahi, abone olunan tarife gereğince bu hizmetlerin ücretlerinin PAYCELL aracılığıyla tahsil
+            edileceğini, işbu Sözleşmeyi feshetmesi ve/veya hattının mobil ödeme kapatılmasını talep etmesi halinde
+            tarife değişikliği yapması gerekeceğini kabul eder.<strong>Madde 6. Mali Hükümler</strong>6.1 Müşteri, işbu
+            Sözleşme kapsamında sağlanan hizmetler karşılığında&nbsp;<a
+                href="https://paycell.com.tr/ticari-kurallar/">https://paycell.com.tr/ticari-kurallar/</a>&nbsp;’de
+            belirtilen koşullarla tutarları ödeyecektir. Bu ödeme, Müşteri’nin hizmeti kullanmaya başlaması ile
+            birlikte, tahsil edilmeye başlanacaktır. İlgili tutarlar PAYCELL tarafından güncellenebilecek olup, Müşteri,
+            işbu Sözleşme uyarınca kendisine yapılan bildirimi müteakip söz konusu değişiklik nedeniyle Sözleşme’yi
+            feshetmediği takdirde hizmeti kullandığı sürece güncel hizmet bedelinin yukarıda belirtilen şekilde
+            kendisinden tahsil edileceğini kabul eder.Müşteri’nin Mobil Ödeme işlemlerinde mal ve hizmet bedelleri ile
+            PAYCELL hizmet bedelinin geç tahsilinden kaynaklı olarak <a
+                href="https://paycell.com.tr/ticari-kurallar/">https://paycell.com.tr/ticari-kurallar/</a>&nbsp;’de
+            belirtilen koşullarla geç tahsilat bedeli ödeyecektir.6.2 Müşteri’nin Paycell Hizmetleri yoluyla Satıcı’dan/
+            Fonun Alıcısından aldığı mal ve hizmetlere ilişkin ücretler ve bu ücretlerin tahsilatına ilişkin koşullar
+            Satıcı tarafından belirlenmekte olup Müşteri bu hususta PAYCELL’in herhangi bir yetki veya sorumluluğunun
+            söz konusu olmadığını kabul eder. İşbu Sözleşme’ye konu ödemeler, Türk Lirası cinsinden yapılacaktır.6.3
+            İşbu Sözleşme kapsamında yapılacak tek seferlik işlemlerin ve aylık toplamda yapılan işlemlerin İşlem
+            Limiti, kimlik teyidi yapılmamış müşteriler için limitler 5549 s. Kanun ve ikincil düzenlemelerinde
+            belirtildiği şekildedir.
+            6.4 Müşteri, Alıcı’ya ödemekle yükümlü olduğu tutarları kısmen veya tamamen zamanında ödememesi nedeniyle
+            Alıcı tarafından mevzuata uygun şekilde tahakkuk ettirilecek gecikme faizinin de PAYCELL Hizmetleri
+            aracılığı ile ödeneceğini, Alıcı’nın bu yöndeki talimatına istinaden Müşteri’den ilgili tutar tahsil
+            edilecek olup bu husus Sözleşme’ye aykırılık teşkil etmemektedir. Faiz tutarı, Alıcı tarafından belirlenecek
+            olup Müşteri, bu kapsamda PAYCELL’den herhangi bir talepte bulunamayacağını, faiz işletilmesi veya miktarı
+            ile vb. konulara ilişkin taleplerini doğrudan Alıcı’ya yöneltmesi gerektiğini kabul eder.6.5 İşleme göre ön
+            ödemeli kartın (Paycell Kart) tavsiye edilen satış tutarı, Paycell Kart özelinde değişiklik gösteren
+            ücretler, Müşteri Paycel Card kullanım ücreti, Paycell Kart’a TİM’lerden yapılacak para yüklemelerinde,
+            anlaşmalı ATM’lerden yapılan para yüklemelerinde farklılaşan ücretler, anlaşmalı ATM’lerden yapılacak
+            elektronik para iadesi/para çekimi ücretleri, Paycell mobil uygulama üzerinden kart ile bakiye yükleme
+            işlemi için işlem başına belirli aralıkta alınacak ücretler ve komisyon oranları, havale ile bakiye yükleme
+            işlemlerinde işlem başına alınacak ücretler, Paycell mobil uygulaması ve Paycell altyapısını kullanarak para
+            transferi hizmeti sunan diğer platformlardan yapılacak para transferinde işlem başına alınacak ücretler,
+            elektronik paranın fona çevrilmesi halinde alınacak ücretler ve sair tüm ödemeler açıkça
+            belirtilmektedir.Madde 7. Tazminat:&nbsp;Müşteri, işbu Sözleşme ile yürürlükte bulunan düzenlemelere aykırı
+            hareket etmesi nedeniyle PAYCELL’ın mahkum edileceği ve/veya maruz kalacağı her türlü ceza, masraf ve
+            tazminat vb. mali yükümlülükleri karşılayacağını kabul, beyan ve taahhüt eder.<strong>Madde 8. Sözleşme’nin
+                Süresi:</strong>&nbsp;Sözleşme, imza tarihinde yürürlüğe girecek olup Taraflarca Sözleşme’de belirtilen
+            şekilde feshedilmediği sürece yürürlükte kalacaktır.<strong>Madde 9. Sözleşme’nin Feshi</strong>9.1 PAYCELL,
+            herhangi bir zamanda 2 (iki) ay öncesinde yapacağı yazılı bildirimle Sözleşme’yi herhangi bir tazminat
+            ödemeksizin feshedebilecektir. Müşteri ise, Sözleşme’yi herhangi bir nedene dayanmaksızın feshetmek istediği
+            takdirde bu durumu 1 (bir) ay öncesinden PAYCELL’e bildirecektir.9.2 Taraflar’dan birinin sözleşmesel
+            yükümlülüklerini ihlal etmesi ve ihlalin düzeltilmesine ilişkin olarak karşı Tarafça iletilen talebe rağmen
+            ilgili ihlalin 7 (yedi) iş günü hafta içerisinde düzeltilmemesi halinde, Sözleşme ihtarı gönderen Tarafça
+            yazılı olarak iletilecek bir ihbarla derhal tazminat ödemeksizin feshedebilir. İhlalin Müşteri’den kaynaklı
+            olması durumunda PAYCELL bu süre içerisinde aykırılığın giderilmemesi halinde kendi tercihine göre geçici
+            olarak Sözleşme’yi askıya alma hakkını da kullanabilecektir.9.3 Müşteri’nin işbu Sözleşme kapsamında sunulan
+            hizmetleri yasalara ve ahlaka aykırı amaçlarla, yasalara veya ahlaka aykırı ürün veya hizmetlerin temini
+            amacıyla kullandığının tespit edilmesi halinde işbu Sözleşme PAYCELL tarafından herhangi bir ihbar süresi
+            verilmeksizin derhal feshedilebilecektir.
+            9.4 PAYCELL’in Kanun kapsamında Kurum’dan temin ettiği iznin iptali veya sona ermesi halinde işbu Sözleşme
+            PAYCELL’in yapacağı bildirime istinaden PAYCELL tarafında herhangi bir tazminat yükümlülüğüne neden
+            olmaksızın feshedilecektir.
+            9.5 Sözleşme kapsamında hileli veya yetkisiz kullanım şüphesinin ve benzeri durumların söz konusu olduğu
+            hallerde PAYCELL Müşteri’ye sunduğu hizmetleri askıya alabilecek, Ödeme Aracı’nı kullanıma kapatabilecektir.
+            Bu durumda PAYCELL (Mevzuat’ta bilgi verilmesini engelleyici düzenlemeler bulunması veya güvenliği tehdit
+            edici objektif nedenlerin varlığı dışında) Müşteri’yi bilgilendirecek ve askıya alınma sebebi ortadan
+            kalktığında hizmetleri ve Ödeme Aracı’nı yeniden Müşteri kullanımına sunacaktır.9.6 Sözleşme, Mobil Ödeme
+            işlemleri için ayrıca Müşteri’nin Mobil Ödeme işlemlerini gerçekleştirdiği Turkcell İletişim Hizmetleri A.Ş.
+            nezdindeki hattının süreli veya süresiz olarak kullanıma kapatılması halinde de askıya alınacaktır. Hattın
+            kapanması, Sözleşmenin 5.2 maddesine aykırılık teşkil edecek ve işbu Sözleşme’nin PAYCELL tarafından
+            Sözleşme’nin 9.2’maddesinde belirtilen yöntemle feshi söz konusu olabilecektir. Müşteri’nin hileli davranışı
+            veya bilgi güvenliği ihlali, yetkisiz kullanımı şüphesini doğuran ve benzeri&nbsp;risk oluşturan, vb benzeri
+            hallerde PAYCELL Müşteri’ye sunduğu hizmetleri askıya alabilecek, Ödeme Aracı’nı kullanıma kapatabilecektir.
+            Bu durumda PAYCELL Müşteri’yi bilgilendirecek ve askıya alınma sebebi ortadan kalktığında PAYCELL Hizmetleri
+            ve Ödeme Aracı’nı yeniden Müşteri kullanımına sunacaktır.<strong>Madde 10. Feshin Sonuçları:</strong>10.1
+            Sözleşmenin feshi veya herhangi bir nedenle sona ermesi, Taraflar’ın fesih tarihinden<a
+                name="_Toc415680024"></a>&nbsp;önceki yükümlülüklerini ortadan kaldırmaz.10.2 Taraflar’ın işbu
+            Sözleşme’de yer alan gizlilik ve bilgi güvenliğine ilişkin yükümlülükleri Sözleşme’nin sona ermesi veya
+            feshinden sonra da devam edecektir.<strong>Madde 11.&nbsp; Gizlilik ve Bilgi Güvenliği /Aydınlatma</strong>
+            <strong>11.1</strong>&nbsp;Müşteri, Kişisel Verilerin Korunması Kanunu’nun 11. maddesi ve işbu Sözleşme
+            kapsamında uygulanmasının gerekmesi ile birlikte PAYCELL’a başvurarak kendisiyle ilgili; Kişisel veri
+            işlenip işlenmediğini öğrenme, kişisel verileri işlenmişse buna ilişkin bilgi talep etme, kişisel verilerin
+            işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında
+            kişisel verilerin aktarıldığı üçüncü kişileri bilme, kişisel verilerin eksik veya yanlış işlenmiş olması
+            halinde bunların düzeltilmesini isteme, ilgili mevzuatta öngörülen şartlar çerçevesinde kişisel verilerin
+            silinmesini veya yok edilmesini isteme, ilgili mevzuat uyarınca yapılan düzeltme, silme ve yok edilme
+            işlemlerinin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, işlenen verilerin
+            münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun
+            ortaya çıkmasına itiraz etme, kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması
+            halinde zararın giderilmesini talep etme haklarına sahiptir. Söz konusu haklar, kişisel veri güveliği için
+            PAYCELL’ın bu Sözleşmede yer alan- adresine yazılı talep iletilerek noter/iadeli taahhütlü başvuru ile
+            kullanılabilecektir. Konu ile ilgili aydınlatma metni ve detaylara: <a
+                href="https://paycell.com.tr/gizlilik-ve-guvenlik/#_blank">https://paycell.com.tr/gizlilik-ve-guvenlik/</a>&nbsp;linkinden
+            ulaşılabilmektedir.<strong>11.2</strong>&nbsp; PAYCELL, yukarıda yer alan talepler uyarınca, gerekçeli
+            olumlu/olumsuz yanıtını, yazılı veya dijital ortamdan gerçekleştirebilir. Taleplere ilişkin gerekli işlemler
+            için ücret alınmaması esastır. Bununla birlikte, işlemlerin bir maliyet gerektirmesi halinde, Kişisel
+            Verilerin Korunması Kurulu tarafından, Kişisel Verilerin Korunması Kanunu’nun 13. maddesine göre belirlenen
+            tarife üzerinden ücret talep edilmesi mümkündür.<strong>11.3&nbsp;</strong>Müşteri, veri işleme iznini her
+            zaman Çağrı Merkezi aracılığıyla iptal edebilir. Veri işleme izninin iptali, bu Sözleşme uyarınca paylaştığı
+            ve Sözleşme kapsamındaki PAYCELL Hizmeti’nin sunulması ve/veya PAYCELL ve ilgili Turkcell Grup Şirketi’nin
+            yasal yükümlülüklerinin ifası için işlenmesi zorunlu olan bilgilerin işlenmesi gibi Kişisel Verilerin
+            Korunması Kanunu’nun saydığı istisnai durumların varlığında işlenmesi ve yine bu amaçlarla paylaşılmasına
+            engel teşkil etmez.<strong>Madde 12. &nbsp; Uyuşmazlıkların Çözümü:</strong>&nbsp;Taraflar, ihtilaf halinde
+            İstanbul (Çağlayan) Mahkemeleri ve İcra Müdürlüklerinin yetkili olduğunu beyan, kabul ve taahhüt ederler.
+            Tüketiciler, ihtilaf halinde yetkili tüketici hakem heyetleri ve tüketici mahkemelerine başvurma hakkında
+            sahiptir.<strong>Madde 13.&nbsp;&nbsp; Genel Hükümler:</strong><strong>13.1 Devir:</strong>&nbsp;Müşteri,
+            PAYCELL’ın ön yazılı onayı olmadan doğrudan veya dolaylı olarak tamamen veya kısmen Sözleşme’yi ve Sözleşme
+            konusu hak ve yükümlülüklerini başkalarına devir ve temlik edemez. PAYCELL, her zaman için Sözleşme’den
+            doğan hak, yükümlülük, alacak ve sorumluluklarını üçüncü şahıslara devir ve temlik edebilir, alt yüklenici
+            veya Sözleşme’de belirtilen dışında Temsilci kullanabilir. <strong>13.2 Bildirimler:&nbsp;</strong>PAYCELL,
+            işbu Sözleşme kapsamında Müşteri’ye yapacağı bildirimleri Sözleşme’de belirtilen zamanlarda Müşteri’nin
+            kendisine bildirdiği e-posta veya posta adresine yapacağı gönderim veya Müşteri’nin cep telefonuna SMS
+            göndererek veya Paycell Uygulaması üzerinden veya Çağrı Merkezi aracılığı ile Müşteri’yi arayarak
+            iletecektir. Müşteri, Sözleşme kapsamındaki bilgilendirmelere ek bilgilendirme talebinde bulunduğu takdirde,
+            bu talep PAYCELL tarafından kabul edildiği takdirde ücreti mukabilinde yerine getirilebilecektir. İşbu
+            Sözleşme’nin yüz yüze kanallardan imzalanması halinde Müşteri işbu Sözleşme’nin bir örneğini
+            saklayabilecektir. Müşteri, Sözleşme’nin uzaktan iletişim aracı ile kurulması halinde dilediği zamanda işbu
+            Sözleşme’nin bir örneğine PAYCELL kurumsal web sitesinden <a
+                href="https://paycell.com.tr/kullanim-sartlari-ve%20sozlesmesi/">https://paycell.com.tr/kullanim-sartlari-ve
+                sozlesmesi/</a>) ulaşabilecektir.<strong>13.3 Sözleşme’nin Bütünlüğü</strong>:&nbsp;Sözleşme’deki bir
+            hükmün geçersizliği Sözleşme’nin amacını tamamıyla bozmadığı veya Taraflar’dan birinin menfaatini önemli
+            ölçüde zedelemediği takdirde, böyle bir hüküm yokmuş gibi, Sözleşme’nin diğer hükümleri geçerli
+            sayılacaktır. <strong>13.4&nbsp;Fikri Mülkiyet:</strong>&nbsp;Sözleşme ile Taraflar arasında herhangi bir
+            fikri mülkiyet hakkı devri veya lisans gibi kullandırma anlaşması kurulmamaktadır. Taraflar’ın her birine
+            ait ve/veya kullanımında olan her nevi fikri mülkiyet hakkı konusu unsuru kullanmaları ancak bu kapsamda
+            açık bir yazılı anlaşma bulunması halinde mümkün ve bununla sınırlıdır.<strong>13.5 Mücbir Sebep
+                Halleri</strong>:&nbsp;Sözleşme’nin imzalandığı tarihte var olmayan, Taraflar’ın kontrolü haricinde
+            zuhur eden ve öngörülemeyen, Taraflar’ın veya tek bir Taraf’ın çalışma imkânlarını kısmen veya tamamen,
+            geçici olarak durduracak şekilde ve derecede meydana gelen beşeri ve doğal afetler, harp, seferberlik,
+            yangın, grev, lokavt, PAYCELL lisansının geçici olarak durdurulması halleri mücbir sebep sayılır. Mücbir
+            sebebe maruz kalan Taraf durumu derhal diğer Taraf’a yazılı olarak bildirir ve mücbir sebep süresi boyunca
+            Taraflar’ın edimleri askıya alınır. Mücbir sebepler ortadan kalkınca Sözleşme kaldığı yerden devam eder.
+            Mücbir sebep süresi boyunca hakları ifa edilmeyen Taraf’ın yükümlülükleri de askıya alınacaktır. Mücbir
+            sebep halinin 90 (doksan) günden fazla sürmesi halinde, hakları ihlal edilen Taraf Sözleşme’yi tazminatsız
+            olarak feshedebilir.<strong>13</strong>.<strong>6 UYUM</strong>:&nbsp;Müşteri, kendi adına ve kendi hesabına
+            hareket ettiğini, başkası hesabına hareket etmesi halinde 5549 sayılı Kanun’a uygun olarak PAYCELL’a yazılı
+            olarak bildireceğini ve hattını 3. Bir kişiye devretmesi, hattını başka bir gsm operatörüne taşıması, gsm
+            operatörü değişikliği yapması ile kimlik, iletişim ve diğer kimlik tespitine konu bilgilerinin değişmesi
+            halinde bu durumu PAYCELL’a yazılı olarak bildireceğini ve Müşterinin işbu madde kapsamındaki bildirimine
+            istinaden, PAYCELL tarafından kimlik tespit/ bilgi temin talebinde bulunulabileceğini kabul eder.&nbsp; Aksi
+            halde Müşteri, PAYCELL’ın Müşteri nezdinde gerçekleşen yetkisiz, hatalı işlemler, 3. Kişilerin haksız,
+            hukuka aykırı kullanımı, fraud vb. işlemler dahil hiçbir hukuki /cezai sorumluluğunun olmayacağını, işbu
+            Sözleşmeyi tek taraflı olarak fesih etme hakkı bulunduğunu kabul ve beyan eder.<strong>13.7
+                Uygulanmama:</strong>&nbsp;Müşteri’nin işbu Sözleşme kapsamındaki hizmetleri mesleki ve ticari amaçlarla
+            satın aldığı hallerde, Müşteri Sözleşme’yi akdetmiş olsa dahi işbu Sözleşme’nin tüketicilere ilişkin
+            hükümleri Müşteri’ye uygulanmayacaktır.
+            Sözleşme’nin Mali Hükümler başlıklı 6. Maddesi kapsamında Müşterinin kredi ile satın aldığı cihazların kredi
+            geri ödemelerine PAYCELL tarafından aracılık edilmesi halinde mobil ödeme kullanan Müşterilerden işlem
+            ücreti olarak her bir kredi başına <a
+                href="https://paycell.com.tr/ticari-kurallar/">https://paycell.com.tr/ticari-kurallar/</a>&nbsp;‘de yer
+            alan tutar tahsil edilir.</div>
+    </section>
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="static-assets/js/main.js"></script>
+</body>
+
+</html>

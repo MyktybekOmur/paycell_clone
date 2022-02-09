@@ -16,6 +16,10 @@ body {
     position: relative;
     top: 30px;
 }
+.fill{
+    height: 90vh !important;
+
+}
 .paycell li {
     font-family: "Futura", sans-serif;
     line-height: 2rem;
