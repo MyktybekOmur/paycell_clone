@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static-assets/css/main.css">
+    <link rel="stylesheet" href="static-assets/css/footer-pages.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysell'le |</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png" alt=""
+                        width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-ds-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="hizmetler/" id="navbarDropdown" role="button"
+                                data-ds-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="hizmetler/istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a
+                                        Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-isteme.html">Para/Harclik
+                                        Iste</a>
+                                </li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-gonderme.html">Para/Harçlık
+                                        Gönde</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/fatura-odeme-hizmetleri.html">Fatura
+                                        Ödeme
+                                        Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/turkcell-tl-ve-paket-yukleme.html">Turkcell
+                                        TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="uye-is-yerleri/qr-ile-odeme-alma.html">Qr ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/uye-isyerleri.html">Paycell Android
+                                        Pos ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-sdk.html">Paycell SDK</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-api.html">Paycell API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sss.html" class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="kfowebsdk.html" target="_blank" class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#" class="register-btn">
+                            <img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53" alt="">
+                        </a>
+                        <a href="#" class="search-btn"><img class="icon-search"
+                                src="static-assets/img/icons/search.svg"></img></a>
+                    </div>
+                    <form class="d-flex search-wrapper hidden">
+
+                        <input class="form-control me-2 search-place" type="search" placeholder="paycell.com.tr'de ara"
+                            aria-label="Search">
+                        <img class="search-close" src="static-assets/img/icons/x.png" alt="">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-5">
+        <div class="container mt-5">
+
+
+            <div class="breadcrumb_conteiner mt-5">
+                <nav class="mt-3" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item last_b active" aria-current="page">Bilgi Güvenliği
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <section class="container pt-5 pb-3">
+        <div class="text">
+             <strong>Güvenliğiniz Önceliğimiz</strong><br><br><br><br> 
+             Tüm ürün ve hizmetlerimizde güvenli bir hizmet sunmaya çalışıyoruz, kişisel güvenliğinizle ilgili olarak siz değerli müşterilerimize aşağıdaki
+                hususları hatırlatmak isteriz;<br> <br>
+                <strong>+ İnternet Güvenliğiniz</strong><br>
+                <ul>
+                    <li>Mobil cihazınızın sunduğu uygulama marketleri (Google Play, Apple Store veya Huawei AppGalleri) dışında hiçbir ortamdan uygulamalarımızı indirmeyiniz.</li>
+                    <li>Güvenliğinden emin
+                        olmadığınız kablosuz ağları ve bilgisayarları kullanmayınız.</li>
+                    <li> Mobil cihazınızın işletim sistemini ve internet
+                        tarayıcınızı güncel tutmaya özen gösteriniz. Kullandığınız sürüm bilgisine tarayıcınızın “Yardım”
+                        menüsündeki “Hakkında” seçeneğinden ulaşabilirsiniz.</li>
+                </ul>
+                <br>Microsoft Internet Explorer resmi
+                sitesi için&nbsp;<a rel="noreferrer noopener"
+                    href="http://windows.microsoft.com/tr-tr/internet-explorer/download-ie"
+                    target="_blank">tıklayın</a>.<br>Google Chrome resmi sitesi için&nbsp;<a rel="noreferrer noopener"
+                    href="http://www.google.com/chrome" target="_blank">tıklayın</a>.<br>Mozilla Firefox resmi sitesi
+                için&nbsp;<a rel="noreferrer noopener" href="http://www.mozilla.com/tr/firefox/"
+                    target="_blank">tıklayın</a>.<br>Apple Safari resmi sitesi için&nbsp;<a rel="noreferrer noopener"
+                    href="http://www.apple.com/safari/" target="_blank">tıklayın</a>.<br>Opera resmi sitesi için&nbsp;<a
+                    rel="noreferrer noopener" href="http://www.opera.com/download/" target="_blank">tıklayın</a>.<br>
+                <ul class="mt-3">
+                    <li>Bilgilerinizi güvenliği için mobil cihazınız ve
+                        kişisel bilgisayarınızda anti-virüs yazılımı kullanınız.</li>
+                    <li>Bilmediğiniz kaynaklardan veya tanımadığınız
+                        kişilerden size gelen şüpheli SMS, sosyal medya ve mesajlaşma platformları ve e-posta iletilerindeki
+                        linklere tıklamayınız. Bu linklere tıklayarak eriştiğinizde sayfalarda kişisel bilgilerinizi, uygulama
+                        şifrenizi, kart numaralarınızı ya da kart şifrelerinizi girmeyiniz.</li>
+                    <li>Girdiğiniz sitenin gerçekten belirtilen Şirkete ait
+                        olduğundan ve güvenli bir site olduğundan emin olmak için girdiğiniz <strong>URL https://</strong> ile
+                        başlama veya uygulama penceresinde, SSL (Güvenli Soket Katmanı) Kütüphanesi belirtilmeli. Kilit ikonu
+                        üzerine tıkladığınız sertifikaya ait bilgileri görüntüleyebilirsiniz. Sertifika, web sitesinin kime ait
+                        olduğunu gösterir;</li>
+                </ul>
+               <br> <strong>+ İşlem Güvenliğiniz</strong><br>
+               <ul>
+                   <li> Paycell ürünlerine ait şifrenizi veya tek
+                    kullanımlık doğrulama kodlarınızı güvenliğiniz için kimseyle paylaşmayınız ve şifreniz, ödeme aracınız
+                    ve benzer hassas ödeme bilgileri ile ilgili gerekli güvenliği sağlayınız.</li>
+                   <li> İşlem ve bakiye bilgilerinizi kontrol etmek için
+                    Paycell uygulamasını kullanabilirsiniz. Paycell uygulamasını cep telefonunuza mutlaka resmi uygulama
+                    mağazalarından (Google Play, Apple Store veya Huawei AppGalleri gibi) indiriniz.</li>
+                   <li> Paycell uygulamasını kullandığınız cep
+                    telefonunuzu/cihazınızı korumak için güvenilir yazılım firmalarına ait güvenlik yazılımlarını
+                    kullanınız, lisanssız veya kaynağı belli olmayan uygulamaları yüklemeyiniz.</li>
+                   <li>Paycell uygulamasının en güncel versiyonunu
+                    kullandığınızdan emin olunuz.</li>
+                   <li> Ödeme
+                    aracının veya hassas ödeme verilerinin çalınması, kaybolması, silinmesi ya da değiştirilmesinin
+                    gerekmesi gibi durumlarda Turkcell Ödeme ve Elektronik Para Hiz. A.Ş’ye ait 0850 622 60 60 nolu çağrı
+                    merkezi numarasından gecikmeksizin bildirimde bulunmalısınız.</li>
+                   <li>Paycell Kartınızın çalınması veya kaybolması durumunda
+                    Turkcell Ödeme ve Elektronik Para Hiz. A.Ş.’ye ait 0850 622 60 60 nolu çağrı merkezi üzerinden kartınızı
+                    iptal ettirebilir, mevcut bakiyenizin yeni bir karta aktarılmasını veya banka hesabınıza iadesini talep
+                    edebilirsiniz.</li>
+                   <li>Paycell ürünleri
+                    kullanarak gerçekleştirdiğiniz işlemleriniz esnasında veya yapılan işlemleri incelerken size ait olmayan
+                    bir işlem tespit etmeniz veya başka bir sahtekarlık ve dolandırıcılık şüphesi olan bir işlem fark
+                    etmeniz durumunda; Turkcell Ödeme ve Elektronik Para Hiz. A.Ş.’ye ait 0850 622 60 60 nolu çağrı merkezi
+                    numarasından gecikmeksizin bildirimde bulunmalısınız.</li>
+                   <li>Aksi halde üçüncü kişiler tarafından yapılan işlemler
+                    sebebiyle doğabilecek zarar ve kayıplardan Şirketimiz sorumlu değildir. Paycell kullanıcısı olarak
+                    sizlerin hak ve sorumluluklarına Şirketimiz ile imzalanmış/onaylanmış olan Çerçeve Ödeme Hizmetleri ve
+                    Elektronik Para Sözleşmesi’nde yer verilmiştir.</li>
+                   <li> Paycell veya Turkcell Ödeme ve Elektronik Para
+                    Hizmetleri A.Ş. unvanı ile sizlere ödül kazandırma vaadi karşılığında Paycell uygulamasına giriş
+                    şifrenizi veya SMS ile iletilen şifreleri paylaşmanızı isteyen iletişimlere itibar etmeyiniz.
+                    &nbsp;Paycell olarak arama veya SMS ile sizden mail adresiniz, şifreniz, kart şifreniz, CVV numaranız
+                    veya üçüncü bir kişiye ait hesaba para göndermeniz hiçbir koşul altında istenmemektedir. Bu nedenle
+                    Şirketimiz adına veya bir başkası adına bahsedilen ve benzeri taleplerle gelen hiçbir aramaya ve SMS
+                    metnine itibar etmeyiniz.</li>
+                   <li>Turkcell Ödeme ve
+                    Elektronik Para Hizmetleri A.Ş.&nbsp; sizlere kredi &nbsp;vermek vaadi ile mobil ödeme şifrenizi
+                    istemez. &nbsp;Turkcell Ödeme ve Elektronik Para Hizmetleri A.Ş’nin kredi verme gibi bir hizmeti
+                    bulunmamaktadır.</li>
+                   <li>Paycell POS
+                    üzerinden gerçekleştirdiğiniz işlemlerde sorun yaşamanız durumunda 0850 622 60 60 nolu çağrı merkezimizi
+                    arayınız.</li>
+                   <li>Mobil ödeme aboneliğinizin olduğu
+                    hattınızın kaybolması/çalınması durumunda;</li>
+               </ul>
+               <ul class="circleUL">
+                   <li>Hattını Mobil Ödeme’ye kapatmak için
+                    Müşteri Hizmetleri’ni 0850 622 60 60 arayabilirsin.</li>
+                   <li> Hattını MOBILODEMEKAPAMA yazıp
+                    5522’ye göndererek ya da Çağrı merkezimizi 0850 622 60 60 numaralı telefondan arayarak mobil ödeme
+                    işlemlerine kapatabilirsin.</li>
+                   <li> Hattınız bulmanız ve güvenliğinden emin olmanız durumunda,
+                    Paycell Uygulaması’nı kullanarak, AC yazıp 5522’ye SMS göndererek ya da Çağrı merkezimizi 0850 622 60 60
+                    numaralı telefondan arayarak mobil ödemeye açtırabilirsiniz.</li>
+               </ul>
+         <br>  <strong>+ Şifre
+                    Güvenliğiniz</strong><br> 
+                    <ul>
+                        <li> Paycell Kart ve Paycell
+                            uygulamasına ait şifrenizi belirlerken doğum tarihi, tekrarlayan rakamlar veya ardışık sayılar gibi
+                            kolay tahmin edilebilir rakamları kullanmayınız.</li>
+                        <li> Şifrenizi kimseyle paylaşmayın.</li>
+                        <li> Şifrenizi yazılı olarak bulundurmayın.</li>
+                        <li>POS ya da ATM’lerden şifre girişi yaparken şifrenizi
+                            kimseye göstermeyin.</li>
+                        <li>Paycell Kartınıza ait
+                            şifrenizi Paycell uygulaması üzerinden değiştirebilir, yeni şifre tanımlaması yapabilirsiniz.</li>
+                        <li>Paycell Kart şifre bloke işlemleriniz için Turkcell
+                            Ödeme ve Elektronik Para Hiz. A.Ş.’ye ait 0850 622 60 60 nolu çağrı merkezini arayabilir ve gerekli
+                            güvenlik adımlarını tamamladıktan sonra blokenin kaldırılmasını talep edebilirsiniz.</li>
+                        <li>Paycell uygulamasına ait şifrenizin bloke olması
+                            durumunda şifre yenile butonuna tıklayarak kayıtlı mail adresinize şifre yenileme maili gönderip,
+                            şifrenizi değiştirebilirsiniz. Kayıtlı mail adresinizin hatalı olması durumunda Turkcell Ödeme ve
+                            Elektronik Para Hiz. A.Ş.’ye ait 0850 622 60 60 nolu çağrı merkezini arayarak, gerekli güvenlik
+                            adımlarını tamamladıktan sonra mail adresinizin güncellenmesini sağlayabilirsiniz.</li>
+                        <li>Paycell uygulamasına ait şifrenizi Paycell uygulaması
+                            üzerinde yer alan “Uygulama Şifresini Değiştir” kısmından değiştirebilirsiniz.</li>
+                        <li>Paycell uygulamasını aynı anda sadece bir cihazda
+                            açabilirsiniz. Farklı bir cihazda oturum açtığınız taktirde diğer cihazdaki oturumunuz otomatik olarak
+                            sonlandırılacaktır.</li>
+                    </ul>
+                   <br> <strong>+ Sizinle İletişim Şeklimiz</strong><br>
+                   <ul>
+                       <li>Tarafımızdan gönderilen e-postalar turkcell.com.tr ve
+                        paycell.com.tr uzantılıdır. Şirketimizden gönderilmiş gibi görünen fakat turkcell.com.tr ve
+                        paycell.com.tr uzantılı olmayan hiçbir mail adresine itibar etmeyiniz.</li>
+                       <li>Paycell olarak ürün ve hizmetlerimizdeki yeniliklerle
+                        ilgili size Paycell hesabınıza tanımladığınız mail adresiniz veya cep telefonu numaranızla ulaşırız.</li>
+                   </ul>
+               <br> <strong>+ Bize Ulaşabilirsiniz</strong><br>
+               <ul>
+                   <li> Paycell’e ait tüm ürün ve Mobil Ödeme, Paycell Mobil Uygulama, Dijital Para, Paycell Kart vb.
+                    &nbsp;Paycell POS süreçlerinde yaşadığınız her türlü sorunla ilgili Turkcell Ödeme ve Elektronik Para
+                    Hiz. A.Ş’ye ait <strong>0850 622 60 60</strong> nolu çağrı merkezini arayabilirsiniz.</li>
+                   <li> Paycell uygulaması üzerinde yer alan <strong>“bize
+                    ulaşın”</strong> kısmından bize iletebilirsiniz.</li>
+               </ul>
+               
+        </div>
+    </section>
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="static-assets/js/main.js"></script>
+</body>
+
+</html>

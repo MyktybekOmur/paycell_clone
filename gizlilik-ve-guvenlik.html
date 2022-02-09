@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static-assets/css/main.css">
+    <link rel="stylesheet" href="static-assets/css/footer-pages.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysell'le |</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png" alt=""
+                        width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-ds-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="hizmetler/" id="navbarDropdown" role="button"
+                                data-ds-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="hizmetler/istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a
+                                        Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-isteme.html">Para/Harclik
+                                        Iste</a>
+                                </li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-gonderme.html">Para/Harçlık
+                                        Gönde</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/fatura-odeme-hizmetleri.html">Fatura
+                                        Ödeme
+                                        Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/turkcell-tl-ve-paket-yukleme.html">Turkcell
+                                        TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="uye-is-yerleri/qr-ile-odeme-alma.html">Qr ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/uye-isyerleri.html">Paycell Android
+                                        Pos ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-sdk.html">Paycell SDK</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-api.html">Paycell API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sss.html" class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="kfowebsdk.html" target="_blank" class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#" class="register-btn">
+                            <img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53" alt="">
+                        </a>
+                        <a href="#" class="search-btn"><img class="icon-search"
+                                src="static-assets/img/icons/search.svg"></img></a>
+                    </div>
+                    <form class="d-flex search-wrapper hidden">
+
+                        <input class="form-control me-2 search-place" type="search" placeholder="paycell.com.tr'de ara"
+                            aria-label="Search">
+                        <img class="search-close" src="static-assets/img/icons/x.png" alt="">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-5">
+        <div class="container mt-5">
+
+
+            <div class="breadcrumb_conteiner mt-5">
+                <nav class="mt-3" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item last_b active" aria-current="page">Gizlilik ve Güvenlik
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <section class="container pt-5 pb-3">
+        <div class="text">
+            <h2 class="block-title">GİZLİLİK VE GÜVENLİK</h2> Müşteri, TÖHAŞ’ın başta Temsilci vasıtasıyla gerçekleşen
+            işlemlerde mevzuat uyarınca yükümlülüklerini tam ve eksiksiz olarak yerine getirebilmesi, risk
+            tespiti/düzeyinin belirlenmesi, TÖHAŞ’ın meşru menfaatleri, hizmet kalitesinin sağlanması amaçları ile TÖHAŞ
+            Hizmetleri’nin sunulabilmesi ve ilgili mevzuattan kaynaklanan yükümlülüklerini yerine getirebilmesi için
+            Müşteri’ye ait elektronik haberleşme hizmetlerine ilişkin harcama ve fatura bilgileri dahil, telefon
+            numarası, TCKN, ad, soyad vb kimlik bilgileri, adres, iletişim bilgisi ve bu bilgilerin güncelliği, limit
+            bilgisi, risk, işlem bilgileri vb. bilgileri başta olmak üzere hat tipi (faturalı / faturasız,
+            kurumsal/bireysel), hattın statüsü, hat sahibinin yaşı, hattın yaşı, hattın devir / hat sahipliği
+            değişikliği, hatta ait ödeme bilgileri, ve geçici/kalıcı aktivasyon bilgisi, ödemeye ilişkin talimatlar, hat
+            yükleme sıklığı ve sayısı, hattın mobil ödemeye açık olması ve harcama yapılması, açık ise aylık harcama
+            limiti ve bu limiti ulaşılması, bakiye yetersizliği sebebiyle başarısız işlem olup olmadığı, başarısız işlem
+            sayısı hakkındaki kişisel bilgilerinin TÖHAŞ, Turkcell İletişim Hizmetleri A.Ş. ve Turkcell Finansman A.Ş.
+            ve diğer Turkcell Grup Şirketleri tarafından TÖHAŞ ile karşılıklı olarak işlenmesi, ayrıca anılan süreler ve
+            amaçlar dahilinde bu maddede sayılan bilgilerin Müşteri’ye mal ve hizmet sağlayan Üye İşyeri/Ödeme Hizmet
+            Sağlayıcıları ve Kuruluşları/İş Ortakları/ /Temsilcileri/ Dış Hizmet Sağlayıcıları/ ilgili Finansal
+            Kuruluşlar/ Bankalar ile karşılıklı olarak işlenmesi gerektiği konusunda bilgi sahibidir.
+            Müşteri, Kişisel Verilerin Korunması Kanunu’nun 11. maddesi ve işbu Sözleşme kapsamında uygulanmasının
+            gerekmesi ile birlikte TÖHAŞ’a başvurarak kendisiyle ilgili; Kişisel veri işlenip işlenmediğini öğrenme,
+            kişisel verileri işlenmişse buna ilişkin bilgi talep etme, kişisel verilerin işlenme amacını ve bunların
+            amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında kişisel verilerin
+            aktarıldığı üçüncü kişileri bilme, kişisel verilerin eksik veya yanlış işlenmiş olması halinde bunların
+            düzeltilmesini isteme, ilgili mevzuatta öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya
+            yok edilmesini isteme, ilgili mevzuat uyarınca yapılan düzeltme, silme ve yok edilme işlemlerinin, kişisel
+            verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, işlenen verilerin münhasıran otomatik sistemler
+            vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,
+            kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması halinde zararın giderilmesini
+            talep etme haklarına sahiptir. Söz konusu haklar, iletisim@turkcellodemehizmetleri.com adresine yazılı talep
+            iletilerek kullanılabilecektir.
+            TÖHAŞ, yukarıda yer alan talepler uyarınca, gerekçeli olumlu/olumsuz yanıtını, yazılı veya dijital ortamdan
+            gerçekleştirebilir. Taleplere ilişkin gerekli işlemler için ücret alınmaması esastır. Bununla birlikte,
+            işlemlerin bir maliyet gerektirmesi halinde, Kişisel Verilerin Korunması Kurulu tarafından, Kişisel
+            Verilerin Korunması Kanunu’nun 13. maddesine göre belirlenen tarife üzerinden ücret talep edilmesi
+            mümkündür.
+            Müşteri, veri işleme iznini her zaman Çağrı Merkezi aracılığıyla iptal edebilir. Veri işleme izninin iptali,
+            bu Sözleşme uyarınca paylaştığı ve Sözleşme kapsamındaki TÖHAŞ Hizmeti’nin sunulması ve/veya TÖHAŞ ve ilgili
+            Turkcell Grup Şirketi’nin yasal yükümlülüklerinin ifası için işlenmesi zorunlu olan bilgilerin işlenmesi
+            gibi Kişisel Verilerin Korunması Kanunu’nun saydığı istisnai durumların varlığında işlenmesi ve yine bu
+            amaçlarla paylaşılmasına engel teşkil etmez.<p>&nbsp;</p>
+            <h4>Kişisel Verilerinizin Korunmasına İlişkin Bilgilendirme ve Aydınlatma Metni</h4> Şirketimiz (Turkcell
+            Ödeme ve Elektronik Para Hizmetleri A.Ş./TÖHAŞ) ile paylaştığınız kişisel verileriniz, Şirketimizin koruması
+            altındadır. Bu doğrultuda, 6698 sayılı Kişisel Verilerin Korunması Kanun (KVKK) gereğince Şirketimiz kişisel
+            verilerinizin güvenli şekilde muhafazasını, hukuka uygun olarak işlenmesini ve erişilmesini sağlamak için
+            bütün teknolojik ve alt yapısal imkanlarını kullanarak, gerekli tüm teknik ve idari tedbirleri almaktadır.
+            KVKK gereğince kişisel verileriniz Veri Sorumlusu sıfatıyla Şirketimiz tarafından aşağıda belirtilenler
+            dahil ancak bunlarla sınırlı olmaksızın KVKK ve ilgili mevzuata uygun olarak işlenmektedir.<p>&nbsp;</p>
+            <h4>I. TÖHAŞ Hizmetleri Nelerdir?</h4> TÖHAŞ’ın 6493 s. Kanun ve ikincil düzenlemeleri uyarınca BDDK’dan
+            aldığı yetkilendirme ile sunduğu ödeme ve elektonik para hizmetlerini ifade etmektedir. Turkcell Mobil
+            Ödeme, Turkcell Faturalama, Turkcell Hattım ile Öde, Dijital Para, Ön Ödemeli Kart/Paycell Kart bu hizmetler
+            arasında yer almaktadır.<p>&nbsp;</p>
+            <h4>II. Kişisel Verileriniz Nelerdir?</h4> Kişisel verileriniz, kimliğinizi belirleyen ya da belirlenebilir
+            kılan bilgiler anlamına gelmektedir. <strong>Kişisel Verilerinizin İşlenme Amaçları</strong> doğrultusunda
+            aşağıda yer alan kişisel verileriniz işlenebilmektedir.<ul>
+                <li><strong><u>Kimlik</u></strong><u>, <strong>Adres ve İletişim
+                            Bilgileri</strong></u><strong>:</strong> TCKN, doğum yeri ve tarihi, adı, soyadı, doğum yeri
+                    ve tarihi, uyruğu, kimlik belgesinin türü ve numarası, adresi ve imza örneği, varsa telefon
+                    numarası, faks numarası, elektronik posta adresi, iş ve mesleğine ilişkin bilgiler ile Türk
+                    vatandaşları için bu bilgilere ilave olarak anne, baba adı ve T.C. kimlik numarası bilgileri ve
+                    benzeri kimlik ve iletişim bilgileri.Ticaret siciline kayıtlı tüzel kişilerin kimlik tespitinde;
+                    tüzel kişinin unvanı, ticaret sicil numarası, vergi kimlik numarası, faaliyet konusu, açık adresi,
+                    telefon numarası, varsa faks numarası ve elektronik posta adresi ile tüzel kişiliği temsile yetkili
+                    kişinin adı, soyadı, doğum yeri ve tarihi, uyruğu, kimlik belgesinin türü ve numarasına ilişkin
+                    bilgiler ve imza örneği ile Türk vatandaşları için bu bilgilere ilave olarak anne, baba adı ve T.C.
+                    kimlik numarası.</li>
+            </ul>
+            <ul>
+                <li><strong><u>Hizmet Kullanımı ile ilgili Bilgiler:</u></strong> kullanım miktarı, aldığınız hizmet ve
+                    sair kayıtlar gibi kullanım detaylarını içeren kişisel veriler ile satış ve müşteri temsilcileri
+                    tarafından çağrı merkezi standartları gereği tutulan sesli görüşme kayıtları ile e-posta, mektup ve
+                    sair vasıtalar aracılığı ile Şirketimiz ile iletişime geçildiğinde elde edilen veriler, satış
+                    kanallarındaki talep ve işlem bilgileri gibi satış aracılığı ile elde edilen veriler.
+                    Ürün/hizmete ait bilgi, üye işyeri, ödeme hizmet sağlayıcı, temsilci vb. TÖHAŞ Hizmetleri ile ilgili
+                    tutar, servis abonelik bilgisi, BDDK ve Masak gibi Şirketimizin tabi olduğu düzenlemeler kapsamında
+                    işlenmesi veya raporlanması talep edilecek bilgiler.</li>
+                <li><strong><u>Diğer Kişisel Bilgiler:</u></strong> biyometrik imza, video / ses kaydı, fotoğraf, adres,
+                    konum, risk/limit bilgileri, ödemeye ilişkin talimat bilgileri, hattın mobil ödemeye açık olup
+                    olmadığı, harcamaya ilişkin bilgiler açık ise aylık harcama limiti ve bu limite ulaşılması/bakiye
+                    yetersizliği sebebiyle başarısız işlem olup olmadığı, başarısız işlem sayısı, risk bilgileri
+                    hakkındaki kişisel bilgiler.</li>
+            </ul>
+            <ul>
+                <li><strong><u>Hat ile veri ve işlem bilgileri</u></strong><strong>:</strong> Müşteri ad, soyad, telefon
+                    numarası, e-posta adresi, aboneliğe dair kullanıcı kimliği gibi aboneyi tanımlayabileceğimiz kişisel
+                    veriler​ ve ödeme tipi, servis abonelikleri, hat/abonelik tipi (faturalı/faturasız, kurumsal,
+                    bireysel), statüsü, kanalı, sahibinin yaşı, abonelik süresi, devir/hat sahipliği değişikliği,
+                    bakiye, ödeme bilgileri ve geçici/kalıcı aktivasyon bilgisi harcama ve fatura, yükleme sıklığı ve
+                    sayısı, telefon numarası, limit (hat açık ise aylık harcama limiti ve bu limiti ulaşılması bilgisi),
+                    bakiye yetersizliği sebebiyle başarısız işlem olup olmadığı, başarısız işlem sayısı risk bilgileri,
+                    hattın mobil ödemeye açık olup olmadığı, faturada yer aldığı şekliyle fatura tarihi, adres bilgisi,
+                    fatura no bilgisi ve bu bilgilerdeki güncellemeler.</li>
+                <li><strong><u>Hassas Bilgiler:</u></strong> Dernek/vakıf/sendika üyeliği bilgileri.</li>
+            </ul>
+            <h4>III. Kişisel Verilerinizin İşlenme Amaçları</h4> TÖHAŞ Hizmetlerinin sorunsuz sunulabilmesi, meşru
+            menfaatlerinin gerektirmesi, işlemlerle ilgili gerekli kontrollerin yapılabilmesi, kimlik tespiti, şikayet
+            süreçleri dahil mevzuat uyarınca yükümlülüklerini tam ve eksiksiz olarak yerine getirebilmesi, hizmet
+            kalitesinin sağlanması amacıyla kişisel verileriniz işlenebilmektedir. Bu kapsamda;<ul>
+                <li>Özel ödül, çekiliş, yarışmaya ya da benzer bir etkinliğe katılmanız halinde bu kapsamda verdiğiniz
+                    bilgilerin etkinlik için kullanılması,</li>
+                <li>Kullanımlarınız için faturalandırma yapmanın yanı sıra, suiistimallerin, kayıp ve dolandırıcılığın
+                    önlenmesi için gerekli işlemlerin yapılması,</li>
+                <li>Şirketimiz işbirliklerinin duyurulması ve bu haklardan faydalanmanız durumunda sizinle iletişime
+                    geçilmesi,</li>
+                <li>Gerekli durumlarda kimlik bilgilerinizin teyit edilmesi, işlem limiti, aylık limit vb. risk
+                    skorlaması yapılması ve skor kontrolünün yapılması ve raporlanması, sipariş edilen, satın alınan
+                    ve/veya kullanılan servis, ürün ve hizmetlerin sunulması ve bilgilendirilmesi amacıyla talep
+                    ettiğiniz işleminin gerçekleştirilmesi ve takibinin sağlanması,</li>
+                <li>Şirketimizin ürün, hizmet ve şebekesinin geliştirilmesi, denetim, veri analizi, tahminleme gibi
+                    dahili amaçlar için kullanılması ve sizden gelecek soru, şikayet ve bildirimlerin cevaplanması,</li>
+                <li>Belirli bir hizmet ve/veya ürünü satmak niyetiyle bir kayıt oluşturulması,</li>
+                <li>Şirketimiz ürün ve hizmetlerini sunmak üzere Şirketimizle çalışan ya da size hizmet sunarken
+                    Şirketimize yardımcı olan stratejik ortaklarla ürün ve hizmetlerimizi size ulaştırılması/sunulması,
+                    ürünlerimize ve hizmetlerimize olan ilginizin değerlendirilmesi, müşteri memnuniyetinizin
+                    araştırılması,</li>
+                <li>İş ortaklarımız ve sair üçüncü kişilerle birlikte sizlere sunduğumuz ürün ve hizmetlerle ilgili
+                    finansal mutabakat sağlanması, iş ortaklarımız ve sair üçüncü kişilerle birlikte sunulan ürün ve
+                    hizmetlerin gerçekleştirilmesinin sağlanması,</li>
+                <li>Acil yardım çağrısı durumlarında yerinizin tespit edilmesi ve yetkili kurumlarla paylaşılması,</li>
+                <li>Şirketimiz nezdindeki hizmetlerin sunulması, risk düzeyinin belirlenmesi/yönetimi/tespiti,</li>
+                <li>İlgili mevzuat gereği size sunduğumuz hizmetin ifası amacıyla saklanması gereken bilgilerinizin
+                    muhafazası, bilgi kayıplarının önlenebilmesi için kopyalanması, yedeklenmesi, bilgilerinizin
+                    tutarlılığının kontrolünün sağlanması, şebekelerimizin veri güvenliği için gerekli tüm teknik ve
+                    idari tedbirlerin alınması,</li>
+                <li>Düzenleyici ve denetleyici kurumlarla, yasal düzenlemelerin gerektirdiği veya zorunlu kıldığı
+                    şekilde, yasal yükümlülüklerin yerine getirilmesini sağlamak üzere paylaşılması,</li>
+                <li>KVKK m.5 ‘te yer alan istisnai durumlara giren amaçlarla</li>
+                <li>Şirketimizce sunulan yan hizmetlerinin sunulması, ürün ve hizmetlerin çeşitlendirilmesi,
+                    ölçümlenmesi, duyurulması gibi çağrı merkezi hizmetlerinin sunumu, finansal raporlamalar, yasal
+                    takip ve benzeri konularda işlenebilecektir.</li>
+            </ul> KVKK’nın istisnasına girmeyen konularda, Şirketimize kişisel verilerinizin işlenmesi konusunda
+            <strong>Açık Rıza </strong>vermeniz halinde kişisel verileriniz TÖHAŞ Hizmetleri kapsamında risk
+            tespiti/düzeyinin belirlenmesi, müşteri tanıma süreçleri ve kimlik doğrulamasının yapılabilmesi, şikayet
+            süreçlerinin daha etkin yönetilmesi, tarafıma özel ürün ve hizmetlerin önerilebilmesi, tanıtım, kampanya ve
+            pazarlama yapılabilmesi, hedeflenen hizmet kalitesinin temini amacı ile işlenebilir. Bu kapsamda;<ul>
+                <li>Şirketimizin ürün ve/veya hizmetlerine ilişkin genel ve özel kampanyalarının tanıtımı, ürün ve/veya
+                    hizmetlerine ilişkin indirim, fayda, koşul, ücretlendirme ve bunun gibi hususlardan haberdar
+                    edilmeniz, üyelik, davetiye, etkinliklerden yararlanma gibi olanakların sağlanması ve bunların
+                    kullanımı için gerekli her türlü işlemin yerine getirilmesi,</li>
+            </ul>
+            <ul>
+                <li>Size özel kutlama, temenni iletimi, ödül, çekiliş ve beğendiğiniz, tekrar erişmek isteyebileceğiniz,
+                    hatırlatılmasından memnuniyet duyabileceğiniz nitelikteki içeriklerin bilgilendirilmesi ve
+                    hatırlatılabilmesi, memnuniyetinizin sağlanması amacıyla hediyeler sunulması ve bunlar hakkında
+                    bilgi verilmesi, hediye kullanımları ile ilgili iletişime geçilmesi,</li>
+                <li>Memnuniyet ve sadakatiniz programları kapsamın ürün ve hizmetlerin kullanış şeklinden yola çıkarak
+                    teklif sunulması, promosyonlar hakkında bilgi verilmesi, size özel teklifler, hediyeler sunulması ve
+                    bunlar hakkında bilgi verilmesi, hediye kullanımları ile ilgili iletişime geçilmesi, Şirketimizin
+                    sizin adınıza yaptığı işbirliklerinin duyurulması ve bu haklardan faydalanan müşterilere iletişim
+                    yapılması, tanıtım ve pazarlama aktiviteleri amaçları ile Şirketimizce kişisel verileriniz
+                    işlenebilecektir.</li>
+            </ul>
+            <h4>IV.Kişisel Verilerin İşlenmesi ve Aktarılması</h4> Şirketimiz, kişisel verilerinizi Kanun ve sair
+            mevzuat kapsamında, yukarıda açıklanan işleme amaçlarının yerine getirilmesini sağlamak üzere;<ul>
+                <li><strong>Turkcell Grup Şirketleri </strong></li>
+            </ul> <a
+                href="https://www.turkcell.com.tr/tr/hakkimizda/genel-bakis/istiraklerimiz">https://www.turkcell.com.tr/tr/hakkimizda/genel-bakis/istiraklerimiz</a>
+            linkinde listelenen yurt içi ve yurt dışındaki Turkcell grup şirketleri,<ul>
+                <li><strong>İş Ortakları: </strong>Satın almak istediğiniz veya kullandığınız ürün ve hizmetlerin
+                    temini, ulaştırılması, sunulabilmesi için çalıştığımız kurye şirketleri, ödeme hizmeti sağlayıcıları
+                    ve diğer finansal kuruluşlar, temsilciler, dış hizmet sağlayıcılar, mal ve hizmet alımı yaptığınız
+                    Üye İşyerleri, Ödeme Hizmet Sağlayıcıları ve Kuruluşları, iş Ortakları, Temsilcileri, Dış Hizmet
+                    Sağlayıcıları, ilgili Finansal Kuruluşlar, Bankalar ve sair TÖHAŞ’ın anlaşmalı olduğu üçüncü
+                    kişiler,</li>
+            </ul> 
+            <p> Şirketimizce tarafınıza sunulan hizmetin ifası için işbirliği yapılan ve/veya hizmet alınan her türlü
+            tedarikçi firmalar, bankalar, finans kuruluşları, TBB Risk Merkezi ve sair gerçek veya tüzel kişiler ve bu
+            kişilerin iş ortakları,
+            Şirketimiz alacaklarına ilişkin dava ve yasal takibin gerçekleştirildiği mahkeme ve icra müdürlükleri,
+            Acil yardım çağrısı halinde konumunuzu tespit edecek olan yetkili merciler,
+            Avukatlar, denetçiler, danışmanlar ve hizmet alınan diğer üçüncü kişiler,
+            Tarafınızca yetki verilmiş olan vekil ve temsilcileriniz,
+            Düzenleyici ve denetleyici kurumlar ve sair resmi kurumlar, kişisel verilerinizi talep etmeye yetkili olan
+            kamu kurum veya kuruluşları, dahil ancak bunlarla sınırlı olmaksızın, yurt içi ve yurt dışındaki gerekli ve
+            yetkili kişi ve kuruluşlara aktarılabilecektir.</p><p>&nbsp;</p>
+            <h4>V. Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi</h4> 
+            <p> Kişisel verileriniz TÖHAŞ ile akdettiğiniz
+            sözleşmeler, temsilcileri ve sair yüz yüze kanallar, çağrı merkezi, web sitesi, mobil uygulamalar, kısa
+            mesaj, elektronik posta, sesli yanıt sistemi ve her türlü yazılı, sözlü ve elektronik ortamlar vasıtasıyla,
+            kişisel verilerinizin işlenmesine yönelik rızanıza ya da KVKK’nın 5 ve 6. maddeleri veya sair mevzuatta
+            belirtilen ve aşağıda yer verilen hukuki sebeplere dayanarak, tamamen otomatik, kısmen otomatik ya da
+            otomatik olmayan yöntemlerle toplanabilir, yukarıda yer verilen amaçlarla işlenebilir ve aktarılabilir.</p>
+            <ul>
+                <li>TÖHAŞ’ın tabi olduğu yerel mevzuatta öngörülmüş olması,</li>
+                <li>Fiili imkânsızlık halleri ortaya çıkması durumunda, rızanızı açıklayamayacak durumda bulunmanız veya
+                    rızasına hukuki geçerlilik tanınmayan kişinin kendisinin ya da bir başkasının hayatı veya beden
+                    bütünlüğünün korunması için veri işlemenin zorunlu olması,</li>
+                <li>Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin
+                    taraflarına ait kişisel verilerin işlenmesinin gerekli olması, talep edilen ürün ve hizmetleri
+                    sunabilmek veya akdettiğiniz sözleşmelerin gereğinin yerine getirilmesi,</li>
+                <li>TÖHAŞ’ın hukuki yükümlülüklerini yerine getirebilmesi için veri işlemenin zorunlu olması,</li>
+                <li>Tarafınızca alenileştirilmiş olması,</li>
+                <li>Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması,</li>
+                <li>Temel hak ve özgürlüklerinize zarar vermemek kaydıyla, TÖHAŞ’ın meşru menfaatleri için veri
+                    işlemenin zorunlu olması.</li>
+            </ul>
+            <h4>VI. Kişisel Verilerin Korunmasına Yönelik Haklarınız</h4> 
+            <p>Kanunun 11 numaralı maddesi gereğince,
+            Şirketimize başvurarak;</p> 
+            <ul>
+                <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>
+                <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
+                <li>Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,
+                </li>
+                <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
+                <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>
+                <li>Kanunun 7 no’lu maddesinde öngörülen şartlar çerçevesinde kişisel verilerinizin silinmesini veya yok
+                    edilmesini isteme,</li>
+                <li>Yukarıda belirtilen düzeltme, silinme ve yok edilme şeklindeki haklarınız uyarınca yapılan
+                    işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
+                <li>İşlenen kişisel verilerinizin münhasıran otomatik sistemler ile analiz edilmesi sureti ile
+                    aleyhinize bir sonucun ortaya çıkmasına itiraz etme,</li>
+                <li>Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararınızın
+                    giderilmesini talep etmehaklarına sahipsiniz.</li>
+            </ul>
+            <h4>VII. Güvenlik</h4>
+            <ul>
+                <li>Paycell Kartınıza ait bilgilerinizi; şifrenizi, kart numaranızı, kartınızın son kullanma tarihini ve
+                    CVV numarasını kimse ile paylaşmayınız.</li>
+                <li>Paycell ürünlerine ait şifrenizi veya tek kullanımlık doğrulama kodlarınızı güvenliğiniz için
+                    kimseyle paylaşmayınız ve şifreniz, ödeme aracınız ve benzer hassas ödeme bilgileri ile ilgili
+                    gerekli güvenliği sağlayınız.</li>
+                <li>Ödeme aracının çalınması/kaybolması veya hassas verilerin güvenliğini tehdit eden durumlarda
+                    Turkcell Ödeme ve Elektronik Para Hiz. A.Ş.(Şirket)’ye ait 0850 622 60 60 nolu çağrı merkezi
+                    numarasından gecikmeksizin bildirimde bulunmalısınız.</li>
+                <li>Paycell Kartınızın çalınması veya kaybolması durumunda Turkcell Ödeme ve Elektronik Para Hiz.
+                    A.Ş.(Şirket)’ye ait 0850 622 60 60 nolu çağrı merkezi üzerinden kartınızı iptal ettirebilir, mevcut
+                    bakiyenizin yeni bir karta aktarılmasını veya banka hesabınıza iadesini talep edebilirsiniz.</li>
+                <li>Paycell ürünleri kullanarak gerçekleştirdiğiniz işlemleriniz esnasında veya yapılan işlemleri
+                    incelerken size ait olmayan bir işlem tespit etmeniz veya başka bir sahtekarlık ve dolandırıcılık
+                    şüphesi olan bir işlem fark etmeniz durumunda; Turkcell Ödeme ve Elektronik Para Hiz.
+                    A.Ş.(Şirket)’ye ait 0850 622 60 60 nolu çağrı merkezi numarasından gecikmeksizin bildirimde
+                    bulunmalısınız. Aksi halde üçüncü kişiler tarafından yapılan işlemler sebebiyle doğabilecek zarar ve
+                    kayıplardan Şirketimiz sorumlu değildir. Paycell kullanıcısı olarak sizlerin hak ve sorumluluklarına
+                    Şirketimiz ile imzalanmış/onaylanmış olan Çerçeve Ödeme Hizmetleri ve Elektronik Para Sözleşmesi
+                    sözleşmede yer verilmiştir.</li>
+                <li>Paycell olarak arama veya SMS ile sizden mail adresiniz, şifreniz, kart şifreniz, CVV numaranız veya
+                    para göndermeniz hiçbir koşul altında istenmemektedir. Bu nedenle Şirketimiz adına veya bir başkası
+                    adına bahsedilen ve benzeri taleplerle gelen hiçbir aramaya itibar etmeyiniz.</li>
+                <li>Paycell Kart ve Paycell uygulamasına ait şifrenizi belirlerken doğum tarihi, tekrarlayan rakamlar
+                    veya ardışık sayılar gibi kolay tahmin edilebilir rakamları kullanmayınız.</li>
+                <li>Paycell Kart şifre bloke işlemleriniz için Turkcell Ödeme ve Elektronik Para Hiz. A.Ş.(Şirket)’ye
+                    ait 0850 622 60 60 nolu çağrı merkezini arayabilir ve gerekli güvenlik adımlarını tamamladıktan
+                    sonra blokenin kaldırılmasını talep edebilirsiniz.</li>
+                <li>Paycell Kartınıza ait şifrenizi Paycell uygulaması üzerinden değiştirebilir, yeni şifre tanımlaması
+                    yapabilirsiniz.</li>
+                <li>Paycell uygulamasına ait şifrenizin bloke olması durumunda şifre yenile butonuna tıklayarak kayıtlı
+                    mail adresinize şifre yenileme maili gönderip, şifrenizi değiştirebilirsiniz. Kayıtlı mail
+                    adresinizin hatalı olması durumunda Turkcell Ödeme ve Elektronik Para Hiz. A.Ş.(Şirket)’ye ait 0850
+                    622 60 60 nolu çağrı merkezini arayarak, gerekli güvenlik adımlarını tamamladıktan sonra mail
+                    adresinizin güncellenmesini sağlayabilirsiniz.</li>
+                <li>Paycell uygulamasına ait şifrenizi Paycell uygulaması üzerinde yer alan “Uygulama Şifresini
+                    Değiştir” kısmından değiştirebilirsiniz.</li>
+                <li>Paycell uygulamasını aynı anda sadece bir cihazda açabilirsiniz. Farklı bir cihazda oturum açtığınız
+                    taktirde diğer cihazdaki oturumunuz otomatik olarak sonlandırılacaktır.</li>
+                <li>Paycell uygulamasını kullandığınız cep telefonunuzu korumak için güvenilir yazılım firmalarına ait
+                    güvenlik yazılımlarını kullanınız, lisanssız veya kaynağı belli olmayan uygulamaları yüklemeyiniz.
+                </li>
+                <li>Paycell uygulamasının en güncel versiyonunu kullandığınızdan emin olunuz.</li>
+                <li>İşlem ve bakiye bilgilerinizi kontrol etmek için Paycell uygulamasını kullanabilirsiniz. Paycell
+                    uygulamasını cep telefonunuza mutlaka resmi uygulama mağazalarından (Google Play, Apple Store gibi)
+                    indiriniz.</li>
+                <li>Paycell uygulamasında ya da Paycell Kart’ınızda yaşadığınız şikayetleri Turkcell Ödeme ve Elektronik
+                    Para Hiz. A.Ş.(Şirket)’ye ait 0850 622 60 60 nolu çağrı merkezini arayarak ya da Paycell uygulaması
+                    üzerinde yer alan “bize ulaşın” kısmından bize iletebilirsiniz.</li>
+                <li>Tarafımızdan gönderilen e-postalar turkcell.com.tr ve paycell.com.tr uzantılıdır. Şirketimizden
+                    gönderilmiş gibi görünen fakat turkcell.com.tr ve paycell.com.tr uzantılı olmayan hiçbir mail
+                    adresine itibar etmeyiniz.</li>
+                <li>SMS ya da e-posta ile gelen linklere tıklayarak eriştiğiniz sayfalarda kişisel bilgilerinizi,
+                    uygulama şifrenizi, kart numaralarınızı ya da kart şifrelerinizi girmeyiniz.</li>
+                <li>ATM’de işlem yaparken her türlü bilginizi (şifre, referans kod vb.) başkalarının göremeyeceği
+                    şekilde girin. İşlem yaparken ATM’nin başından ayrılmayın ve kimseden yardım almayın.</li>
+                <li>Paycell olarak ürün ve hizmetlerimizdeki yeniliklerle ilgili size Paycell hesabınıza tanımladığınız
+                    mail adresiniz veya cep telefonu numaranızla ulaşırız.</li>
+                <li>PAYCELL POS süreçlerindeki her türlü soru ve sorununuz için Turkcell Ödeme ve Elektronik Para Hiz.
+                    A.Ş.(Şirket)’ye ait 0850 622 60 60 nolu çağrı merkezini arayabilirsiniz.</li>
+            </ul>
+             <strong>Kanunun uygulanmasıyla ilgili taleplerinizi ve kişisel verilerinizle ilgili her türlü sorunuzu
+                Turkcell Ödeme ve Elektronik Para Hizmetleri A.Ş. Genel Müdürlük MEŞRUTİYET CAD. NO:71 BEYOĞLU TEPEBAŞI
+                İSTANBUL adresine (noter, iadeli taahhütlü mektup vb.) yazılı olarak iletebilirsiniz.</strong>
+            <strong>*6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca kişisel verilerinin işlenmesi, kişisel
+                verilerin tamamen veya kısmen otomatik olan ya da herhangi bir veri kayıt sisteminin parçası olmak
+                kaydıyla otomatik olmayan yollarla elde edilmesi, kaydedilmesi, depolanması, muhafaza edilmesi,
+                değiştirilmesi, yeniden düzenlenmesi, açıklanması, aktarılması, devralınması, elde edilebilir hâle
+                getirilmesi, sınıflandırılması ya da kullanılmasının engellenmesi gibi veriler üzerinde gerçekleştirilen
+                her türlü işlemi anlamına gelir.</strong>
+            <p>&nbsp;</p>
+        </div>
+    </section>
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="static-assets/js/main.js"></script>
+</body>
+
+</html>

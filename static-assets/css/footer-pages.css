@@ -31,3 +31,19 @@ body {
     height: 60px;
     width: auto;
 }
+
+ul li {
+    list-style-type: disc !important;
+    margin-bottom: 5px;
+}
+.circleUL li{
+    list-style-type: circle !important;
+}
+
+.text-page p {
+    line-height: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0.00992rem;
+    color: #1D1D1B;
+    line-height: 1.25;
+}

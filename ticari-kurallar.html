@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static-assets/css/main.css">
+    <link rel="stylesheet" href="static-assets/css/footer-pages.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysell'le |</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png" alt=""
+                        width="140" height="52"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-ds-toggle="dropdown"
+                                aria-expanded="true">Ürünler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="paycell-card.html">Paycell kart</a></li>
+                                <li><a class="dropdown-item" href="paycell-uygulama.html">Paycell Uygulama</a></li>
+                                <li><a class="dropdown-item" href="paycell-mobil-odeme.html">Paycell Mobile Ödeme</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="hizmetler/" id="navbarDropdown" role="button"
+                                data-ds-toggle="dropdown" aria-expanded="false">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="hizmetler/istanbulkarta-paycell-uygulamasi-ile-bakiye-yukleme.html">İstanbulkart’a
+                                        Bakiye Yükleme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-isteme.html">Para/Harclik
+                                        Iste</a>
+                                </li>
+                                <li><a class="dropdown-item" href="hizmetler/harclik-gonderme.html">Para/Harçlık
+                                        Gönde</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/fatura-odeme-hizmetleri.html">Fatura
+                                        Ödeme
+                                        Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/cuzdan.html">Cüzdan</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kolay-odeme.html">Kolay Ödeme</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/turkcell-tl-ve-paket-yukleme.html">Turkcell
+                                        TL ve Paket Yükleme</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="campaigns.html">Kampanyalar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Üue iş Yerleri</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="uye-is-yerleri/qr-ile-odeme-alma.html">Qr ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/uye-isyerleri.html">Paycell Android
+                                        Pos ile Ödeme
+                                        Alma</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-sdk.html">Paycell SDK</a></li>
+                                <li><a class="dropdown-item" href="uye-is-yerleri/paycell-api.html">Paycell API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sss.html" class="nav-link">SSS</a>
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <a href="kfowebsdk.html" target="_blank" class="btn bg-white pay_btn mr-5">Fatura Öde</a>
+                        <a href="#" class="register-btn">
+                            <img src="static-assets/img/hizli-giris-btn.jpg" width="176" height="53" alt="">
+                        </a>
+                        <a href="#" class="search-btn"><img class="icon-search"
+                                src="static-assets/img/icons/search.svg"></img></a>
+                    </div>
+                    <form class="d-flex search-wrapper hidden">
+
+                        <input class="form-control me-2 search-place" type="search" placeholder="paycell.com.tr'de ara"
+                            aria-label="Search">
+                        <img class="search-close" src="static-assets/img/icons/x.png" alt="">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-5">
+        <div class="container mt-5">
+
+
+            <div class="breadcrumb_conteiner mt-5">
+                <nav class="mt-3" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item last_b active" aria-current="page">Ticari Kurallar
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <section class="container pt-5 pb-3">
+        <div class="text-page">
+            <p><strong>TİCARİ KURALLAR</strong></p>
+            <p><strong>Mobil Ödeme </strong><strong>Özellikleri </strong></p>
+            <p>Paycell Anlaşmalı Üye İşyerlerinde alışveriş ve ödemelerinizi cep telefonunuzu ve telefon numaranıza
+                tanımlı müşteri limitinizi kullanarak kolay, hızlı ve güvenli bir şekilde yapabilirsiniz. Binlerce üye
+                işyerinde milyonlarca Turkcell abonesi faturalı ve ön ödemeli hat sahibi; Paycell Mobil Ödeme
+                aracılığıyla, Üye İşyerlerinden aldıkları mal ve hizmet bedellerini Paycell limitleri dahilinde Turkcell
+                cep telefonu faturası veya ön ödemeli hat bakiyeleri üzerinden ödeyerek kolay ve temassız ödemenin
+                ayrıcalığını yaşamaktadır.</p>
+            <p>Mobil Ödeme’yi sosyal ağlarda, online oyunlarda, dijital içerik ve servislerde, online eğitim hizmeti
+                veren sitelerde, aidat ödemelerinde, fiziksel ürün alışverişlerinde ve diğer online alışverişlerinizde
+                ödeme yöntemi olarak kullanabilirsiniz.</p>
+            <p><strong>Mobil Ödeme Ücretleri</strong></p>
+            <p>Ödeme Hizmetleri ve Elektronik Para İhracı ile Ödeme Kuruluşları ve Elektronik Para Kuruluşları
+                Hakkındaki Yönetmeliğin 41/2 maddesi kapsamında ödeme kuruluşu verdiği hizmet karşılığı ücret talep
+                edebilmektedir.</p>
+            <p>Mobil ödeme ücretleri,&nbsp;<strong>Çerçeve Ödeme Hizmetleri ve Elektronik Para Sözleşmesi‘ne
+                    (“Sözleşme”)&nbsp;</strong>dayanan bir ücret olup müşterinin mobil ödeme kullanımı olan her bir gsm
+                hattı üzerinden alınmaktadır. Söz konusu ücretler, Müşterinin bilişim veya elektronik haberleşme
+                işletmecisi faturası üzerinden tahsil edilmektedir.</p>
+            <p>Mobil ödeme ile fiziksel ürün satın alımları, Paycell karta mobil ödeme limiti ile bakiye yükleme, OTP
+                kategorisinde abonelikli servis kullanımları ve reklam ödemeleri Premium aidat kategorisinde olup, 3
+                aylık dönemlerde 8,99 TL olarak alınır. Premium servislerin kullanımı durumunda aynı dönemde daha önceki
+                kullanımlarınızdan standart üyelik tipi için üyelik ücreti alındı ise ilgili periyot için yalnız 2TL’lik
+                fark ücreti alınacaktır.</p>
+            <p>Sözleşmeye&nbsp;<a
+                    href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/</a>&nbsp;linkinden
+                ulaşabilirsiniz.</p>
+            <p>Bu kapsamda;</p>
+            <p><strong>Kredi Geri Ödemeleri:</strong> Müşterinin kredi ve/veya kiralama ile satın aldığı cihazların
+                kredi geri ödemelerinde; Paycell ile mobil ödeme kullanan Müşterilerden her bir kredi ve/veya kiralama
+                başına işlem ücreti ve kredi geri ödemeleri devam ettiği sürece aylık olarak 2,99 TL üyelik ücreti
+                alınmaktadır. Cihaz/tablet/PC/aksesuar satışlarından alınan işlem ücretinin iadesi yapılamamaktadır.
+                Akıllı telefon: 29,99 TL Aksesuar: 17 TL, Tablet ve PC: 13 TL’dir.</p>
+            <p><strong>Aidat/Üyelik Ücretleri:</strong></p>
+            <p>Her bir Müşteri’nin standard mobil ödeme servislerindenkullanımı yaptığı hattı üzerinden 3 aylık mobil
+                ödeme üyelik bedeli (aidat tutarı) alınmaktadır. Bu ücret 6.99TL’dir.*</p>
+            <p>Mobil ödeme ile fiziksel ürün satın alan müşteriler ve reklam ödemelerini, mobil ödeme ile yapan
+                müşteriler, Premium statüsünde olup, bu müşterilerden 3 ayda bir premium aidat bedeli alınır. Premium
+                servislerin kullanımı durumunda üyeliğiniz otomatik olarak Premium olarak güncellenecek ve daha önce
+                standart üyelik tipi için üyelik ücreti alındı ise ilgili periyot için yalnız 2TL’lik fark ücreti
+                alınacaktır.<br>8,99 TL’dir.</p>
+            <p><strong>Geç Tahsilat Bedeli: </strong>Müşterilerin satın aldıkları ürün tutarını mobil ödeme ile cep
+                telefonu faturasına yansıtılarak ödemeyi tercih etmeleri ve bu ödemeleri geciktirmeleri halinde;
+                faturanın son ödeme tarihinden itibaren geç tahsilat bedeli yansıtılacak olup bu tutarlar müşterinin bir
+                sonraki faturası ile tahsil edilecektir. 0-30 gün gecikme durumunda 150 TL’ye kadar olan gecikme tutarı
+                için:8,99TL, 150 TL ve üstü tutarında; 15,99TL. 30 gün ve üzeri gecikme durumunda 150 TL’ye kadar olan
+                gecikme tutarları için; 15,99 TL, 150 TL ve üstü tutarlarda için; 19,99 TL.</p>
+            <p><strong>BiP Uygulaması:</strong>BİP uygulamasında yapılan mobil ödeme harcamalarından Müşteriden işlem
+                başına işlem ücreti tahsil edilmektedir. Bu ücret 1TL’dir</p>
+            <p><strong>Mobil Ödemede Satıcıya Ait Bedeller (Varsa)</strong></p>
+            <p>Eğer Satıcı ile Müşteri arasında akdedilen sözleşmede açıkça mobil ödeme ile satın alınan mal/hizmet ile
+                bağlantılı olan ücretlerin ödenmesi kararlaştırılmış ise, bu ödeme için de tahsilata aracılık
+                edilecektir.</p>
+            <strong>Paycell Kart </strong>
+            <p><strong>Paycell Kart Özellikleri ve Kullanım Koşulları</strong></p>
+            <ul>
+                <li>Paycell Kart, anlaşmalı üye işyerlerinden avantajlı alışveriş yapma fırsatı sunan, harcarken
+                    kazandıran dünya üzerinde tüm VISA/MASTERCARD ağında hem fiziki hem sanal alışverişlerde geçerli ön
+                    ödemeli bir karttır.</li>
+                <li>Kartlar sanal ya da fiziksel olabilir.</li>
+                <li>Paycell Kartınıza para yükler, yüklediğiniz kadar harcarsınız. Kartınıza bakiyesi bittiğinde
+                    kullanıcı karta Paycell uygulaması üzerinden, Turkcell İletişim Merkezlerinden, banka ATM’lerinden,
+                    ya da internet bankacılığını kullanarak EFT/Havale adımını seçer Hesap no ile para transferine
+                    gelirsin. Banka olarak Denizbank (134) seçerek GENEL MUHASEBE BOLUMU (9019) şube kodunu seçip Alıcı
+                    kısmına Paycell Kart sahibinin adı soyadı; hesap no yerine 16 haneli kart numarasını girerek bakiye
+                    yükleyebilirsiniz.</li>
+                <li>Alışverişlerinizde kullanacağınız kartınızın şifresi kart numarasının son 4 hanesidir. Kart şifresi
+                    Paycell uygulamasından, 0850 622 60 60 Paycell Müşteri Hizmetlerinden ve Tüm Banka ATM’lerinden
+                    değiştirilebilir.</li>
+                <li>Kartınızdaki bakiyenin hukuki limitler doğrultusunda iadesini talep edebilirsiniz. İade talebinizi
+                    0850 622 60 60 no’lu Paycell Müşteri Hizmetlerinden iletebilirsiniz. İadeniz ileteceğiniz IBAN
+                    numarasına iade gerçekleşecektir. İade talebinde, iade yapılacak IBAN bilgisinin hat sahibine ait
+                    olması şartı aranacaktır. İade taleplerinde, iade talep edilen tutarın %6’sı işlem ücreti
+                    alınmaktadır. Kimlik teyidinde bulunmamış kart sahipleri için iade limiti yıllık 500 TL’dir.
+                    Turkcell Mağazalarına kimliğiniz, ehliyetiniz veya pasportunuzun ıslak imzalı fotokopisi ile
+                    ikametgah belgeniz veya adınıza kayıtlı son 3 aya ait sabit fatura örneği ile giderek kimlik tespiti
+                    yaptırabilirsiniz.</li>
+                <li>Karta yükleme ve kartla alışveriş GİB, MASAK vb. düzenleyici kurumlarca belirlenmiş ve ön-ödemeli
+                    kartlar için Suç Gelirlerinin Aklanmasının ve Terörün Finansmanının Önlenmesine Dair Tedbirler
+                    Hakkında Yönetmelik’in 6. Maddesi kapsamında kimlik tespitini zorunlu kılmayan azami limitler
+                    dahilinde yapılabilir. Düzenleyici kurumların limitleri değiştirmesi durumunda bu limitler güncel
+                    rakamlarla revize edilecek olup, Paycell Kart’ın şu an için limitleri; aylık ve anlık toplam 1250 TL
+                    olarak belirlenmiştir.Kimlik Tespiti ile limitler artırılabilir.</li>
+                <li>KYC’si (Kimlik Teyidi) olmayan müşterilerimiz için aylık nakit çekim limiti 500 TL’dir.</li>
+                <li>Kartınıza ait işlem bilgilerini Paycell mobil uygulamasındaki hesabınızdan takip edebilirsiniz.</li>
+                <li>Sahip olabileceğiniz maksimum adet Paycell Kart sayısı Paycell tarafından belirlenmektedir.</li>
+                <li>Kartın çalınması, kaybolması durumunda 0 850 622 60 60 Paycell müşteri hizmetlerinden kayıp/çalıntı
+                    bildiriminde bulunmalısınız. İptal işleminden sonra yeni kart talebinde bulunabilirsiniz. Varsa eski
+                    kart içerisindeki bakiyeniz yeni kartınıza aktarılır.</li>
+                <li>Yabancı para birimiyle yapılan alışverişlerde karta yansıyacak ödeme,işlem anındaki döviz kuruna
+                    komisyon eklenmesiyle hesaplanır. Uygulanacak referans döviz kurundaki değişiklikler derhal geçerli
+                    olacaktır.</li>
+            </ul>
+            <p><strong>Paycell Kart Ücretleri</strong></p>
+            <table class="table table-borderless">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>Tavsiye edilen Paycell Kart satış ücreti</td>
+                        <td>9,90 TL</td>
+                    </tr>
+                    <tr>
+                        <td><span
+                                style="text-align: left; color: #191e23; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none; word-spacing: 0px; display: inline !important; white-space: normal; cursor: text; orphans: 2; float: none; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Tavsiye
+                                edilen ŞOK Market kart satış ücreti – Paycell Kart&nbsp;</span></td>
+                        <td>5 TL</td>
+                    </tr>
+                    <tr>
+                        <td>turkcell.com.tr kart satış ücreti – Paycell Kart</td>
+                        <td>5 TL</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Paycell Kart İnaktiflik ücreti**</strong></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>İnaktif kart üyelik ücreti (Bir önceki ay işlem harcama veya finansal işlem yapmayan
+                            kartlardan alınır)&nbsp; &nbsp;</td>
+                        <td><span style="background-color: #ffffff;">1 <span
+                                    style="text-align: left; color: #191e23; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none; word-spacing: 0px; display: inline !important; white-space: normal; cursor: text; orphans: 2; float: none; -webkit-text-stroke-width: 0px; background-color: #ffffff;">TL</span></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong><span style="background-color: #ffffff;">Paycell Kart Bakiye Yükleme
+                                    Ücretleri</span></strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Paycell Uygulaması (kredi kartı)</td>
+                        <td>Yüklenecek tutarın %1’si</td>
+                    </tr>
+                    <tr>
+                        <td>Tüm Banka ATM’leri (BSMV Hariç)</td>
+                        <td><span style="background-color: #ffffff;">1 TL + %1</span></td>
+                    </tr>
+                    <tr>
+                        <td>Banka Hesabından EFT (Banka komisyonu hariç)</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td>Banka Hesabından Havale</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td>Bakiye yükleme ücreti -Turkcell Mağazaları (Nakit işlemler için)</td>
+                        <td><span
+                                style="text-align: left; color: #191e23; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; text-decoration: none; word-spacing: 0px; display: inline !important; white-space: normal; cursor: text; orphans: 2; float: none; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Ücretsiz</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bakiye yükleme ücreti – Turkcell Mağazaları (banka kartları ile 50 TL’ye kadar)</td>
+                        <td>0,99 TL</td>
+                    </tr>
+                    <tr>
+                        <td><span
+                                style="display: inline !important; float: none; background-color: #ffffff; color: #191e23; cursor: text; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Bakiye
+                                yükleme ücreti – Turkcell Mağazaları (banka kartları ile 50 – 100 TL arası)</span></td>
+                        <td>1,99 TL</td>
+                    </tr>
+                    <tr>
+                        <td><span
+                                style="display: inline !important; float: none; background-color: #ffffff; color: #191e23; cursor: text; font-family: 'Noto Serif'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Bakiye
+                                yükleme ücreti – Turkcell Mağazaları (banka kartları ile 100 TL üstü)</span></td>
+                        <td>1 TL + %1,5</td>
+                    </tr>
+                    <tr>
+                        <td>Bakiye yükleme ücreti – Şok Marketler</td>
+                        <td>1 TL</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paycell Kart ile Yapılacak Nakit Çekim İşlem Ücreti</strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Tüm Banka ATM’leri(BSMV Hariç)</td>
+                        <td>1,04 + %1,15TL</td>
+                    </tr>
+                    <tr>
+                        <td>Yurt dışı ATM Para Çekim Ücreti</td>
+                        <td>500 TL’ye kadar 5TL, 500 TL üstü %1</td>
+                    </tr>
+                    <tr>
+                        <td>Vakıfbank ATM’lerinden para yatırma</td>
+                        <td>1 TL</td>
+                    </tr>
+                    <tr>
+                        <td>Vakıfbank ATM’lerinden para çekme</td>
+                        <td>1,14 TL</td>
+                    </tr>
+                    <tr>
+                        <td>Vakıfbank ATM’lerinden bakiye sorgulama</td>
+                        <td>0,25TL</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paycell Kart’tan Para Transferi Ücretleri</strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Paycell Uygulaması</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td>Paycell Kart ile BiP’ten yapılan para transferi</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paycell Kart Bakiye İade Ücretleri</strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>İade Ücretleri (İade talepleri çağrı merkezi üzerinden alınır.)</td>
+                        <td>İade talep edilen tutarın %6’sı</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Iban’a para transferi***</strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1000TL’ye kadar</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td>1001 – 50.000 TL</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                    <tr>
+                        <td>50.001 TL ve üzeri</td>
+                        <td>Ücretsiz</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p></p>
+            <p>*Paycell, tabloda belirtilen ücretlerde değişiklik yapma hakkını saklı tutar.</p>
+            <p> ** Bakiyesi olmayan kartlardan hizmet ücreti alınmaz.</p>
+            <p>*** Hazır limit müşterileri, hazır limit kullandıkları tarihten sonra 30 gün boyunca 5 TL ödemeye devam
+                edeceklerdir.</p>
+        </div>
+    </section>
+
+    <!--Footerr-->
+    <section class="footer bg-black pt-5 pb-5">
+        <div class="container-md pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/hakkimizda/">Hakkımızda</a>
+                        <a class="col-12" href="https://paycell.com.tr/kullanim-sartlari-ve-sozlesmesi/">Kullanım
+                            Şartları ve Sözleşmesi</a>
+                        <a class="col-12" href="https://paycell.com.tr/gizlilik-ve-guvenlik/">Gizlilik ve Güvenlik</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <a class="col-12" href="https://paycell.com.tr/bilgi-guvenligi/">Bilgi Güvenliği</a>
+                        <a class="col-12" href="https://paycell.com.tr/ticari-kurallar/">Ticari Kurallar</a>
+                        <a class="col-12" href="https://paycell.com.tr/duyurular/">Duyurular</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="https://paycell.com.tr/bize-ulasin/">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="mt-5" style="color: #fff;"> © 2021 Paycell</div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="static-assets/js/main.js"></script>
+</body>
+
+</html>
