@@ -118,42 +118,42 @@
             <div class="col-sm-12 col-md-4">
                 <div class="row btnDiv" id="btnDiv">
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show1');">
+                        <div class="faq-category btn show1 active" onclick="changeVisible('show1');">
                             <div class="faq-category-content">
                                 <span>Paycell SDK Nedir?</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show2');">
+                        <div class="faq-category btn show2" onclick="changeVisible('show2');">
                             <div class="faq-category-content">
                                 <span>Paycell WEB SDK Entegrasyonu</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show3');">
+                        <div class="faq-category btn show3" onclick="changeVisible('show3');">
                             <div class="faq-category-content">
                                 <span>Paycell Mobil SDK Entegrasyon</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show4');">
+                        <div class="faq-category btn show4" onclick="changeVisible('show4');">
                             <div class="faq-category-content">
                                 <span>Paycell SDK RESTful Servisleri</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show5');">
+                        <div class="faq-category btn show5" onclick="changeVisible('show5');">
                             <div class="faq-category-content">
                                 <span>Örnek Kodlar</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="faq-category btn" onclick="changeVisible('show6');">
+                        <div class="faq-category btn show6" onclick="changeVisible('show6');">
                             <div class="faq-category-content">
                                 <span>Test Kredi Kartları</span>
                             </div>
@@ -162,7 +162,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-8" id="content">
-                <div class="faq-collapsible visible show" id="show1">
+                <div class="faq-collapsible show" id="show1">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1SDK" role="button" aria-expanded="false"
@@ -208,7 +208,7 @@
 
 
                 </div>
-                <div class="faq-collapsible visible" id="show2">
+                <div class="faq-collapsible " id="show2">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1entegrasyonYapisi" role="button" aria-expanded="false"
@@ -1668,7 +1668,7 @@
 
 
                 </div>
-                <div class="faq-collapsible visible" id="show3">
+                <div class="faq-collapsible " id="show3">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1sdkEntegrasyonu" role="button" aria-expanded="false"
@@ -1687,7 +1687,7 @@
                 </div>
 
                 <!--benim-->
-                <div class="faq-collapsible visible" id="show4">
+                <div class="faq-collapsible " id="show4">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1sdkRestfulServis" role="button" aria-expanded="false"
@@ -4018,7 +4018,7 @@
                 </div>
 
 
-                <div class="faq-collapsible visible" id="show5">
+                <div class="faq-collapsible " id="show5">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1ornekKodlar" role="button" aria-expanded="false"
@@ -4063,7 +4063,7 @@
                 </div>
 
                 <!--show6-->
-                <div class="faq-collapsible visible" id="show6">
+                <div class="faq-collapsible " id="show6">
                     <div class="collapsible">
                         <h3 class="collapsible-header uxr-collapsible-header margin0" data-bs-toggle="collapse"
                             href="#multiCollapse1testKredi" role="button" aria-expanded="false"
@@ -4464,6 +4464,10 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="../static-assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

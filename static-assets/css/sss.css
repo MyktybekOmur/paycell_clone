@@ -62,8 +62,8 @@
     background: #000;
 }
 
-.faq-collapsible .collapsible {
-
+.faq-collapsible  {
+    display:none;
 }
 .collapsible {
     

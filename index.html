@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="static-assets/css/main.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Paysell'le |</title>
 </head>
 
@@ -18,16 +20,17 @@
    <!--Header-->
    <header class="">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="static-assets/img/logo/paycell_logo.png"
-                    alt="" width="140" height="52"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <div class="container bg-black">
+            
+            <a class="navbar-brand " href="index.html">
+                <img src="static-assets/img/logo/paycell_logo.png"
+                    alt="" width="140" height="52">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="urunler.html" id="navbarDropdown" role="button"
@@ -103,7 +106,7 @@
 
     <!--Carousel img-->
     <section class="mt-5">
-        <div class="wrapper mt-5">
+        <div class=" wrapper mt-5">
             <div id="carouselExampleIndicators" class="carousel slide mt-5 fill" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -116,29 +119,28 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="static-assets/img/banner1-1-new-1.jpg" class="d-block w-100 fill" alt="...">
-                        <div
-                            class="container-xxl align-items-sm-center absolute text-md-start text-sm-center text-center">
+                        <div class="containeralign-items-sm-center absolute text-md-start text-sm-center text-center pt-md-5 ">
                             <h3> Banka hesabı açmana gerek kalmadan finansal işlemlerini yapabildiğin uygulama</h3>
                             <button type="button" class="btn  btn-light btn-lg">Detaylı Bilgi</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="static-assets/img/banner2_new.jpg" class="d-block w-100 fill" alt="...">
-                        <div class="containeralign-items-sm-center absolute text-md-start text-sm-center text-center">
+                        <div class="containeralign-items-sm-center absolute text-md-start text-sm-center text-center pt-md-5 ">
                             <h3> Turkcell faturana yansıtabileceğin mobil ödeme seçeneği</h3>
                             <button type="button" class="btn  btn-light btn-lg">Detaylı Bilgi</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="static-assets/img/app_1_new.jpg" class="d-block w-100 fill" alt="...">
-                        <div class="containeralign-items-sm-center absolute text-md-start text-sm-center text-center">
+                        <div class="containeralign-items-sm-center absolute text-md-start text-sm-center text-center pt-md-5">
                             <h3 class="w-sm-100"> Banka hesabı açmana gerek kalmadan finansal işlemlerini yapabildiğin
                                 uygulama</h3>
                             <button type="button" class="btn  btn-light btn-lg">Detaylı Bilgi</button>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center text-center bottom">
+                <div class="row align-items-center justify-content-center text-center bottom m-auto">
                     <span class="col-lg-4 col-sm-12 text-lg-end text-sm-center h3">UYGULAMAYI İNDİR</span>
                     <div class="col-lg-4 col-sm-12">
                         <a href="https://itunes.apple.com/app/paycell/id1198609962?mt=8" target="_blank" class="btn">
@@ -169,8 +171,8 @@
         </div>
     </section>
     <!--Paycell card-->
-    <section>
-        <div class="container w-75-lg w-100-sm">
+    <section class="mt-5">
+        <div class="container pt-5">
             <div class="row">
                 <div class="col-md-6 col-sm-12  p-5 ">
                     <img src="static-assets/img/paycellcard_new.jpg" class="img-fluid" alt="">
@@ -226,32 +228,32 @@
 
             <div class="pay-everywhere-tab">
                 <div class="row align-items-end text-center">
-                    <div class="col-3 border-bottom pb-5 border-2" id="money_btn" role="button" aria-expanded="false">
-                        <div class="picture w-50  m-auto"> <img
+                    <div class="col-3 border-bottom pb-5 current " id="money_btn" onclick="selectItem('money_btn');" role="button" aria-expanded="false">
+                        <div class="picture w-50 m-auto mb-4"> <img
                                 src="https://paycell.com.tr/wp-content/uploads/2019/01/para-yukleme.png"
                                 data-lazy-src="https://paycell.com.tr/wp-content/uploads/2019/01/para-yukleme.png"
                                 class="lazyloaded img-fluid" data-was-processed="true"></div>
                         <span class="sub_title">Para Transferi</span>
                     </div>
-                    <div class="col-3 border-bottom pb-5 border-2" id="pay_btn" role="button" aria-expanded="false"
+                    <div class="col-3 border-bottom pb-5 " id="pay_pay_btn" onclick="selectItem('pay_pay_btn');" role="button" aria-expanded="false"
                         aria-controls="collapseExample">
-                        <div class="picture  w-50 m-auto"> <img
+                        <div class="picture  w-50 m-auto mb-4"> <img
                                 src="https://paycell.com.tr/wp-content/uploads/2019/04/01-02Beyaz.svg"
                                 data-lazy-src="https://paycell.com.tr/wp-content/uploads/2019/04/01-02Beyaz.svg"
                                 class="lazyloaded img-fluid" data-was-processed="true"></div>
                         <span class="sub_title">Ödeme Hizmetleri</span>
                     </div>
-                    <div class="col-3 border-bottom pb-5 border-2" id="wallet_btn" role="button" aria-expanded="false"
+                    <div class="col-3 border-bottom pb-5" id="wallet_btn" onclick="selectItem('wallet_btn');" role="button" aria-expanded="false"
                         aria-controls="collapseExample">
-                        <div class="picture  w-50 m-auto mb-4"> <img
+                        <div class="picture w-50 m-auto mb-4"> <img
                                 src="https://paycell.com.tr/wp-content/uploads/2019/01/cuzdan1-1.png"
                                 data-lazy-src="https://paycell.com.tr/wp-content/uploads/2019/01/cuzdan1-1.png"
                                 class="lazyloaded img-fluid" data-was-processed="true"></div>
                         <span class="sub_title">Cüzdan</span>
                     </div>
-                    <div class="col-3 border-bottom pb-5 border-2" id="turkcell_btn" role="button" aria-expanded="false"
+                    <div class="col-3 border-bottom pb-5" id="turkcell_btn" onclick="selectItem('turkcell_btn');" role="button" aria-expanded="false"
                         aria-controls="collapseExample">
-                        <div class="picture  w-25 m-auto"> <img
+                        <div class="picture  w-25 m-auto mb-4"> <img
                                 src="https://paycell.com.tr/wp-content/uploads/2019/01/tl-yukleme1-1.png"
                                 data-lazy-src="https://paycell.com.tr/wp-content/uploads/2019/01/tl-yukleme1-1.png"
                                 class="lazyloaded img-fluid" data-was-processed="true"></div>
@@ -259,26 +261,26 @@
                     </div>
                 </div>
                 <div class="pay-everywhere-tab-contents container">
-                    <div class="pay_content mt-5 mb-5 " id="Money">
+                    <div class="pay_content mt-5 mb-5 money_btn visible" id="Money">
                         <p class="text-start"> Paycell Kartından diğer Paycell Kart kullanıcılarına dilediğin zaman para
                             gönderebilir ya da kendi kartların arasında ücretsiz transfer yapabilirsin.</p>
                         <div><a href="https://paycell.com.tr/hizmetler/" class="btn btn-light btn-lg"> Detaylı Bilgi
                             </a></div>
                     </div>
-                    <div class="pay_content mt-5 mb-5" id="Pay">
+                    <div class="pay_content mt-5 mb-5 pay_pay_btn" id="Pay">
                         <p class="text-start"> Tüm fatura ödemelerini Paycell Uygulama ile kolayca yapabilir ya da
                             Turkcell mağazalarından hiç sıra beklemeden hızlıca ödemeni gerçekleştirirsin.</p>
                         <div><a href="https://paycell.com.tr/hizmetler/" class="btn btn-light btn-lg"> Detaylı Bilgi
                             </a></div>
                     </div>
-                    <div class="pay_content mt-5 mb-5" id="Wallet">
+                    <div class="pay_content mt-5 mb-5 wallet_btn" id="Wallet">
                         <p class="text-start"> Paycell’e kart bilgilerini güvenli bir şekilde kaydederek, bir sonraki
                             Paycell ile Öde alışveriş deneyiminde kart bilgilerini tekrar girmeden hızlı ve kolay
                             alışveriş yapabilirsin.</p>
                         <div><a href="https://paycell.com.tr/hizmetler/" class="btn btn-light btn-lg"> Detaylı Bilgi
                             </a></div>
                     </div>
-                    <div class="pay_content mt-5 mb-5" id="Turkcell">
+                    <div class="pay_content mt-5 mb-5 turkcell_btn" id="Turkcell">
                         <p class="text-start"> Uygulamasından dilediğin bir numaraya hızlı ve güvenli bir şekilde TL ya
                             da Paket yükleyebilirsin.</p>
                         <div><a href="https://paycell.com.tr/hizmetler/" class="btn btn-light btn-lg"> Detaylı Bilgi
@@ -409,12 +411,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
     <script src="static-assets/js/main.js"></script>
 </body>
 
